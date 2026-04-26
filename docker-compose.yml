@@ -1,0 +1,95 @@
+version: "3.9"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    ports: ["11434:11434"]
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      OLLAMA_HOST: "0.0.0.0"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+              count: all
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      retries: 5
+
+  chromadb:
+    image: chromadb/chroma:latest
+    ports: ["8001:8000"]
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      IS_PERSISTENT: "TRUE"
+      PERSIST_DIRECTORY: /chroma/chroma
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
+      interval: 10s
+      retries: 5
+
+  redis:
+    image: redis:7.2-alpine
+    ports: ["6379:6379"]
+    volumes: [redis_data:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: medai
+      POSTGRES_PASSWORD: medai
+      POSTGRES_DB: medical_docs
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    ports: ["5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medai"]
+      interval: 10s
+
+  api:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.api
+    ports: ["8000:8000"]
+    depends_on:
+      ollama: {condition: service_healthy}
+      chromadb: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      CHROMADB_HOST: chromadb
+      CHROMADB_PORT: 8000
+      REDIS_URL: redis://redis:6379
+      DATABASE_URL: postgresql://medai:medai@postgres/medical_docs
+    volumes:
+      - ./data:/app/data
+
+  prometheus:
+    image: prom/prometheus:v2.47.2
+    ports: ["9090:9090"]
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+
+  grafana:
+    image: grafana/grafana:10.2.2
+    ports: ["3000:3000"]
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./infra/grafana/dashboards:/etc/grafana/provisioning/dashboards
+
+volumes:
+  ollama_models:
+  chroma_data:
+  redis_data:
+  postgres_data:
+  prometheus_data:
+  grafana_data:

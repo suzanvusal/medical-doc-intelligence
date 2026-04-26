@@ -1,0 +1,224 @@
+{
+  "project": "Medical Document Intelligence Pipeline with LLM & RAG",
+  "description": "End-to-end LLM pipeline that processes medical documents, extracts clinical entities, enables semantic search, and monitors output quality with hallucination detection.",
+  "phases": [
+    {"phase": 1, "name": "Foundation & Document Ingestion", "days": [1,2,3,4,5], "theme": "PDF ingestion, OCR, text extraction, document schemas"},
+    {"phase": 2, "name": "LLM Processing with Ollama", "days": [6,7,8,9,10], "theme": "Ollama integration, summarization, entity extraction, classification"},
+    {"phase": 3, "name": "Vector Store & RAG System", "days": [11,12,13,14,15], "theme": "ChromaDB, embeddings, semantic search, RAG pipeline"},
+    {"phase": 4, "name": "FastAPI & Query Interface", "days": [16,17,18,19,20], "theme": "REST API, query engine, document Q&A, result ranking"},
+    {"phase": 5, "name": "Quality Monitoring & Hallucination Detection", "days": [21,22,23,24,25], "theme": "LLM output scoring, faithfulness checks, drift detection, alerts"},
+    {"phase": 6, "name": "Hardening, Tests & Documentation", "days": [26,27,28,29,30], "theme": "Integration tests, load tests, full docs, security, final polish"}
+  ],
+  "days": [
+    {
+      "day": 1, "title": "Project bootstrap & document schema design",
+      "focus": "Init repo, directory structure, base configs, document data models",
+      "files_to_create": ["src/__init__.py","src/ingestion/__init__.py","src/llm/__init__.py","src/vectorstore/__init__.py","src/rag/__init__.py","src/monitoring/__init__.py","src/api/__init__.py","configs/base_config.yaml","Makefile","README.md"],
+      "commit_tasks": ["chore: init medical-doc-intelligence project structure","chore: add pyproject.toml with all LLM and RAG dependencies","chore: add Docker Compose for Ollama, ChromaDB, PostgreSQL, Redis","chore: add base_config.yaml with Ollama and ChromaDB settings","docs: add initial README with pipeline architecture diagram","ci: add GitHub Actions CI workflow with lint and test steps","chore: add Makefile with common dev commands","chore: add .gitignore for Python, models, vector store artifacts","chore: add .env.example with all required environment variables","fix: correct Docker network configuration for Ollama GPU access"],
+      "refactor_fix_commits": ["style: format all Python files with black","fix: correct ChromaDB port in base config","refactor: split docker-compose into dev and prod profiles","docs: add CONTRIBUTING.md with development workflow","chore: pin all dependency versions in pyproject.toml"]
+    },
+    {
+      "day": 2, "title": "Document ingestion schemas & PDF processor",
+      "focus": "Pydantic schemas for medical documents, PDF text extraction, metadata parsing",
+      "files_to_create": ["src/ingestion/schemas.py","src/ingestion/pdf_processor.py","src/ingestion/document_store.py","configs/document_types.yaml","tests/unit/test_schemas.py"],
+      "commit_tasks": ["feat: add MedicalDocument Pydantic schema with metadata fields","feat: add ClinicalReport schema with patient_id, date, type fields","feat: add DocumentChunk schema for text segmentation","feat: implement PDF processor using PyMuPDF for text extraction","feat: add OCR fallback using Tesseract for scanned PDFs","feat: implement metadata extractor for document headers","feat: add document type classifier based on content patterns","feat: implement DocumentStore for local file management","test: add unit tests for PDF processor with sample medical PDFs","test: add schema validation tests for all document types"],
+      "refactor_fix_commits": ["fix: handle password-protected PDF files gracefully","refactor: extract OCR logic into separate OCRProcessor class","fix: correct page number extraction for multi-page documents","perf: add parallel PDF processing with ThreadPoolExecutor","docs: add docstrings to all PDF processor methods"]
+    },
+    {
+      "day": 3, "title": "Document chunking & preprocessing pipeline",
+      "focus": "Smart text chunking, medical term preservation, preprocessing for LLM",
+      "files_to_create": ["src/ingestion/chunker.py","src/ingestion/preprocessor.py","src/ingestion/medical_terms.py","configs/chunking_config.yaml","tests/unit/test_chunker.py"],
+      "commit_tasks": ["feat: implement RecursiveCharacterTextSplitter for medical documents","feat: add sentence-aware chunking to preserve medical context","feat: implement medical abbreviation expander (BP→Blood Pressure etc)","feat: add PII anonymizer for patient names and IDs","feat: implement document section detector (History, Diagnosis, Plan)","feat: add chunk overlap configuration for context preservation","feat: implement chunk metadata enrichment with source document info","test: add chunking tests ensuring medical terms not split across chunks"],
+      "refactor_fix_commits": ["fix: chunk overlap causing duplicate content in embeddings","refactor: make chunk size configurable per document type","fix: PII anonymizer missing fax numbers and addresses","perf: cache medical abbreviation dictionary on startup","docs: document chunking strategy decisions in docs/chunking.md"]
+    },
+    {
+      "day": 4, "title": "Ollama integration & model management",
+      "focus": "Ollama client, model pulling, health checks, model versioning",
+      "files_to_create": ["src/llm/ollama_client.py","src/llm/model_manager.py","src/llm/prompt_templates.py","configs/ollama_config.yaml","tests/unit/test_ollama_client.py"],
+      "commit_tasks": ["feat: implement OllamaClient with async HTTP interface","feat: add model health check and availability verification","feat: implement model pull automation on startup","feat: add ModelManager for tracking available local models","feat: implement prompt template system with Jinja2","feat: add medical summarization prompt template","feat: add clinical entity extraction prompt template","feat: implement retry logic for Ollama API timeouts","feat: add model response streaming support","test: add mock Ollama client tests for all API endpoints"],
+      "refactor_fix_commits": ["fix: Ollama client timeout too short for large documents","refactor: extract prompt templates to separate YAML files","fix: model manager not detecting partially downloaded models","perf: implement connection pooling for Ollama HTTP client","docs: add supported Ollama models list to README"]
+    },
+    {
+      "day": 5, "title": "CI/CD pipeline & Docker infrastructure",
+      "focus": "GitHub Actions CI, Docker multi-stage builds, health checks",
+      "files_to_create": [".github/workflows/ci.yml","infra/docker/Dockerfile.api","infra/docker/Dockerfile.processor","infra/docker/docker-compose.yml","infra/docker/healthcheck.sh"],
+      "commit_tasks": ["ci: implement full GitHub Actions CI with Python 3.11 and 3.12","ci: add pytest step with 75% coverage threshold","ci: add ruff linting and black formatting check","ci: add mypy type checking step","ci: add Docker build verification step","feat: add multi-stage Dockerfile for API service","feat: add multi-stage Dockerfile for document processor","infra: add health check scripts for all containers","infra: configure Docker volumes for Ollama models persistence","ci: add security scan with bandit and pip-audit"],
+      "refactor_fix_commits": ["fix: Docker build failing on arm64 Mac due to PyMuPDF","ci: cache pip dependencies for faster CI runs","refactor: split docker-compose into base and override files","fix: Ollama container needs OLLAMA_HOST=0.0.0.0 env var","docs: add Docker setup guide to docs/docker_setup.md"]
+    },
+    {
+      "day": 6, "title": "Medical document summarization pipeline",
+      "focus": "LLM-powered summarization, structured output, quality scoring",
+      "files_to_create": ["src/llm/summarizer.py","src/llm/output_parser.py","src/llm/quality_scorer.py","configs/summarization_config.yaml","tests/unit/test_summarizer.py"],
+      "commit_tasks": ["feat: implement MedicalSummarizer using Ollama llama3.2","feat: add structured summarization with key_findings, diagnosis, plan sections","feat: implement OutputParser for extracting structured data from LLM text","feat: add summary quality scorer based on completeness and coherence","feat: implement progressive summarization for very long documents","feat: add summary caching with Redis to avoid re-processing","feat: implement batch summarization for multiple documents","feat: add summarization confidence score based on LLM logprobs","test: add summarization tests with sample discharge summaries"],
+      "refactor_fix_commits": ["fix: LLM hallucinating patient names not in source document","refactor: move summarization prompts to external YAML file","fix: output parser failing on malformed JSON from LLM","perf: implement async summarization with asyncio.gather","docs: add summarization examples to docs/examples/"]
+    },
+    {
+      "day": 7, "title": "Clinical entity extraction",
+      "focus": "Named entity recognition for medical terms, medications, diagnoses, procedures",
+      "files_to_create": ["src/llm/entity_extractor.py","src/llm/medical_ontology.py","src/llm/entity_linker.py","configs/entity_config.yaml","tests/unit/test_entity_extractor.py"],
+      "commit_tasks": ["feat: implement ClinicalEntityExtractor using Ollama","feat: extract entity types: DIAGNOSIS, MEDICATION, PROCEDURE, LAB_VALUE","feat: add ICD-10 code linking for diagnosis entities","feat: add RxNorm code linking for medication entities","feat: implement entity confidence scoring","feat: add entity relationship extraction (medication→diagnosis)","feat: implement MedicalOntology loader for UMLS concepts","feat: add entity deduplication across document chunks","test: add entity extraction tests with known medical reports"],
+      "refactor_fix_commits": ["fix: entity extractor missing lab values with units","refactor: separate entity extraction from entity linking","fix: ICD-10 linker returning wrong codes for abbreviations","perf: cache ontology lookups in Redis","docs: add entity extraction schema documentation"]
+    },
+    {
+      "day": 8, "title": "Document classification & routing",
+      "focus": "Zero-shot classification, document type routing, priority scoring",
+      "files_to_create": ["src/llm/classifier.py","src/llm/priority_scorer.py","src/ingestion/document_router.py","configs/classification_config.yaml","tests/unit/test_classifier.py"],
+      "commit_tasks": ["feat: implement zero-shot document classifier using Ollama","feat: classify into: discharge_summary, lab_report, radiology, prescription","feat: add clinical urgency scorer (routine/urgent/critical)","feat: implement DocumentRouter for processing pipeline assignment","feat: add classification confidence threshold with fallback to manual review","feat: implement multi-label classification for hybrid document types","feat: add classification audit log to PostgreSQL","test: add classifier tests with 10 document type samples"],
+      "refactor_fix_commits": ["fix: classifier confusing radiology reports with lab reports","refactor: extract classification labels to configs/classification_config.yaml","fix: urgency scorer not detecting sepsis-related keywords","perf: batch classification for multiple documents simultaneously","docs: add classification taxonomy to docs/document_types.md"]
+    },
+    {
+      "day": 9, "title": "Embedding generation pipeline",
+      "focus": "Medical text embeddings, embedding model management, batch processing",
+      "files_to_create": ["src/vectorstore/embedder.py","src/vectorstore/embedding_cache.py","src/vectorstore/batch_processor.py","configs/embedding_config.yaml","tests/unit/test_embedder.py"],
+      "commit_tasks": ["feat: implement MedicalEmbedder using nomic-embed-text via Ollama","feat: add embedding dimension validation and normalization","feat: implement EmbeddingCache with Redis for frequently accessed chunks","feat: add batch embedding processor for large document collections","feat: implement embedding versioning for model upgrades","feat: add cosine similarity utility functions","feat: implement embedding quality check via nearest-neighbor validation","feat: add embedding generation progress tracking","test: add embedding tests verifying medical term similarity scores"],
+      "refactor_fix_commits": ["fix: embedding cache key collision on similar chunk content","refactor: make embedding model configurable without code change","fix: batch processor failing silently on encoding errors","perf: increase embedding batch size from 32 to 128","docs: add embedding model comparison table to docs/embeddings.md"]
+    },
+    {
+      "day": 10, "title": "ChromaDB vector store integration",
+      "focus": "ChromaDB setup, collection management, upsert pipeline, metadata filtering",
+      "files_to_create": ["src/vectorstore/chroma_store.py","src/vectorstore/collection_manager.py","src/vectorstore/metadata_filter.py","configs/chromadb_config.yaml","tests/unit/test_chroma_store.py"],
+      "commit_tasks": ["feat: implement ChromaVectorStore with persistent storage","feat: add collection-per-document-type architecture","feat: implement upsert pipeline with chunk deduplication","feat: add metadata filtering by patient_id, date_range, document_type","feat: implement collection statistics and health monitoring","feat: add vector store backup utility to S3","feat: implement soft-delete for document removal","feat: add collection migration utility for schema changes","test: add ChromaDB integration tests with real embeddings"],
+      "refactor_fix_commits": ["fix: ChromaDB collection name validation rejecting valid names","refactor: abstract vector store behind VectorStoreInterface","fix: upsert not updating existing chunks on document re-processing","perf: implement async ChromaDB operations","docs: add vector store architecture diagram to docs/architecture.md"]
+    },
+    {
+      "day": 11, "title": "RAG pipeline core implementation",
+      "focus": "Retrieval-Augmented Generation pipeline, query processing, context assembly",
+      "files_to_create": ["src/rag/pipeline.py","src/rag/retriever.py","src/rag/context_builder.py","src/rag/query_processor.py","tests/unit/test_rag_pipeline.py"],
+      "commit_tasks": ["feat: implement RAGPipeline orchestrating retrieval and generation","feat: add SemanticRetriever with top-k similarity search","feat: implement ContextBuilder assembling retrieved chunks","feat: add QueryProcessor for medical query understanding","feat: implement re-ranking with cross-encoder for better precision","feat: add source attribution tracking in RAG responses","feat: implement query expansion with medical synonyms","feat: add RAG response confidence scoring","feat: implement fallback to keyword search when semantic search fails","test: add RAG pipeline tests with medical Q&A pairs"],
+      "refactor_fix_commits": ["fix: context window overflow on long retrieved chunks","refactor: decouple retriever from pipeline for testability","fix: source attribution missing page numbers","perf: parallel retrieval from multiple collections","docs: add RAG pipeline flowchart to docs/rag.md"]
+    },
+    {
+      "day": 12, "title": "Query understanding & medical NLP",
+      "focus": "Medical query parsing, intent detection, query rewriting",
+      "files_to_create": ["src/rag/query_understanding.py","src/rag/intent_detector.py","src/rag/query_rewriter.py","configs/query_config.yaml","tests/unit/test_query_understanding.py"],
+      "commit_tasks": ["feat: implement MedicalQueryParser for clinical question analysis","feat: add intent detection: diagnosis_lookup, medication_check, summary_request","feat: implement query rewriting for medical abbreviations","feat: add temporal query handling (find records from last 6 months)","feat: implement multi-hop query decomposition","feat: add query validation to reject non-medical queries","feat: implement query logging for analysis and improvement","test: add query understanding tests for 20 clinical question types"],
+      "refactor_fix_commits": ["fix: intent detector misclassifying lab value queries","refactor: move query rewriting rules to external config","fix: temporal queries not handling relative dates correctly","perf: cache common query transformations","docs: add query examples and capabilities to README"]
+    },
+    {
+      "day": 13, "title": "Response generation & formatting",
+      "focus": "Structured response generation, citation formatting, answer validation",
+      "files_to_create": ["src/rag/response_generator.py","src/rag/citation_formatter.py","src/rag/answer_validator.py","configs/response_config.yaml","tests/unit/test_response_generator.py"],
+      "commit_tasks": ["feat: implement ResponseGenerator with structured clinical output","feat: add citation formatter linking answers to source documents","feat: implement answer validator checking factual consistency","feat: add response length control based on query type","feat: implement multi-document synthesis for comprehensive answers","feat: add uncertainty expression when evidence is weak","feat: implement response templating for different clinical contexts","test: add response generation tests with known ground truth answers"],
+      "refactor_fix_commits": ["fix: citations referencing wrong page numbers","refactor: separate answer generation from formatting","fix: validator false positives on numerical lab values","perf: streaming response generation for long answers","docs: add response format specification to docs/api.md"]
+    },
+    {
+      "day": 14, "title": "Semantic search API & relevance ranking",
+      "focus": "Search endpoint, BM25 hybrid search, relevance scoring, result pagination",
+      "files_to_create": ["src/rag/hybrid_searcher.py","src/rag/bm25_index.py","src/rag/relevance_ranker.py","configs/search_config.yaml","tests/unit/test_hybrid_searcher.py"],
+      "commit_tasks": ["feat: implement HybridSearcher combining semantic and BM25 search","feat: add BM25Index for keyword-based medical document search","feat: implement RelevanceRanker with RRF score fusion","feat: add medical term boosting in BM25 for clinical vocabulary","feat: implement result deduplication across search methods","feat: add search result pagination with cursor-based navigation","feat: implement search analytics logging","feat: add search result explanation (why this result matched)","test: add hybrid search tests with recall@10 evaluation"],
+      "refactor_fix_commits": ["fix: BM25 index not updating on new document ingestion","refactor: make fusion algorithm configurable","fix: duplicate results from same document different chunks","perf: pre-build BM25 index on startup","docs: add search query syntax guide to docs/search.md"]
+    },
+    {
+      "day": 15, "title": "Document Q&A session management",
+      "focus": "Multi-turn conversation, session state, context carryover",
+      "files_to_create": ["src/rag/session_manager.py","src/rag/conversation_history.py","src/rag/context_compressor.py","configs/session_config.yaml","tests/unit/test_session_manager.py"],
+      "commit_tasks": ["feat: implement SessionManager for multi-turn document Q&A","feat: add ConversationHistory with sliding window context","feat: implement context compression for long conversations","feat: add session persistence in Redis with TTL","feat: implement cross-session knowledge linking","feat: add session analytics for usage patterns","feat: implement session export to PDF report","test: add multi-turn conversation tests with 5-turn dialogues"],
+      "refactor_fix_commits": ["fix: context compression losing critical medical information","refactor: separate session state from conversation logic","fix: session TTL not resetting on user activity","perf: lazy-load conversation history on first query","docs: add session management guide to docs/sessions.md"]
+    },
+    {
+      "day": 16, "title": "FastAPI REST API — core endpoints",
+      "focus": "Document upload, process, query endpoints, request validation",
+      "files_to_create": ["src/api/main.py","src/api/routers/documents.py","src/api/routers/query.py","src/api/schemas.py","tests/unit/test_api.py"],
+      "commit_tasks": ["feat: scaffold FastAPI application with lifespan and middleware","feat: add POST /documents/upload endpoint for PDF ingestion","feat: add GET /documents/{id} endpoint for document retrieval","feat: add POST /query endpoint for RAG-powered Q&A","feat: add GET /search endpoint for semantic document search","feat: implement request validation with Pydantic v2","feat: add response pagination for document listing","feat: add API key authentication middleware","feat: add request ID tracing for observability","test: add pytest-asyncio tests for all API endpoints"],
+      "refactor_fix_commits": ["fix: file upload size limit too small for large radiology reports","refactor: separate route handlers from business logic","fix: query endpoint timeout on complex multi-hop queries","perf: async file upload handling with streaming","docs: generate OpenAPI schema and publish to /docs"]
+    },
+    {
+      "day": 17, "title": "Background processing pipeline",
+      "focus": "Async document processing, Celery tasks, progress tracking",
+      "files_to_create": ["src/api/tasks.py","src/api/task_manager.py","src/api/progress_tracker.py","configs/celery_config.yaml","tests/unit/test_tasks.py"],
+      "commit_tasks": ["feat: implement Celery task queue for async document processing","feat: add process_document Celery task with retry logic","feat: implement ProgressTracker with Redis for real-time updates","feat: add GET /documents/{id}/status endpoint","feat: implement task prioritization for urgent clinical documents","feat: add task failure notification with error details","feat: implement dead-letter queue for failed processing tasks","feat: add task execution metrics to Prometheus","test: add Celery task tests with mock workers"],
+      "refactor_fix_commits": ["fix: Celery worker crashing on PDF with embedded fonts","refactor: move task logic to dedicated processor classes","fix: progress tracker not clearing on task completion","perf: increase Celery worker concurrency to 4","docs: add background processing guide to docs/processing.md"]
+    },
+    {
+      "day": 18, "title": "Monitoring dashboard & Prometheus metrics",
+      "focus": "Custom metrics, Grafana dashboards, SLO definitions",
+      "files_to_create": ["src/monitoring/metrics.py","infra/grafana/dashboards/pipeline_overview.json","infra/grafana/dashboards/llm_performance.json","infra/prometheus/rules/slo_rules.yml","configs/monitoring_config.yaml"],
+      "commit_tasks": ["feat: add Counter for documents processed per type","feat: add Histogram for LLM inference latency","feat: add Gauge for ChromaDB collection sizes","feat: add Counter for RAG query types","feat: implement Grafana pipeline overview dashboard","feat: implement Grafana LLM performance dashboard","feat: add SLO alert rule: 95% queries under 5 seconds","feat: add Prometheus alerting for ChromaDB disk usage","infra: add Grafana provisioning for auto-dashboard load"],
+      "refactor_fix_commits": ["fix: high cardinality on document_id Prometheus label","refactor: centralize metric registration in metrics.py","fix: Grafana dashboard not showing Ollama GPU metrics","docs: add runbook for common alert scenarios","chore: add Prometheus recording rules for heavy queries"]
+    },
+    {
+      "day": 19, "title": "LLM output quality monitoring",
+      "focus": "Response quality scoring, faithfulness evaluation, toxicity detection",
+      "files_to_create": ["src/monitoring/quality_monitor.py","src/monitoring/faithfulness_checker.py","src/monitoring/toxicity_detector.py","configs/quality_config.yaml","tests/unit/test_quality_monitor.py"],
+      "commit_tasks": ["feat: implement LLMQualityMonitor with configurable scorers","feat: add FaithfulnessChecker verifying answers against source chunks","feat: implement ROUGE-L scorer for summarization quality","feat: add BERTScore for semantic similarity evaluation","feat: implement ToxicityDetector for clinical response safety","feat: add quality score logging to PostgreSQL","feat: implement quality degradation alert (score drops 10%)","feat: add per-document-type quality thresholds","test: add quality monitor tests with known good and bad outputs"],
+      "refactor_fix_commits": ["fix: faithfulness checker false positives on numerical ranges","refactor: make quality scorers pluggable via interface","fix: ROUGE scorer failing on very short summaries","perf: run quality checks asynchronously post-response","docs: add quality metrics explanation to docs/quality.md"]
+    },
+    {
+      "day": 20, "title": "Hallucination detection system",
+      "focus": "Grounding verification, claim extraction, source cross-referencing",
+      "files_to_create": ["src/monitoring/hallucination_detector.py","src/monitoring/claim_extractor.py","src/monitoring/grounding_verifier.py","configs/hallucination_config.yaml","tests/unit/test_hallucination_detector.py"],
+      "commit_tasks": ["feat: implement HallucinationDetector using NLI-based verification","feat: add ClaimExtractor decomposing LLM answers into verifiable claims","feat: implement GroundingVerifier checking claims against source chunks","feat: add hallucination severity levels: minor/moderate/critical","feat: implement auto-retry with stricter prompt on hallucination detection","feat: add hallucination rate dashboard in Grafana","feat: implement hallucination alert to Slack on critical cases","feat: add hallucination audit log for model improvement","test: add hallucination detection tests with injected false claims"],
+      "refactor_fix_commits": ["fix: NLI model too strict on paraphrased but correct statements","refactor: decouple claim extraction from verification","fix: hallucination detector missing numerical fact errors","perf: batch claim verification for efficiency","docs: add hallucination mitigation strategies to docs/safety.md"]
+    },
+    {
+      "day": 21, "title": "LLM drift detection",
+      "focus": "Response distribution monitoring, quality drift, prompt sensitivity",
+      "files_to_create": ["src/monitoring/llm_drift_monitor.py","src/monitoring/response_distributor.py","src/monitoring/prompt_sensitivity.py","configs/drift_config.yaml","tests/unit/test_llm_drift.py"],
+      "commit_tasks": ["feat: implement LLMDriftMonitor tracking response quality over time","feat: add response length distribution monitoring","feat: implement semantic drift detection using embedding distances","feat: add prompt sensitivity analyzer for prompt version changes","feat: implement sliding window quality score tracker","feat: add drift severity classification and alert routing","feat: implement weekly drift summary report generation","test: add drift detection tests with simulated quality degradation"],
+      "refactor_fix_commits": ["fix: drift monitor not resetting baseline after model update","refactor: extract drift metrics to shared monitoring module","fix: semantic drift false positive after document corpus expansion","perf: compute drift scores in background thread","docs: add drift interpretation guide to docs/monitoring.md"]
+    },
+    {
+      "day": 22, "title": "Slack & PagerDuty alerting",
+      "focus": "Alert dispatcher, notification templates, escalation policies",
+      "files_to_create": ["src/monitoring/alert_dispatcher.py","src/monitoring/alert_templates.py","configs/alerting_config.yaml","docs/runbooks/quality_alert_response.md","tests/unit/test_alert_dispatcher.py"],
+      "commit_tasks": ["feat: implement AlertDispatcher with Slack webhook integration","feat: add rich Slack message template with quality metrics","feat: implement PagerDuty routing for critical hallucination alerts","feat: add alert deduplication with 30-minute cooldown","feat: implement daily quality summary digest to Slack","feat: add alert acknowledgment tracking in Redis","feat: implement alert escalation for unacknowledged critical alerts","docs: add quality alert response runbook","test: add mock Slack webhook tests for all alert types"],
+      "refactor_fix_commits": ["fix: Slack message truncated for long document names","refactor: move alert templates to Jinja2","fix: PagerDuty dedup_key causing alert merging","docs: add on-call setup guide to docs/alerting.md","chore: add alert suppression for maintenance windows"]
+    },
+    {
+      "day": 23, "title": "Integration tests — full pipeline",
+      "focus": "End-to-end pipeline tests, document to answer validation",
+      "files_to_create": ["tests/integration/test_full_pipeline.py","tests/integration/test_rag_pipeline.py","tests/integration/fixtures/sample_discharge_summary.pdf","tests/conftest.py","scripts/run_integration_tests.sh"],
+      "commit_tasks": ["test: add full pipeline integration test: PDF → answer","test: verify entity extraction on sample discharge summary","test: verify RAG retrieval recall on 20 clinical questions","test: add hallucination detection integration test","test: verify API endpoints end-to-end with real documents","test: add Ollama mock server for offline integration tests","feat: add integration test report generation","ci: add integration test step to CI pipeline on main branch"],
+      "refactor_fix_commits": ["fix: integration test teardown not clearing ChromaDB collections","refactor: extract test fixtures to shared conftest.py","fix: sample PDF fixture not loading correctly in CI","ci: run integration tests in parallel with pytest-xdist","docs: add integration test guide to docs/testing.md"]
+    },
+    {
+      "day": 24, "title": "Load testing & performance benchmarking",
+      "focus": "Locust load tests, LLM throughput, ChromaDB query latency",
+      "files_to_create": ["tests/load/locustfile.py","tests/load/scenarios/query_load.py","tests/load/scenarios/upload_load.py","docs/performance_report.md","scripts/run_load_test.sh"],
+      "commit_tasks": ["test: add Locust load test for /query endpoint","test: add Locust document upload scenario","test: add Locust concurrent session test (50 users)","feat: add async request batching to reduce Ollama pressure","perf: add ChromaDB query result cache reducing P50 by 35%","perf: implement uvicorn worker auto-scaling","perf: add Ollama model keep-alive to reduce cold start","docs: add performance benchmark results to docs/performance_report.md"],
+      "refactor_fix_commits": ["fix: memory leak in embedding cache under sustained load","perf: profile and fix N+1 ChromaDB queries in RAG pipeline","refactor: switch synchronous embedding calls to async","fix: Ollama timeout too short under concurrent load","docs: add capacity planning guide based on load test results"]
+    },
+    {
+      "day": 25, "title": "Security hardening & HIPAA considerations",
+      "focus": "Data encryption, audit logging, access control, PII handling",
+      "files_to_create": ["src/security/encryption.py","src/security/audit_logger.py","src/security/access_control.py","docs/hipaa_compliance.md","configs/security_config.yaml"],
+      "commit_tasks": ["feat: implement AES-256 encryption for stored medical documents","feat: add comprehensive audit logger for all document access","feat: implement role-based access control (doctor/nurse/admin)","feat: add PII detection and redaction pipeline","feat: implement secure document deletion with overwrite","feat: add API rate limiting per user role","feat: implement JWT authentication with short expiry","docs: add HIPAA compliance checklist to docs/hipaa_compliance.md","test: add security tests for access control enforcement"],
+      "refactor_fix_commits": ["fix: audit log missing user_id on anonymous API calls","refactor: centralize PII patterns in security/pii_patterns.py","fix: rate limiter not applying to streaming endpoints","docs: add security architecture to docs/security.md","chore: add SAST scan results to CI pipeline"]
+    },
+    {
+      "day": 26, "title": "Comprehensive unit test suite",
+      "focus": "Test coverage > 80%, property tests, edge cases",
+      "files_to_create": ["tests/unit/test_rag_retriever.py","tests/unit/test_entity_extractor.py","tests/unit/test_hallucination_detector.py","tests/unit/test_session_manager.py","scripts/run_tests.sh"],
+      "commit_tasks": ["test: add unit tests for RAG retriever with mock ChromaDB","test: add property-based tests for document chunker","test: add parametrised tests for all entity types","test: add hallucination detector tests with 10 injected errors","test: add session manager tests for multi-turn conversations","test: run mutmut mutation testing and fix surviving mutants","ci: enforce 80% coverage threshold in CI","ci: add coverage report upload to Codecov"],
+      "refactor_fix_commits": ["fix: 8 failing tests from entity schema rename","refactor: consolidate test fixtures in conftest.py","fix: flaky test using real Ollama — switch to mock","test: add snapshot tests for API response schemas","docs: document test strategy in docs/testing.md"]
+    },
+    {
+      "day": 27, "title": "Kubernetes deployment manifests",
+      "focus": "K8s deployments, services, configmaps, HPA autoscaling",
+      "files_to_create": ["infra/k8s/namespace.yaml","infra/k8s/api-deployment.yaml","infra/k8s/ollama-deployment.yaml","infra/k8s/chromadb-deployment.yaml","infra/k8s/hpa.yaml"],
+      "commit_tasks": ["infra: add Kubernetes namespace and resource quotas","infra: add API service deployment with 2 replicas","infra: add Ollama deployment with GPU node selector","infra: add ChromaDB StatefulSet with persistent volume","infra: add HorizontalPodAutoscaler for API service","infra: add ConfigMap for all environment configuration","infra: add Secret manifest template for sensitive values","infra: add Ingress with TLS termination","infra: add PodDisruptionBudget for zero-downtime deploys"],
+      "refactor_fix_commits": ["fix: ChromaDB PVC not persisting across pod restarts","refactor: extract common K8s labels to kustomize base","fix: HPA min replicas set too low for production load","docs: add Kubernetes deployment guide to docs/deployment.md","chore: add kubectl apply dry-run to CI pipeline"]
+    },
+    {
+      "day": 28, "title": "API documentation & developer guide",
+      "focus": "OpenAPI docs, usage examples, SDK snippets, Postman collection",
+      "files_to_create": ["docs/api_reference.md","docs/quickstart.md","docs/examples/upload_and_query.py","docs/examples/batch_processing.py","postman/medical_doc_intelligence.json"],
+      "commit_tasks": ["docs: add complete API reference with all endpoints","docs: add quickstart guide from zero to first query","docs: add Python usage examples for document upload","docs: add Python usage examples for RAG querying","docs: add batch processing example script","docs: add Postman collection for all API endpoints","docs: add error codes reference guide","docs: add FAQ section based on common issues","feat: add interactive API playground at /playground"],
+      "refactor_fix_commits": ["fix: broken links in API reference","fix: example scripts using deprecated API parameters","docs: add rate limit documentation to API reference","style: consistent formatting across all doc files","chore: add doc generation to CI pipeline"]
+    },
+    {
+      "day": 29, "title": "Performance optimization & caching layer",
+      "focus": "Response caching, embedding cache warmup, query optimization",
+      "files_to_create": ["src/api/cache_manager.py","src/api/response_cache.py","scripts/warmup_cache.py","configs/cache_config.yaml","tests/unit/test_cache_manager.py"],
+      "commit_tasks": ["feat: implement ResponseCache for identical query deduplication","feat: add cache warmup script for common clinical queries","feat: implement tiered caching: L1 memory, L2 Redis","feat: add cache hit rate monitoring to Prometheus","feat: implement cache invalidation on document updates","feat: add cache compression for large RAG responses","feat: implement predictive cache prefetch based on session history","test: add cache tests verifying hit rates under load"],
+      "refactor_fix_commits": ["fix: cache not invalidating when source document updated","perf: compress cached responses reducing Redis memory 40%","refactor: abstract cache backend for easy swap","fix: memory cache causing OOM under high load","docs: add caching strategy guide to docs/performance.md"]
+    },
+    {
+      "day": 30, "title": "Final polish, README & project completion",
+      "focus": "Complete README, architecture diagrams, changelog, v1.0.0 tag",
+      "files_to_create": ["README.md","docs/architecture.md","docs/deployment_guide.md","CHANGELOG.md","SECURITY.md"],
+      "commit_tasks": ["docs: complete README rewrite with architecture diagram","docs: add comprehensive system architecture document","docs: add production deployment guide for Docker and K8s","docs: add CHANGELOG for v1.0.0 release","security: add SECURITY.md with vulnerability reporting guide","chore: tag v1.0.0 release with full changelog","ci: add end-to-end smoke test to release pipeline","docs: add project demo GIF to README","chore: final dependency audit and update","chore: archive development notebooks to notebooks/archive/"],
+      "refactor_fix_commits": ["docs: fix broken links in README","fix: environment variable names inconsistent across services","refactor: final cleanup — remove all TODO comments","style: enforce consistent logging format across all services","chore: update all Docker base images to latest stable"]
+    }
+  ]
+}
