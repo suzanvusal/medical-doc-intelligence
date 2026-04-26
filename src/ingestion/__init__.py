@@ -1,1 +1,1 @@
-"""Document ingestion: PDF processing, OCR, chunking."""
+"""PDF ingestion, OCR, chunking, document schemas."""
