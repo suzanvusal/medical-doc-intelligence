@@ -1,1 +1,1 @@
-"""LLM layer: Ollama client, summarization, entity extraction."""
+"""Ollama LLM client, summarizer, entity extractor."""
