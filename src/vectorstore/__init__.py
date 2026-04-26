@@ -1,1 +1,1 @@
-"""Vector store: ChromaDB, embeddings, search."""
+"""ChromaDB vector store, embeddings, search."""
