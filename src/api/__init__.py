@@ -1,1 +1,1 @@
-"""FastAPI REST API for document intelligence."""
+"""FastAPI REST interface for document intelligence."""
