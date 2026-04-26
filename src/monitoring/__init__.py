@@ -1,1 +1,1 @@
-"""Quality monitoring: faithfulness, hallucination detection, drift."""
+"""Quality monitor, hallucination detector, drift."""
