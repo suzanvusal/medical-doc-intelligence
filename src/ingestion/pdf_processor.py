@@ -95,3 +95,5 @@ class PDFProcessor:
                 ))
                 idx += 1
         return chunks
+
+# 11:52:17 — test: add unit tests for PDF processor with sample medical P
