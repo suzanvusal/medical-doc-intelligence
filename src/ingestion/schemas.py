@@ -74,3 +74,5 @@ class ExtractionResult(BaseModel):
 # 11:52:17 — feat: implement metadata extractor for document headers
 
 # 11:52:17 — feat: add document type classifier based on content patterns
+
+# 11:52:17 — refactor: extract OCR logic into separate OCRProcessor class
