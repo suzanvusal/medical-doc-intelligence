@@ -1,3 +1,5 @@
 # configs/document_types.yaml
 # Day 2: Document ingestion schemas & PDF processor
 # Generated: 2026-04-27T11:52:17.420178+00:00
+
+# 11:52:17 — feat: implement DocumentStore for local file management
