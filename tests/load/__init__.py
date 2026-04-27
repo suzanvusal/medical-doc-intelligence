@@ -4,3 +4,5 @@
 # 13:51:47 — docs: add module docstring to __init__
 
 # 11:52:17 — style: run black formatter on __init__
+
+# 11:52:17 — perf: cache repeated computation in __init__
