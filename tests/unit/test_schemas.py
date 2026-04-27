@@ -71,3 +71,5 @@ def test_chunk_content_cannot_be_empty():
             page_number=1,
             chunk_index=0,
         )
+
+# 11:52:17 — test: add schema validation tests for all document types
