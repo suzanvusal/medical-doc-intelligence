@@ -5,3 +5,5 @@
 # 13:51:47 — docs: add CONTRIBUTING.md with development workflow
 
 # 13:51:47 — chore: pin all dependency versions in pyproject.toml
+
+# 11:52:17 — refactor: rename variable for clarity in __init__
