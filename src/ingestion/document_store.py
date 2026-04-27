@@ -17,3 +17,5 @@ class DocumentStore:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:52:17 — fix: correct page number extraction for multi-page documents
