@@ -70,3 +70,5 @@ class ExtractionResult(BaseModel):
     ocr_used:    bool = False
     language:    str = "en"
     extraction_time_ms: float = 0.0
+
+# 11:52:17 — feat: implement metadata extractor for document headers
