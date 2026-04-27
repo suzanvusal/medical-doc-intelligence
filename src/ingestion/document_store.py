@@ -1,0 +1,19 @@
+"""
+src/ingestion/document_store.py
+Day 2: Document ingestion schemas & PDF processor
+Focus: Pydantic schemas for medical documents, PDF text extraction, metadata parsing
+"""
+from __future__ import annotations
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class DocumentStore:
+    """Implementation for document_store — medical document intelligence pipeline."""
+
+    def __init__(self) -> None:
+        logger.info("Initialising %s", self.__class__.__name__)
+
+    def process(self) -> None:
+        raise NotImplementedError
