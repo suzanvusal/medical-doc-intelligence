@@ -72,3 +72,5 @@ class ExtractionResult(BaseModel):
     extraction_time_ms: float = 0.0
 
 # 11:52:17 — feat: implement metadata extractor for document headers
+
+# 11:52:17 — feat: add document type classifier based on content patterns
