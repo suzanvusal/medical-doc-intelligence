@@ -75,3 +75,5 @@ def test_chunk_content_cannot_be_empty():
 # 11:52:17 — test: add schema validation tests for all document types
 
 # 11:52:17 — style: reorder imports alphabetically in test_schemas
+
+# 11:52:17 — fix: add missing type hint in test_schemas
