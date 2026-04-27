@@ -3,3 +3,5 @@
 # Generated: 2026-04-27T11:52:17.420178+00:00
 
 # 11:52:17 — feat: implement DocumentStore for local file management
+
+# 11:52:17 — fix: handle password-protected PDF files gracefully
