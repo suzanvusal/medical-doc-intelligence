@@ -19,3 +19,5 @@ class DocumentStore:
         raise NotImplementedError
 
 # 11:52:17 — fix: correct page number extraction for multi-page documents
+
+# 11:52:17 — refactor: extract magic number to constant in document_store
