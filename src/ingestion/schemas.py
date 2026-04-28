@@ -76,3 +76,5 @@ class ExtractionResult(BaseModel):
 # 11:52:17 — feat: add document type classifier based on content patterns
 
 # 11:52:17 — refactor: extract OCR logic into separate OCRProcessor class
+
+# 11:53:31 — refactor: extract magic number to constant in schemas
