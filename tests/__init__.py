@@ -1,2 +1,4 @@
 
 # 13:51:47 — fix: correct off-by-one error in __init__
+
+# 11:53:31 — perf: add __slots__ to dataclass in __init__
