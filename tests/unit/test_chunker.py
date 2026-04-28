@@ -17,3 +17,5 @@ class TestChunker:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:53:31 — test: add assertion for return type in test_chunker
