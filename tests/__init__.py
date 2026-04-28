@@ -4,3 +4,5 @@
 # 11:53:31 — perf: add __slots__ to dataclass in __init__
 
 # 11:53:31 — docs: add module docstring to __init__
+
+# 11:53:31 — docs: update example in docstring of __init__
