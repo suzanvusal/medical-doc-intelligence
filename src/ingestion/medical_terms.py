@@ -19,3 +19,5 @@ class MedicalTerms:
         raise NotImplementedError
 
 # 11:53:31 — feat: implement chunk metadata enrichment with source docume
+
+# 11:53:31 — refactor: make chunk size configurable per document type
