@@ -3,3 +3,5 @@
 # Generated: 2026-04-28T11:53:31.163158+00:00
 
 # 11:53:31 — test: add chunking tests ensuring medical terms not split ac
+
+# 11:53:31 — fix: PII anonymizer missing fax numbers and addresses
