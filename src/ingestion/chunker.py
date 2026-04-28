@@ -82,3 +82,5 @@ class MedicalTextChunker:
         if current:
             chunks.append(" ".join(current))
         return chunks
+
+# 11:53:31 — fix: chunk overlap causing duplicate content in embeddings
