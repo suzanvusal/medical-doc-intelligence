@@ -5,3 +5,5 @@
 # 11:53:31 — test: add chunking tests ensuring medical terms not split ac
 
 # 11:53:31 — fix: PII anonymizer missing fax numbers and addresses
+
+# 11:53:31 — perf: cache medical abbreviation dictionary on startup
