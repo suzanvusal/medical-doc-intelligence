@@ -7,3 +7,5 @@
 # 13:51:47 — chore: pin all dependency versions in pyproject.toml
 
 # 11:52:17 — refactor: rename variable for clarity in __init__
+
+# 11:53:31 — docs: add module docstring to __init__
