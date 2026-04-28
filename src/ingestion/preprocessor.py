@@ -59,3 +59,5 @@ class MedicalPreprocessor:
             pattern = r"" + re.escape(abbr) + r""
             text = re.sub(pattern, f"{abbr} ({expansion})", text, count=1)
         return text
+
+# 11:53:31 — feat: add chunk overlap configuration for context preservati
