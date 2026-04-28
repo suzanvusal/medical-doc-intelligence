@@ -84,3 +84,5 @@ class MedicalTextChunker:
         return chunks
 
 # 11:53:31 — fix: chunk overlap causing duplicate content in embeddings
+
+# 11:53:31 — docs: fix typo in inline comment in chunker
