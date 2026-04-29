@@ -21,3 +21,5 @@ class DocumentStore:
 # 11:52:17 — fix: correct page number extraction for multi-page documents
 
 # 11:52:17 — refactor: extract magic number to constant in document_store
+
+# 11:45:55 — refactor: rename variable for clarity in document_store
