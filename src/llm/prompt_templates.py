@@ -57,3 +57,5 @@ If uncertain, express that uncertainty explicitly."""
 
 def render(template_str: str, **kwargs) -> str:
     return _env.from_string(template_str).render(**kwargs)
+
+# 11:45:54 — feat: add model response streaming support
