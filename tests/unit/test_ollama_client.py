@@ -17,3 +17,5 @@ class TestOllamaClient:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:45:54 — feat: implement retry logic for Ollama API timeouts
