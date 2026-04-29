@@ -78,3 +78,5 @@ class ExtractionResult(BaseModel):
 # 11:52:17 — refactor: extract OCR logic into separate OCRProcessor class
 
 # 11:53:31 — refactor: extract magic number to constant in schemas
+
+# 11:45:55 — perf: add __slots__ to dataclass in schemas
