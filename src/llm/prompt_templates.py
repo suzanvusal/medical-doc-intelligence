@@ -59,3 +59,5 @@ def render(template_str: str, **kwargs) -> str:
     return _env.from_string(template_str).render(**kwargs)
 
 # 11:45:54 — feat: add model response streaming support
+
+# 11:45:54 — fix: Ollama client timeout too short for large documents
