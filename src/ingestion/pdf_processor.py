@@ -99,3 +99,5 @@ class PDFProcessor:
 # 11:52:17 — test: add unit tests for PDF processor with sample medical P
 
 # 11:45:55 — style: reorder imports alphabetically in pdf_processor
+
+# 11:45:55 — fix: add missing type hint in pdf_processor
