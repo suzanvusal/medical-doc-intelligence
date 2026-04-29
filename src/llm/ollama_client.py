@@ -94,3 +94,5 @@ class OllamaClient:
 
     async def close(self) -> None:
         await self._client.aclose()
+
+# 11:45:54 — feat: add medical summarization prompt template
