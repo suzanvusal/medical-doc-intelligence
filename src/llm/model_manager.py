@@ -19,3 +19,5 @@ class ModelManager:
         raise NotImplementedError
 
 # 11:45:54 — feat: add clinical entity extraction prompt template
+
+# 11:45:54 — refactor: extract prompt templates to separate YAML files
