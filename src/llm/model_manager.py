@@ -17,3 +17,5 @@ class ModelManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:45:54 — feat: add clinical entity extraction prompt template
