@@ -1,3 +1,5 @@
 # configs/ollama_config.yaml
 # Day 4: Ollama integration & model management
 # Generated: 2026-04-29T11:45:54.937282+00:00
+
+# 11:45:55 — fix: model manager not detecting partially downloaded models
