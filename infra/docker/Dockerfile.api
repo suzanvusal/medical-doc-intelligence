@@ -1,1 +1,3 @@
 # infra/docker/Dockerfile.api — Day 5: CI/CD pipeline & Docker infrastructure
+
+# 11:45:42 — infra: add health check scripts for all containers
