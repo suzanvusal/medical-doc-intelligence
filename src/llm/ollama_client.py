@@ -96,3 +96,5 @@ class OllamaClient:
         await self._client.aclose()
 
 # 11:45:54 — feat: add medical summarization prompt template
+
+# 11:45:42 — refactor: rename variable for clarity in ollama_client
