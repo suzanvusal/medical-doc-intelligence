@@ -21,3 +21,5 @@ class MedicalTerms:
 # 11:53:31 — feat: implement chunk metadata enrichment with source docume
 
 # 11:53:31 — refactor: make chunk size configurable per document type
+
+# 11:45:42 — fix: handle None input edge case in medical_terms
