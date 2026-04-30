@@ -19,3 +19,5 @@ class TestChunker:
         raise NotImplementedError
 
 # 11:53:31 — test: add assertion for return type in test_chunker
+
+# 11:45:42 — chore: remove debug print statement in test_chunker
