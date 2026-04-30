@@ -1,3 +1,5 @@
 # infra/docker/docker-compose.yml
 # Day 5: CI/CD pipeline & Docker infrastructure
 # Generated: 2026-04-30T11:45:42.611789+00:00
+
+# 11:45:42 — infra: configure Docker volumes for Ollama models persistenc
