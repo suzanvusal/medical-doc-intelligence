@@ -5,3 +5,5 @@
 # 11:45:42 — infra: configure Docker volumes for Ollama models persistenc
 
 # 11:45:42 — fix: Docker build failing on arm64 Mac due to PyMuPDF
+
+# 11:45:42 — refactor: split docker-compose into base and override files
