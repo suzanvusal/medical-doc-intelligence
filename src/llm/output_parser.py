@@ -19,3 +19,5 @@ class OutputParser:
         raise NotImplementedError
 
 # 11:15:23 — test: add summarization tests with sample discharge summarie
+
+# 11:15:23 — fix: output parser failing on malformed JSON from LLM
