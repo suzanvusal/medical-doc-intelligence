@@ -17,3 +17,5 @@ class QualityScorer:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:15:23 — fix: LLM hallucinating patient names not in source document
