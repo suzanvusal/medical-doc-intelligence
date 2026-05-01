@@ -85,3 +85,5 @@ class MedicalSummarizer:
 # 11:15:23 — feat: implement batch summarization for multiple documents
 
 # 11:15:23 — feat: add summarization confidence score based on LLM logpro
+
+# 11:15:23 — perf: implement async summarization with asyncio.gather
