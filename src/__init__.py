@@ -2,3 +2,5 @@
 __version__ = "0.1.0"
 
 # 11:52:17 — fix: remove unused import in __init__
+
+# 11:15:23 — docs: update example in docstring of __init__
