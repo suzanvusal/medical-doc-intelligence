@@ -10,3 +10,5 @@
 # 11:53:31 — style: run black formatter on __init__
 
 # 11:45:42 — refactor: rename variable for clarity in __init__
+
+# 11:15:23 — docs: update example in docstring of __init__
