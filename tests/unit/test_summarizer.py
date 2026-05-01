@@ -17,3 +17,5 @@ class TestSummarizer:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:15:23 — refactor: move summarization prompts to external YAML file
