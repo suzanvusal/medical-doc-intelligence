@@ -23,3 +23,5 @@ class DocumentStore:
 # 11:52:17 — refactor: extract magic number to constant in document_store
 
 # 11:45:55 — refactor: rename variable for clarity in document_store
+
+# 11:15:23 — docs: fix typo in inline comment in document_store
