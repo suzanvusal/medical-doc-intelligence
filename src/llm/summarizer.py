@@ -79,3 +79,5 @@ class MedicalSummarizer:
 
 ".join(intermediate)
         return await self.summarize(document_id, combined)
+
+# 11:15:23 — feat: add summary caching with Redis to avoid re-processing
