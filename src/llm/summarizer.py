@@ -83,3 +83,5 @@ class MedicalSummarizer:
 # 11:15:23 — feat: add summary caching with Redis to avoid re-processing
 
 # 11:15:23 — feat: implement batch summarization for multiple documents
+
+# 11:15:23 — feat: add summarization confidence score based on LLM logpro
