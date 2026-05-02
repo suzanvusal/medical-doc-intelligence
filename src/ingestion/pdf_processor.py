@@ -101,3 +101,4 @@ class PDFProcessor:
 # 11:45:55 — style: reorder imports alphabetically in pdf_processor
 
 # 11:45:55 — fix: add missing type hint in pdf_processor
+# feat: add OCR confidence score per page
