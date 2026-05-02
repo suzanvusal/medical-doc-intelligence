@@ -23,3 +23,5 @@ class MedicalOntology:
 # 10:58:32 — test: add entity extraction tests with known medical reports
 
 # 10:58:32 — docs: fix typo in inline comment in medical_ontology
+
+# 10:58:32 — fix: add missing type hint in medical_ontology
