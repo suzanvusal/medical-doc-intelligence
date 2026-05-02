@@ -63,3 +63,5 @@ def render(template_str: str, **kwargs) -> str:
 # 11:45:54 — fix: Ollama client timeout too short for large documents
 
 # 11:15:23 — perf: add __slots__ to dataclass in prompt_templates
+
+# 10:58:32 — docs: add module docstring to prompt_templates
