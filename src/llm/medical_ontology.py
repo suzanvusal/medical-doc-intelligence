@@ -19,3 +19,5 @@ class MedicalOntology:
         raise NotImplementedError
 
 # 10:58:32 — feat: add entity relationship extraction (medication→diagnos
+
+# 10:58:32 — test: add entity extraction tests with known medical reports
