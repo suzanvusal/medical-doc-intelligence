@@ -17,3 +17,5 @@ class MedicalOntology:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 10:58:32 — feat: add entity relationship extraction (medication→diagnos
