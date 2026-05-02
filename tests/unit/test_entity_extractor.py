@@ -17,3 +17,5 @@ class TestEntityExtractor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 10:58:32 — feat: add entity deduplication across document chunks
