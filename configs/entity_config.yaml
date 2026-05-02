@@ -1,3 +1,5 @@
 # configs/entity_config.yaml
 # Day 7: Clinical entity extraction
 # Generated: 2026-05-02T10:58:32.118137+00:00
+
+# 10:58:32 — refactor: separate entity extraction from entity linking
