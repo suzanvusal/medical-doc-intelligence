@@ -19,3 +19,5 @@ class TestEntityExtractor:
         raise NotImplementedError
 
 # 10:58:32 — feat: add entity deduplication across document chunks
+
+# 10:58:32 — fix: ICD-10 linker returning wrong codes for abbreviations
