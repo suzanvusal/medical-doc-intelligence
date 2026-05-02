@@ -8,3 +8,5 @@
 # 11:53:31 — docs: update example in docstring of __init__
 
 # 11:15:23 — chore: remove debug print statement in __init__
+
+# 10:58:32 — fix: remove unused import in __init__
