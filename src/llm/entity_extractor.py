@@ -77,3 +77,5 @@ class ClinicalEntityExtractor:
             return {}
 
 # 10:58:32 — feat: implement MedicalOntology loader for UMLS concepts
+
+# 10:58:32 — fix: entity extractor missing lab values with units
