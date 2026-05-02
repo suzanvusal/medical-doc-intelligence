@@ -82,3 +82,5 @@ class ExtractionResult(BaseModel):
 # 11:45:55 — perf: add __slots__ to dataclass in schemas
 
 # 11:15:23 — perf: add __slots__ to dataclass in schemas
+
+# 10:58:32 — refactor: extract magic number to constant in schemas
