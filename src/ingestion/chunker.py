@@ -90,3 +90,5 @@ class MedicalTextChunker:
 # 11:45:55 — fix: correct off-by-one error in chunker
 
 # 11:45:55 — chore: day 4 maintenance sweep
+
+# 10:58:32 — fix: correct off-by-one error in chunker
