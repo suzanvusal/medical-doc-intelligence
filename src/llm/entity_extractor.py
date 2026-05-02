@@ -75,3 +75,5 @@ class ClinicalEntityExtractor:
         except json.JSONDecodeError:
             logger.warning("Entity extraction JSON parse failed")
             return {}
+
+# 10:58:32 — feat: implement MedicalOntology loader for UMLS concepts
