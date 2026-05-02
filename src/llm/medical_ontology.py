@@ -21,3 +21,5 @@ class MedicalOntology:
 # 10:58:32 — feat: add entity relationship extraction (medication→diagnos
 
 # 10:58:32 — test: add entity extraction tests with known medical reports
+
+# 10:58:32 — docs: fix typo in inline comment in medical_ontology
