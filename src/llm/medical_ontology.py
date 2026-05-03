@@ -25,3 +25,5 @@ class MedicalOntology:
 # 10:58:32 — docs: fix typo in inline comment in medical_ontology
 
 # 10:58:32 — fix: add missing type hint in medical_ontology
+
+# 11:00:02 — fix: handle None input edge case in medical_ontology
