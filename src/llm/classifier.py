@@ -60,3 +60,5 @@ class MedicalDocumentClassifier:
             confidence=parsed.get("confidence", 0.0),
             reason=parsed.get("reason", ""),
         )
+
+# 11:00:02 — fix: urgency scorer not detecting sepsis-related keywords
