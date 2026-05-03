@@ -27,3 +27,5 @@ class DocumentStore:
 # 11:15:23 — docs: fix typo in inline comment in document_store
 
 # 10:58:32 — docs: fix typo in inline comment in document_store
+
+# 11:00:02 — docs: update example in docstring of document_store
