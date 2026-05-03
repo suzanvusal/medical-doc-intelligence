@@ -19,3 +19,5 @@ class QualityScorer:
         raise NotImplementedError
 
 # 11:15:23 — fix: LLM hallucinating patient names not in source document
+
+# 11:00:02 — docs: fix typo in inline comment in quality_scorer
