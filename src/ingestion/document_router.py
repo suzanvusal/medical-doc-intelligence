@@ -21,3 +21,5 @@ class DocumentRouter:
 # 11:00:02 — feat: implement multi-label classification for hybrid docume
 
 # 11:00:02 — feat: add classification audit log to PostgreSQL
+
+# 11:00:02 — perf: batch classification for multiple documents simultaneo
