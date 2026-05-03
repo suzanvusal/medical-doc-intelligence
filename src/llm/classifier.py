@@ -64,3 +64,5 @@ class MedicalDocumentClassifier:
 # 11:00:02 — fix: urgency scorer not detecting sepsis-related keywords
 
 # 11:00:02 — docs: add classification taxonomy to docs/document_types.md
+
+# 11:00:02 — chore: remove debug print statement in classifier
