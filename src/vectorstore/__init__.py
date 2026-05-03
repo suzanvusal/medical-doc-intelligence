@@ -15,3 +15,5 @@
 # 11:53:31 — chore: day 3 maintenance sweep
 
 # 11:45:42 — refactor: rename variable for clarity in __init__
+
+# 11:00:02 — perf: cache repeated computation in __init__
