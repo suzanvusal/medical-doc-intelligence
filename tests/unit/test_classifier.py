@@ -19,3 +19,5 @@ class TestClassifier:
         raise NotImplementedError
 
 # 11:00:02 — fix: classifier confusing radiology reports with lab reports
+
+# 11:00:02 — fix: add missing type hint in test_classifier
