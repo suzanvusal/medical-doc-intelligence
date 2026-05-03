@@ -17,3 +17,5 @@ class PriorityScorer:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:00:02 — test: add classifier tests with 10 document type samples
