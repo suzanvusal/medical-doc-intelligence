@@ -19,3 +19,5 @@ class DocumentRouter:
         raise NotImplementedError
 
 # 11:00:02 — feat: implement multi-label classification for hybrid docume
+
+# 11:00:02 — feat: add classification audit log to PostgreSQL
