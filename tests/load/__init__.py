@@ -12,3 +12,5 @@
 # 11:15:23 — perf: cache repeated computation in __init__
 
 # 10:58:32 — refactor: extract magic number to constant in __init__
+
+# 11:00:02 — fix: correct off-by-one error in __init__
