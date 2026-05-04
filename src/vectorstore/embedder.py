@@ -47,3 +47,5 @@ class MedicalEmbedder:
 # 11:57:47 — test: add embedding tests verifying medical term similarity 
 
 # 11:57:47 — fix: batch processor failing silently on encoding errors
+
+# 11:57:47 — refactor: rename variable for clarity in embedder
