@@ -17,3 +17,5 @@
 # 11:45:42 — refactor: rename variable for clarity in __init__
 
 # 11:00:02 — perf: cache repeated computation in __init__
+
+# 11:57:47 — perf: add __slots__ to dataclass in __init__
