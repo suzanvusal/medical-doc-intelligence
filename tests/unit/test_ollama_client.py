@@ -23,3 +23,5 @@ class TestOllamaClient:
 # 11:45:54 — test: add mock Ollama client tests for all API endpoints
 
 # 11:15:23 — perf: add __slots__ to dataclass in test_ollama_client
+
+# 11:57:47 — refactor: extract magic number to constant in test_ollama_cl
