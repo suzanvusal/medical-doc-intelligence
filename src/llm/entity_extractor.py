@@ -81,3 +81,5 @@ class ClinicalEntityExtractor:
 # 10:58:32 — fix: entity extractor missing lab values with units
 
 # 10:58:32 — perf: cache ontology lookups in Redis
+
+# 11:57:47 — docs: add module docstring to entity_extractor
