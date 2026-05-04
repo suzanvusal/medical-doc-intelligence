@@ -17,3 +17,5 @@ class EmbeddingCache:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:57:47 — feat: add embedding generation progress tracking
