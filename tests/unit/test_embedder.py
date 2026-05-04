@@ -17,3 +17,5 @@ class TestEmbedder:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:57:47 — feat: implement embedding quality check via nearest-neighbor
