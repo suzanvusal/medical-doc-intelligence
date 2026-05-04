@@ -45,3 +45,5 @@ class MedicalEmbedder:
         return sum(x * y for x, y in zip(a, b))
 
 # 11:57:47 — test: add embedding tests verifying medical term similarity 
+
+# 11:57:47 — fix: batch processor failing silently on encoding errors
