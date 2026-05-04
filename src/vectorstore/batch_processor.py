@@ -21,3 +21,5 @@ class BatchProcessor:
 # 11:57:47 — refactor: make embedding model configurable without code cha
 
 # 11:57:47 — perf: increase embedding batch size from 32 to 128
+
+# 11:57:47 — perf: cache repeated computation in batch_processor
