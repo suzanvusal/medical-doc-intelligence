@@ -17,3 +17,5 @@ class BatchProcessor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:57:47 — refactor: make embedding model configurable without code cha
