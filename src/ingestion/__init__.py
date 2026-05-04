@@ -11,3 +11,5 @@
 # 11:45:42 — docs: add module docstring to __init__
 
 # 11:45:42 — style: reorder imports alphabetically in __init__
+
+# 11:57:47 — fix: correct off-by-one error in __init__
