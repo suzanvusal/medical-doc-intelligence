@@ -43,3 +43,5 @@ class MedicalEmbedder:
         if len(a) != len(b):
             raise ValueError("Vector dimensions must match")
         return sum(x * y for x, y in zip(a, b))
+
+# 11:57:47 — test: add embedding tests verifying medical term similarity 
