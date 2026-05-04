@@ -65,3 +65,5 @@ def render(template_str: str, **kwargs) -> str:
 # 11:15:23 — perf: add __slots__ to dataclass in prompt_templates
 
 # 10:58:32 — docs: add module docstring to prompt_templates
+
+# 11:57:47 — fix: correct off-by-one error in prompt_templates
