@@ -9,3 +9,5 @@
 # 11:45:42 — chore: remove debug print statement in __init__
 
 # 10:58:32 — test: add assertion for return type in __init__
+
+# 11:22:02 — fix: remove unused import in __init__
