@@ -21,3 +21,5 @@ class TestClassifier:
 # 11:00:02 — fix: classifier confusing radiology reports with lab reports
 
 # 11:00:02 — fix: add missing type hint in test_classifier
+
+# 11:22:02 — docs: fix typo in inline comment in test_classifier
