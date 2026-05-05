@@ -21,3 +21,5 @@ class TestEntityExtractor:
 # 10:58:32 — feat: add entity deduplication across document chunks
 
 # 10:58:32 — fix: ICD-10 linker returning wrong codes for abbreviations
+
+# 11:22:02 — docs: update example in docstring of test_entity_extractor
