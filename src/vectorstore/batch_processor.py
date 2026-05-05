@@ -23,3 +23,5 @@ class BatchProcessor:
 # 11:57:47 — perf: increase embedding batch size from 32 to 128
 
 # 11:57:47 — perf: cache repeated computation in batch_processor
+
+# 11:22:02 — refactor: extract magic number to constant in batch_processo
