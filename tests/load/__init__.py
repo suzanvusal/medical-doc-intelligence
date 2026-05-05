@@ -16,3 +16,5 @@
 # 11:00:02 — fix: correct off-by-one error in __init__
 
 # 11:57:47 — fix: remove unused import in __init__
+
+# 11:22:02 — test: add assertion for return type in __init__
