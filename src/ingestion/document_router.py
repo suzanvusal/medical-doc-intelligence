@@ -23,3 +23,5 @@ class DocumentRouter:
 # 11:00:02 — feat: add classification audit log to PostgreSQL
 
 # 11:00:02 — perf: batch classification for multiple documents simultaneo
+
+# 11:22:02 — fix: handle None input edge case in document_router
