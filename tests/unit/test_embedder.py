@@ -19,3 +19,5 @@ class TestEmbedder:
         raise NotImplementedError
 
 # 11:57:47 — feat: implement embedding quality check via nearest-neighbor
+
+# 11:22:02 — docs: fix typo in inline comment in test_embedder
