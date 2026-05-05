@@ -17,3 +17,5 @@ class CollectionManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:22:02 — feat: add collection migration utility for schema changes
