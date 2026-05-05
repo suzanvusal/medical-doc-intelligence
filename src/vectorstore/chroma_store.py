@@ -80,3 +80,5 @@ class MedicalChromaStore:
     def collection_stats(self, doc_type: str = "default") -> dict:
         col = self._get_collection(doc_type)
         return {"count": col.count(), "name": col.name}
+
+# 11:22:02 — feat: add vector store backup utility to S3
