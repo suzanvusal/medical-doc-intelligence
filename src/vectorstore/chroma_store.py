@@ -84,3 +84,5 @@ class MedicalChromaStore:
 # 11:22:02 — feat: add vector store backup utility to S3
 
 # 11:22:02 — test: add ChromaDB integration tests with real embeddings
+
+# 11:22:02 — fix: ChromaDB collection name validation rejecting valid nam
