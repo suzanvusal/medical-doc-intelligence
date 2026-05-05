@@ -86,3 +86,5 @@ class MedicalChromaStore:
 # 11:22:02 — test: add ChromaDB integration tests with real embeddings
 
 # 11:22:02 — fix: ChromaDB collection name validation rejecting valid nam
+
+# 11:22:02 — refactor: abstract vector store behind VectorStoreInterface
