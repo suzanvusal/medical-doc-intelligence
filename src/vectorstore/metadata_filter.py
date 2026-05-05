@@ -17,3 +17,5 @@ class MetadataFilter:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:22:02 — feat: implement soft-delete for document removal
