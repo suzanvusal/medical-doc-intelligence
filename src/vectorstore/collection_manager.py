@@ -19,3 +19,5 @@ class CollectionManager:
         raise NotImplementedError
 
 # 11:22:02 — feat: add collection migration utility for schema changes
+
+# 11:22:02 — fix: upsert not updating existing chunks on document re-proc
