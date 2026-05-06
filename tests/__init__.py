@@ -12,3 +12,5 @@
 # 10:58:32 — fix: remove unused import in __init__
 
 # 11:00:02 — style: run black formatter on __init__
+
+# 11:56:36 — ci: update step name for readability
