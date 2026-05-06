@@ -19,3 +19,5 @@ class ContextBuilder:
         raise NotImplementedError
 
 # 11:56:36 — feat: implement query expansion with medical synonyms
+
+# 11:56:36 — test: add RAG pipeline tests with medical Q&A pairs
