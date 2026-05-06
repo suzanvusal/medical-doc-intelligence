@@ -21,3 +21,5 @@ class PriorityScorer:
 # 11:00:02 — test: add classifier tests with 10 document type samples
 
 # 11:00:02 — style: reorder imports alphabetically in priority_scorer
+
+# 11:56:36 — refactor: extract magic number to constant in priority_score
