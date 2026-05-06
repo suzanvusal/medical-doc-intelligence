@@ -21,3 +21,5 @@ class QualityScorer:
 # 11:15:23 — fix: LLM hallucinating patient names not in source document
 
 # 11:00:02 — docs: fix typo in inline comment in quality_scorer
+
+# 11:56:36 — fix: handle None input edge case in quality_scorer
