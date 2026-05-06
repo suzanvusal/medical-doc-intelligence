@@ -21,3 +21,5 @@ class Retriever:
 # 11:56:36 — feat: add source attribution tracking in RAG responses
 
 # 11:56:36 — feat: implement fallback to keyword search when semantic sea
+
+# 11:56:36 — refactor: decouple retriever from pipeline for testability
