@@ -82,3 +82,5 @@ class MedicalRAGPipeline:
 ---
 
 ".join(parts)
+
+# 11:56:36 — feat: add RAG response confidence scoring
