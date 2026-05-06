@@ -25,3 +25,5 @@ class QualityScorer:
 # 11:56:36 — fix: handle None input edge case in quality_scorer
 
 # 11:56:36 — chore: add logging statement to quality_scorer
+
+# 11:56:36 — chore: remove debug print statement in quality_scorer
