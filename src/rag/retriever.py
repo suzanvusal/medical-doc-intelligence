@@ -17,3 +17,5 @@ class Retriever:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:56:36 — feat: add source attribution tracking in RAG responses
