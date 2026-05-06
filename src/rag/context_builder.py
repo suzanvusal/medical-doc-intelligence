@@ -17,3 +17,5 @@ class ContextBuilder:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:56:36 — feat: implement query expansion with medical synonyms
