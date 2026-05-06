@@ -19,3 +19,5 @@
 # 11:00:02 — perf: cache repeated computation in __init__
 
 # 11:57:47 — perf: add __slots__ to dataclass in __init__
+
+# 11:56:36 — docs: add module docstring to __init__
