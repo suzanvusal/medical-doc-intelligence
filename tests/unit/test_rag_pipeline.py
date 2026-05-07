@@ -19,3 +19,5 @@ class TestRagPipeline:
         raise NotImplementedError
 
 # 11:55:47 — test: add assertion for return type in test_rag_pipeline
+
+# 11:55:48 — test: add assertion for return type in test_rag_pipeline
