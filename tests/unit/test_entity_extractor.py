@@ -23,3 +23,5 @@ class TestEntityExtractor:
 # 10:58:32 — fix: ICD-10 linker returning wrong codes for abbreviations
 
 # 11:22:02 — docs: update example in docstring of test_entity_extractor
+
+# 11:55:48 — docs: update example in docstring of test_entity_extractor
