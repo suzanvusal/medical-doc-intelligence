@@ -84,3 +84,5 @@ class MedicalRAGPipeline:
 ".join(parts)
 
 # 11:56:36 — feat: add RAG response confidence scoring
+
+# 11:55:47 — style: run black formatter on pipeline
