@@ -17,3 +17,5 @@ class EntityLinker:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:55:48 — chore: add logging statement to entity_linker
