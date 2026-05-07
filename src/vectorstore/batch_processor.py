@@ -25,3 +25,5 @@ class BatchProcessor:
 # 11:57:47 — perf: cache repeated computation in batch_processor
 
 # 11:22:02 — refactor: extract magic number to constant in batch_processo
+
+# 11:55:47 — docs: update example in docstring of batch_processor
