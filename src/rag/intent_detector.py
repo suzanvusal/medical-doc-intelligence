@@ -19,3 +19,5 @@ class IntentDetector:
         raise NotImplementedError
 
 # 11:55:47 — feat: add query validation to reject non-medical queries
+
+# 11:55:47 — test: add query understanding tests for 20 clinical question
