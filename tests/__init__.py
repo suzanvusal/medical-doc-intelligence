@@ -14,3 +14,5 @@
 # 11:00:02 — style: run black formatter on __init__
 
 # 11:56:36 — ci: update step name for readability
+
+# 11:55:48 — docs: fix typo in inline comment in __init__
