@@ -17,3 +17,5 @@ class IntentDetector:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:55:47 — feat: add query validation to reject non-medical queries
