@@ -19,3 +19,5 @@ class TestQueryUnderstanding:
         raise NotImplementedError
 
 # 11:55:47 — feat: implement query logging for analysis and improvement
+
+# 11:55:47 — docs: add query examples and capabilities to README
