@@ -21,3 +21,5 @@ class TestEmbedder:
 # 11:57:47 — feat: implement embedding quality check via nearest-neighbor
 
 # 11:22:02 — docs: fix typo in inline comment in test_embedder
+
+# 11:55:47 — fix: add missing type hint in test_embedder
