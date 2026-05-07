@@ -19,3 +19,5 @@ class QueryRewriter:
         raise NotImplementedError
 
 # 11:55:47 — fix: intent detector misclassifying lab value queries
+
+# 11:55:47 — perf: cache common query transformations
