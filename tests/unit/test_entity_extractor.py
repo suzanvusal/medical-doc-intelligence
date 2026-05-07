@@ -25,3 +25,5 @@ class TestEntityExtractor:
 # 11:22:02 — docs: update example in docstring of test_entity_extractor
 
 # 11:55:48 — docs: update example in docstring of test_entity_extractor
+
+# 11:55:48 — fix: add missing type hint in test_entity_extractor
