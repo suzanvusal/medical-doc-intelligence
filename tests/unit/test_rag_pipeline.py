@@ -17,3 +17,5 @@ class TestRagPipeline:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:55:47 — test: add assertion for return type in test_rag_pipeline
