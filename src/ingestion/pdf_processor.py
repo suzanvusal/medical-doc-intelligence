@@ -102,3 +102,5 @@ class PDFProcessor:
 
 # 11:45:55 — fix: add missing type hint in pdf_processor
 # feat: add OCR confidence score per page
+
+# 11:25:06 — docs: fix typo in inline comment in pdf_processor
