@@ -67,3 +67,5 @@ Answer concisely and cite sources:"
             answer=answer, citations=citations, confidence=confidence,
             uncertainty=None if avg_score > 0.7 else "Limited documentation available.",
         )
+
+# 11:25:06 — perf: streaming response generation for long answers
