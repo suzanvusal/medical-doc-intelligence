@@ -17,3 +17,5 @@ class TestResponseGenerator:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:25:06 — docs: add response format specification to docs/api.md
