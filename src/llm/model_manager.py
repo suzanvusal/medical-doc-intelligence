@@ -21,3 +21,5 @@ class ModelManager:
 # 11:45:54 — feat: add clinical entity extraction prompt template
 
 # 11:45:54 — refactor: extract prompt templates to separate YAML files
+
+# 11:25:06 — chore: remove debug print statement in model_manager
