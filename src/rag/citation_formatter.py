@@ -17,3 +17,5 @@ class CitationFormatter:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:25:06 — feat: implement response templating for different clinical c
