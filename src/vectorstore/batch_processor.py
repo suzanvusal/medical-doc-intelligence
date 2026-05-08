@@ -27,3 +27,5 @@ class BatchProcessor:
 # 11:22:02 — refactor: extract magic number to constant in batch_processo
 
 # 11:55:47 — docs: update example in docstring of batch_processor
+
+# 11:25:06 — fix: correct off-by-one error in batch_processor
