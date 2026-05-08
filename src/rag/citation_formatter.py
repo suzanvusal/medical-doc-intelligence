@@ -19,3 +19,5 @@ class CitationFormatter:
         raise NotImplementedError
 
 # 11:25:06 — feat: implement response templating for different clinical c
+
+# 11:25:06 — test: add response generation tests with known ground truth 
