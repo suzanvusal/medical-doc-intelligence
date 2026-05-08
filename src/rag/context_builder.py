@@ -25,3 +25,5 @@ class ContextBuilder:
 # 11:56:36 — fix: context window overflow on long retrieved chunks
 
 # 11:55:48 — chore: add logging statement to context_builder
+
+# 11:25:06 — test: add assertion for return type in context_builder
