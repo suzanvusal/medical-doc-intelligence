@@ -5,3 +5,5 @@
 # 11:57:47 — chore: remove debug print statement in __init__
 
 # 11:56:36 — perf: add __slots__ to dataclass in __init__
+
+# 11:25:06 — docs: update example in docstring of __init__
