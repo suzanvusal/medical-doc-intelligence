@@ -89,3 +89,5 @@ class MedicalSummarizer:
 # 11:15:23 — perf: implement async summarization with asyncio.gather
 
 # 11:57:47 — docs: fix typo in inline comment in summarizer
+
+# 11:25:06 — fix: add missing type hint in summarizer
