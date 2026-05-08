@@ -71,3 +71,5 @@ class MedicalQueryParser:
             if m:
                 return m.group()
         return None
+
+# 11:25:06 — style: run black formatter on query_understanding
