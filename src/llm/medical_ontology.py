@@ -29,3 +29,5 @@ class MedicalOntology:
 # 11:00:02 — fix: handle None input edge case in medical_ontology
 
 # 11:57:47 — refactor: extract magic number to constant in medical_ontolo
+
+# 11:25:06 — docs: add module docstring to medical_ontology
