@@ -19,3 +19,5 @@ class Bm25Index:
         raise NotImplementedError
 
 # 11:03:54 — feat: implement search analytics logging
+
+# 11:03:54 — feat: add search result explanation (why this result matched
