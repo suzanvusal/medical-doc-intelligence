@@ -17,3 +17,5 @@ class RelevanceRanker:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:03:54 — fix: BM25 index not updating on new document ingestion
