@@ -17,3 +17,5 @@ class TestHybridSearcher:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:03:54 — feat: add search result pagination with cursor-based navigat
