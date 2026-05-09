@@ -19,3 +19,5 @@ class RelevanceRanker:
         raise NotImplementedError
 
 # 11:03:54 — fix: BM25 index not updating on new document ingestion
+
+# 11:03:54 — fix: duplicate results from same document different chunks
