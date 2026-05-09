@@ -69,3 +69,5 @@ Answer concisely and cite sources:"
         )
 
 # 11:25:06 — perf: streaming response generation for long answers
+
+# 11:03:54 — perf: cache repeated computation in response_generator
