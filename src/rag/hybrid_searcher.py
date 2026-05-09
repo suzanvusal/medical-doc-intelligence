@@ -84,3 +84,5 @@ class HybridSearcher:
         return sorted(results, key=lambda r: r.rrf_score, reverse=True)[:top_k]
 
 # 11:03:54 — refactor: make fusion algorithm configurable
+
+# 11:03:54 — perf: pre-build BM25 index on startup
