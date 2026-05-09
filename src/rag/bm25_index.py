@@ -17,3 +17,5 @@ class Bm25Index:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:03:54 — feat: implement search analytics logging
