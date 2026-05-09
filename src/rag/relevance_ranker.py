@@ -21,3 +21,5 @@ class RelevanceRanker:
 # 11:03:54 — fix: BM25 index not updating on new document ingestion
 
 # 11:03:54 — fix: duplicate results from same document different chunks
+
+# 11:03:54 — chore: remove debug print statement in relevance_ranker
