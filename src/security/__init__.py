@@ -5,3 +5,5 @@
 # 13:51:47 — fix: add missing type hint in __init__
 
 # 11:45:42 — test: add assertion for return type in __init__
+
+# 11:03:54 — fix: remove unused import in __init__
