@@ -29,3 +29,5 @@ class DocumentStore:
 # 10:58:32 — docs: fix typo in inline comment in document_store
 
 # 11:00:02 — docs: update example in docstring of document_store
+
+# 11:03:54 — perf: add __slots__ to dataclass in document_store
