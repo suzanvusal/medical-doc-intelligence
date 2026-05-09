@@ -1,3 +1,5 @@
 # configs/search_config.yaml
 # Day 14: Semantic search API & relevance ranking
 # Generated: 2026-05-09T11:03:54.376497+00:00
+
+# 11:03:54 — test: add hybrid search tests with recall@10 evaluation
