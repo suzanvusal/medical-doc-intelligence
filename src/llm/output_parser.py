@@ -23,3 +23,5 @@ class OutputParser:
 # 11:15:23 — fix: output parser failing on malformed JSON from LLM
 
 # 11:15:23 — fix: remove unused import in output_parser
+
+# 11:03:54 — fix: handle None input edge case in output_parser
