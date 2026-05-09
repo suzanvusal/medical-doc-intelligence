@@ -73,3 +73,5 @@ class MedicalQueryParser:
         return None
 
 # 11:25:06 — style: run black formatter on query_understanding
+
+# 11:03:54 — docs: update example in docstring of query_understanding
