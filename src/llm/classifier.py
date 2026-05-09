@@ -68,3 +68,5 @@ class MedicalDocumentClassifier:
 # 11:00:02 — chore: remove debug print statement in classifier
 
 # 11:25:06 — chore: day 13 maintenance sweep
+
+# 11:03:54 — perf: add __slots__ to dataclass in classifier
