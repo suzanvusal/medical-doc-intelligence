@@ -82,3 +82,5 @@ class SessionManager:
                       self._ttl, json.dumps(data))
 
 # 11:05:49 — feat: add session analytics for usage patterns
+
+# 11:05:49 — feat: implement session export to PDF report
