@@ -17,3 +17,5 @@ class ContextCompressor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:05:49 — fix: context compression losing critical medical information
