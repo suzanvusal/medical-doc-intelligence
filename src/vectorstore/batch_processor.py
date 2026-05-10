@@ -29,3 +29,5 @@ class BatchProcessor:
 # 11:55:47 — docs: update example in docstring of batch_processor
 
 # 11:25:06 — fix: correct off-by-one error in batch_processor
+
+# 11:05:49 — chore: add logging statement to batch_processor
