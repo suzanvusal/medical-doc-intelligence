@@ -21,3 +21,5 @@
 # 11:57:47 — perf: add __slots__ to dataclass in __init__
 
 # 11:56:36 — docs: add module docstring to __init__
+
+# 11:05:49 — docs: fix typo in inline comment in __init__
