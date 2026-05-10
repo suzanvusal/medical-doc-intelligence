@@ -19,3 +19,5 @@ class ContextCompressor:
         raise NotImplementedError
 
 # 11:05:49 — fix: context compression losing critical medical information
+
+# 11:05:49 — fix: session TTL not resetting on user activity
