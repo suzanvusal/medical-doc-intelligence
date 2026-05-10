@@ -22,3 +22,5 @@
 # 11:22:02 — style: reorder imports alphabetically in __init__
 
 # 11:22:02 — chore: remove debug print statement in __init__
+
+# 11:05:49 — fix: handle None input edge case in __init__
