@@ -67,3 +67,5 @@ class MedicalPreprocessor:
 # 11:15:23 — fix: remove unused import in preprocessor
 
 # 11:25:06 — style: reorder imports alphabetically in preprocessor
+
+# 11:05:49 — docs: fix typo in inline comment in preprocessor
