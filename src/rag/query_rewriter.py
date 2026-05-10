@@ -23,3 +23,5 @@ class QueryRewriter:
 # 11:55:47 — perf: cache common query transformations
 
 # 11:03:54 — style: reorder imports alphabetically in query_rewriter
+
+# 11:05:49 — fix: correct off-by-one error in query_rewriter
