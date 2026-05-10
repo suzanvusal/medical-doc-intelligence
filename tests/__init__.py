@@ -18,3 +18,5 @@
 # 11:55:48 — docs: fix typo in inline comment in __init__
 
 # 11:03:54 — style: reorder imports alphabetically in __init__
+
+# 11:05:49 — chore: add logging statement to __init__
