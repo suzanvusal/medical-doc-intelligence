@@ -23,3 +23,5 @@ class IntentDetector:
 # 11:55:47 — test: add query understanding tests for 20 clinical question
 
 # 11:55:47 — fix: add missing type hint in intent_detector
+
+# 11:05:49 — fix: handle None input edge case in intent_detector
