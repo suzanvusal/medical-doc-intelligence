@@ -84,3 +84,5 @@ class SessionManager:
 # 11:05:49 — feat: add session analytics for usage patterns
 
 # 11:05:49 — feat: implement session export to PDF report
+
+# 11:05:49 — refactor: separate session state from conversation logic
