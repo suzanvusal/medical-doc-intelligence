@@ -80,3 +80,5 @@ class SessionManager:
         }
         self._r.setex(_KEY.format(session_id=session.session_id),
                       self._ttl, json.dumps(data))
+
+# 11:05:49 — feat: add session analytics for usage patterns
