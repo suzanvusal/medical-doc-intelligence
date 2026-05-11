@@ -17,3 +17,5 @@ class Query:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:44:42 — refactor: separate route handlers from business logic
