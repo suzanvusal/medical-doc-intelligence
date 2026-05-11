@@ -91,3 +91,5 @@ class MedicalSummarizer:
 # 11:57:47 — docs: fix typo in inline comment in summarizer
 
 # 11:25:06 — fix: add missing type hint in summarizer
+
+# 12:44:42 — chore: add logging statement to summarizer
