@@ -77,3 +77,5 @@ class MedicalQueryParser:
 # 11:03:54 — docs: update example in docstring of query_understanding
 
 # 11:03:54 — fix: handle None input edge case in query_understanding
+
+# 12:44:42 — chore: add logging statement to query_understanding
