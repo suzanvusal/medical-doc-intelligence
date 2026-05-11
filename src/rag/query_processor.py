@@ -17,3 +17,5 @@ class QueryProcessor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:44:42 — perf: add __slots__ to dataclass in query_processor
