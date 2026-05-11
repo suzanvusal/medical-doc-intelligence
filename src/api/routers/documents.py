@@ -19,3 +19,5 @@ class Documents:
         raise NotImplementedError
 
 # 12:44:42 — feat: add response pagination for document listing
+
+# 12:44:42 — feat: add API key authentication middleware
