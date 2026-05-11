@@ -17,3 +17,5 @@ class Documents:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:44:42 — feat: add response pagination for document listing
