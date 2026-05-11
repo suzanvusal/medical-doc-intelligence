@@ -23,3 +23,5 @@ class Documents:
 # 12:44:42 — feat: add API key authentication middleware
 
 # 12:44:42 — fix: file upload size limit too small for large radiology re
+
+# 12:44:42 — fix: query endpoint timeout on complex multi-hop queries
