@@ -25,3 +25,5 @@ class DocumentRouter:
 # 11:00:02 — perf: batch classification for multiple documents simultaneo
 
 # 11:22:02 — fix: handle None input edge case in document_router
+
+# 12:44:42 — style: reorder imports alphabetically in document_router
