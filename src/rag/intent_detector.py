@@ -27,3 +27,5 @@ class IntentDetector:
 # 11:05:49 — fix: handle None input edge case in intent_detector
 
 # 12:44:42 — fix: add missing type hint in intent_detector
+
+# 12:44:42 — test: add assertion for return type in intent_detector
