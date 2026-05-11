@@ -17,3 +17,5 @@ class TestApi:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:44:42 — feat: implement request validation with Pydantic v2
