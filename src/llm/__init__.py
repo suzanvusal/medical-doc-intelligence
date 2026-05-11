@@ -11,3 +11,5 @@
 # 10:58:32 — test: add assertion for return type in __init__
 
 # 11:22:02 — fix: remove unused import in __init__
+
+# 12:44:42 — chore: add logging statement to __init__
