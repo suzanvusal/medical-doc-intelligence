@@ -19,3 +19,5 @@ class QueryProcessor:
         raise NotImplementedError
 
 # 12:44:42 — perf: add __slots__ to dataclass in query_processor
+
+# 12:44:42 — docs: update example in docstring of query_processor
