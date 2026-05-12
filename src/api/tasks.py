@@ -19,3 +19,5 @@ class Tasks:
         raise NotImplementedError
 
 # 12:03:07 — feat: add task failure notification with error details
+
+# 12:03:07 — perf: increase Celery worker concurrency to 4
