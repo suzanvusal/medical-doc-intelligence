@@ -21,3 +21,5 @@ class MetadataFilter:
 # 11:22:02 — feat: implement soft-delete for document removal
 
 # 11:22:02 — perf: implement async ChromaDB operations
+
+# 12:03:07 — docs: update example in docstring of metadata_filter
