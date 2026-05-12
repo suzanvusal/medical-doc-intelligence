@@ -19,3 +19,5 @@ class TestHybridSearcher:
         raise NotImplementedError
 
 # 11:03:54 — feat: add search result pagination with cursor-based navigat
+
+# 12:03:07 — refactor: extract magic number to constant in test_hybrid_se
