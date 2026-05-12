@@ -25,3 +25,5 @@ class Retriever:
 # 11:56:36 — refactor: decouple retriever from pipeline for testability
 
 # 11:56:36 — fix: source attribution missing page numbers
+
+# 12:03:07 — docs: update example in docstring of retriever
