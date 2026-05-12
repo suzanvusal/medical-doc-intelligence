@@ -86,3 +86,5 @@ class ExtractionResult(BaseModel):
 # 10:58:32 — refactor: extract magic number to constant in schemas
 
 # 11:05:49 — perf: cache repeated computation in schemas
+
+# 12:03:07 — refactor: rename variable for clarity in schemas
