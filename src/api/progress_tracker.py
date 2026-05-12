@@ -17,3 +17,5 @@ class ProgressTracker:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:03:07 — feat: implement dead-letter queue for failed processing task
