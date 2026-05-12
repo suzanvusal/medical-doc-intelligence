@@ -23,3 +23,5 @@ class ProgressTracker:
 # 12:03:07 — fix: Celery worker crashing on PDF with embedded fonts
 
 # 12:03:07 — fix: progress tracker not clearing on task completion
+
+# 12:03:07 — docs: fix typo in inline comment in progress_tracker
