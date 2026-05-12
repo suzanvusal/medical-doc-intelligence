@@ -17,3 +17,5 @@ class TaskManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:03:07 — feat: add task execution metrics to Prometheus
