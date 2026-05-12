@@ -19,3 +19,5 @@ class ProgressTracker:
         raise NotImplementedError
 
 # 12:03:07 — feat: implement dead-letter queue for failed processing task
+
+# 12:03:07 — fix: Celery worker crashing on PDF with embedded fonts
