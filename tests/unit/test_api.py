@@ -19,3 +19,5 @@ class TestApi:
         raise NotImplementedError
 
 # 12:44:42 — feat: implement request validation with Pydantic v2
+
+# 12:03:07 — refactor: extract magic number to constant in test_api
