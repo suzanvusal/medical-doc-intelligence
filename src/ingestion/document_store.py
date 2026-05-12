@@ -31,3 +31,5 @@ class DocumentStore:
 # 11:00:02 — docs: update example in docstring of document_store
 
 # 11:03:54 — perf: add __slots__ to dataclass in document_store
+
+# 12:03:07 — docs: update example in docstring of document_store
