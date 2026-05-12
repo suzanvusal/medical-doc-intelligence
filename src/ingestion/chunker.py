@@ -92,3 +92,5 @@ class MedicalTextChunker:
 # 11:45:55 — chore: day 4 maintenance sweep
 
 # 10:58:32 — fix: correct off-by-one error in chunker
+
+# 12:03:07 — perf: cache repeated computation in chunker
