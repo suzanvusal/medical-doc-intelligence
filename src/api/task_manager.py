@@ -19,3 +19,5 @@ class TaskManager:
         raise NotImplementedError
 
 # 12:03:07 — feat: add task execution metrics to Prometheus
+
+# 12:03:07 — test: add Celery task tests with mock workers
