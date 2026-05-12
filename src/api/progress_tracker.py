@@ -21,3 +21,5 @@ class ProgressTracker:
 # 12:03:07 — feat: implement dead-letter queue for failed processing task
 
 # 12:03:07 — fix: Celery worker crashing on PDF with embedded fonts
+
+# 12:03:07 — fix: progress tracker not clearing on task completion
