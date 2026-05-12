@@ -23,3 +23,5 @@ class TestSummarizer:
 # 10:58:32 — chore: day 7 maintenance sweep
 
 # 11:03:54 — ci: update step name for readability
+
+# 12:03:07 — fix: correct off-by-one error in test_summarizer
