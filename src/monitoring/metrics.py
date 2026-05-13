@@ -19,3 +19,5 @@ class Metrics:
         raise NotImplementedError
 
 # 12:11:08 — feat: implement Grafana LLM performance dashboard
+
+# 12:11:08 — feat: add Prometheus alerting for ChromaDB disk usage
