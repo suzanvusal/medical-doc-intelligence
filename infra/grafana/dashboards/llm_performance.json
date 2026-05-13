@@ -5,3 +5,5 @@
 }
 
 # 12:11:08 — refactor: centralize metric registration in metrics.py
+
+# 12:11:08 — fix: Grafana dashboard not showing Ollama GPU metrics
