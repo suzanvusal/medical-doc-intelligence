@@ -17,3 +17,5 @@ class TestSessionManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:11:08 — ci: update step name for readability
