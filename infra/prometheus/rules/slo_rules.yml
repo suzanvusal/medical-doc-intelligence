@@ -1,3 +1,5 @@
 # infra/prometheus/rules/slo_rules.yml
 # Day 18: Monitoring dashboard & Prometheus metrics
 # Generated: 2026-05-13T12:11:08.393741+00:00
+
+# 12:11:08 — feat: add SLO alert rule: 95% queries under 5 seconds
