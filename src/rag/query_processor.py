@@ -21,3 +21,5 @@ class QueryProcessor:
 # 12:44:42 — perf: add __slots__ to dataclass in query_processor
 
 # 12:44:42 — docs: update example in docstring of query_processor
+
+# 12:11:08 — ci: update step name for readability
