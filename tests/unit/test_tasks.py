@@ -17,3 +17,5 @@ class TestTasks:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:11:08 — test: add assertion for return type in test_tasks
