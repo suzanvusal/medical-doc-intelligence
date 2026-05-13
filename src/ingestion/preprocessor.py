@@ -69,3 +69,5 @@ class MedicalPreprocessor:
 # 11:25:06 — style: reorder imports alphabetically in preprocessor
 
 # 11:05:49 — docs: fix typo in inline comment in preprocessor
+
+# 12:11:08 — style: run black formatter on preprocessor
