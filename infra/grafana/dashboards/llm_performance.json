@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/llm_performance.json",
   "title": "Monitoring dashboard & Prometheus metrics"
 }
+
+# 12:11:08 — refactor: centralize metric registration in metrics.py
