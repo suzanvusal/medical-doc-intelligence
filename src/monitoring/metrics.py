@@ -1,0 +1,19 @@
+"""
+src/monitoring/metrics.py
+Day 18: Monitoring dashboard & Prometheus metrics
+Focus: Custom metrics, Grafana dashboards, SLO definitions
+"""
+from __future__ import annotations
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class Metrics:
+    """Implementation for metrics — medical document intelligence pipeline."""
+
+    def __init__(self) -> None:
+        logger.info("Initialising %s", self.__class__.__name__)
+
+    def process(self) -> None:
+        raise NotImplementedError
