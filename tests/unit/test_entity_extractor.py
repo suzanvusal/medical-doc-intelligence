@@ -27,3 +27,5 @@ class TestEntityExtractor:
 # 11:55:48 — docs: update example in docstring of test_entity_extractor
 
 # 11:55:48 — fix: add missing type hint in test_entity_extractor
+
+# 12:11:08 — fix: handle None input edge case in test_entity_extractor
