@@ -17,3 +17,5 @@ class Metrics:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:11:08 — feat: implement Grafana LLM performance dashboard
