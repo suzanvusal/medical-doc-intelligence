@@ -69,3 +69,5 @@ def render(template_str: str, **kwargs) -> str:
 # 11:57:47 — fix: correct off-by-one error in prompt_templates
 
 # 11:56:36 — fix: remove unused import in prompt_templates
+
+# 11:58:31 — chore: add logging statement to prompt_templates
