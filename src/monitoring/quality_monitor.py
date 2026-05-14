@@ -21,3 +21,5 @@ class QualityMonitor:
 # 11:58:31 — feat: add quality score logging to PostgreSQL
 
 # 11:58:31 — feat: add per-document-type quality thresholds
+
+# 11:58:31 — fix: faithfulness checker false positives on numerical range
