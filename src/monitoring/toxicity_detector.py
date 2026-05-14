@@ -17,3 +17,5 @@ class ToxicityDetector:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:58:31 — refactor: make quality scorers pluggable via interface
