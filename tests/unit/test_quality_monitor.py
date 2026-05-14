@@ -17,3 +17,5 @@ class TestQualityMonitor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:58:31 — test: add quality monitor tests with known good and bad outp
