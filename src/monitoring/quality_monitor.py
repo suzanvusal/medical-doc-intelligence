@@ -19,3 +19,5 @@ class QualityMonitor:
         raise NotImplementedError
 
 # 11:58:31 — feat: add quality score logging to PostgreSQL
+
+# 11:58:31 — feat: add per-document-type quality thresholds
