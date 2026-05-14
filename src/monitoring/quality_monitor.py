@@ -23,3 +23,5 @@ class QualityMonitor:
 # 11:58:31 — feat: add per-document-type quality thresholds
 
 # 11:58:31 — fix: faithfulness checker false positives on numerical range
+
+# 11:58:31 — perf: run quality checks asynchronously post-response
