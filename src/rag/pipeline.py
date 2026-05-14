@@ -86,3 +86,5 @@ class MedicalRAGPipeline:
 # 11:56:36 — feat: add RAG response confidence scoring
 
 # 11:55:47 — style: run black formatter on pipeline
+
+# 11:58:31 — test: add assertion for return type in pipeline
