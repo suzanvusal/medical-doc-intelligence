@@ -17,3 +17,5 @@ class QualityMonitor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:58:31 — feat: add quality score logging to PostgreSQL
