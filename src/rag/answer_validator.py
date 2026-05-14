@@ -23,3 +23,5 @@ class AnswerValidator:
 # 11:25:06 — fix: validator false positives on numerical lab values
 
 # 12:03:07 — docs: fix typo in inline comment in answer_validator
+
+# 11:58:31 — test: add assertion for return type in answer_validator
