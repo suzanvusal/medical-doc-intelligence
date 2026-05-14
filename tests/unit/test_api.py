@@ -21,3 +21,5 @@ class TestApi:
 # 12:44:42 — feat: implement request validation with Pydantic v2
 
 # 12:03:07 — refactor: extract magic number to constant in test_api
+
+# 11:58:31 — chore: remove debug print statement in test_api
