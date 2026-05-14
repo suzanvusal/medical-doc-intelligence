@@ -17,3 +17,5 @@ class TestChromaStore:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:58:31 — chore: remove debug print statement in test_chroma_store
