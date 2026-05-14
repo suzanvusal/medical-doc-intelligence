@@ -83,3 +83,5 @@ class ClinicalEntityExtractor:
 # 10:58:32 — perf: cache ontology lookups in Redis
 
 # 11:57:47 — docs: add module docstring to entity_extractor
+
+# 11:58:31 — style: reorder imports alphabetically in entity_extractor
