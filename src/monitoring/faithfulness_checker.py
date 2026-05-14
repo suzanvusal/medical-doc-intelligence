@@ -17,3 +17,5 @@ class FaithfulnessChecker:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:58:31 — feat: implement quality degradation alert (score drops 10%)
