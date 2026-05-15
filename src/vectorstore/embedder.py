@@ -51,3 +51,5 @@ class MedicalEmbedder:
 # 11:57:47 — refactor: rename variable for clarity in embedder
 
 # 12:11:08 — chore: remove debug print statement in embedder
+
+# 12:00:38 — refactor: rename variable for clarity in embedder
