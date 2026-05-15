@@ -23,3 +23,5 @@ class ModelManager:
 # 11:45:54 — refactor: extract prompt templates to separate YAML files
 
 # 11:25:06 — chore: remove debug print statement in model_manager
+
+# 12:00:38 — fix: add missing type hint in model_manager
