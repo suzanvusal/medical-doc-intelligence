@@ -88,3 +88,5 @@ class ExtractionResult(BaseModel):
 # 11:05:49 — perf: cache repeated computation in schemas
 
 # 12:03:07 — refactor: rename variable for clarity in schemas
+
+# 12:00:38 — perf: add __slots__ to dataclass in schemas
