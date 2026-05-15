@@ -19,3 +19,5 @@ class ClaimExtractor:
         raise NotImplementedError
 
 # 12:00:38 — feat: add hallucination rate dashboard in Grafana
+
+# 12:00:38 — feat: add hallucination audit log for model improvement
