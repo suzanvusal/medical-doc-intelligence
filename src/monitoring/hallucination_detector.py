@@ -21,3 +21,5 @@ class HallucinationDetector:
 # 12:00:38 — refactor: decouple claim extraction from verification
 
 # 12:00:38 — perf: batch claim verification for efficiency
+
+# 12:00:38 — fix: handle None input edge case in hallucination_detector
