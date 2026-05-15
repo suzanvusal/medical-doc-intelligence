@@ -94,3 +94,5 @@ class MedicalTextChunker:
 # 10:58:32 — fix: correct off-by-one error in chunker
 
 # 12:03:07 — perf: cache repeated computation in chunker
+
+# 12:00:38 — perf: add __slots__ to dataclass in chunker
