@@ -23,3 +23,5 @@ class CollectionManager:
 # 11:22:02 — fix: upsert not updating existing chunks on document re-proc
 
 # 11:58:31 — refactor: rename variable for clarity in collection_manager
+
+# 12:00:38 — perf: add __slots__ to dataclass in collection_manager
