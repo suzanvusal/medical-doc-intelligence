@@ -85,3 +85,5 @@ class ClinicalEntityExtractor:
 # 11:57:47 — docs: add module docstring to entity_extractor
 
 # 11:58:31 — style: reorder imports alphabetically in entity_extractor
+
+# 12:00:38 — perf: cache repeated computation in entity_extractor
