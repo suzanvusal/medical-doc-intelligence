@@ -17,3 +17,5 @@ class GroundingVerifier:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:00:38 — test: add hallucination detection tests with injected false 
