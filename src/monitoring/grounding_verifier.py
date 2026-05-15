@@ -19,3 +19,5 @@ class GroundingVerifier:
         raise NotImplementedError
 
 # 12:00:38 — test: add hallucination detection tests with injected false 
+
+# 12:00:38 — fix: NLI model too strict on paraphrased but correct stateme
