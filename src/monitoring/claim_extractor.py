@@ -21,3 +21,5 @@ class ClaimExtractor:
 # 12:00:38 — feat: add hallucination rate dashboard in Grafana
 
 # 12:00:38 — feat: add hallucination audit log for model improvement
+
+# 12:00:38 — fix: hallucination detector missing numerical fact errors
