@@ -19,3 +19,5 @@ class HallucinationDetector:
         raise NotImplementedError
 
 # 12:00:38 — refactor: decouple claim extraction from verification
+
+# 12:00:38 — perf: batch claim verification for efficiency
