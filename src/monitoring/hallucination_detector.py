@@ -17,3 +17,5 @@ class HallucinationDetector:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:00:38 — refactor: decouple claim extraction from verification
