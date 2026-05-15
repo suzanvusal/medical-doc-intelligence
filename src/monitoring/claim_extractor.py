@@ -17,3 +17,5 @@ class ClaimExtractor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:00:38 — feat: add hallucination rate dashboard in Grafana
