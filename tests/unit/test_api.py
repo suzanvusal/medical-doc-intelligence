@@ -23,3 +23,5 @@ class TestApi:
 # 12:03:07 — refactor: extract magic number to constant in test_api
 
 # 11:58:31 — chore: remove debug print statement in test_api
+
+# 12:00:38 — chore: add logging statement to test_api
