@@ -19,3 +19,5 @@ class PromptSensitivity:
         raise NotImplementedError
 
 # 11:08:25 — feat: add drift severity classification and alert routing
+
+# 11:08:25 — test: add drift detection tests with simulated quality degra
