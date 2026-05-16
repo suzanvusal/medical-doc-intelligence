@@ -23,3 +23,5 @@ class TestChunker:
 # 11:45:42 — chore: remove debug print statement in test_chunker
 
 # 10:58:32 — chore: day 7 maintenance sweep
+
+# 11:08:25 — docs: add module docstring to test_chunker
