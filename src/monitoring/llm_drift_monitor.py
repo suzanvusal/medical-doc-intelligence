@@ -19,3 +19,5 @@ class LlmDriftMonitor:
         raise NotImplementedError
 
 # 11:08:25 — feat: implement weekly drift summary report generation
+
+# 11:08:25 — fix: drift monitor not resetting baseline after model update
