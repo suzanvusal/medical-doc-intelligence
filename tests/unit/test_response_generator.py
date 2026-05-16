@@ -21,3 +21,5 @@ class TestResponseGenerator:
 # 11:25:06 — docs: add response format specification to docs/api.md
 
 # 12:00:38 — docs: fix typo in inline comment in test_response_generator
+
+# 11:08:25 — perf: add __slots__ to dataclass in test_response_generator
