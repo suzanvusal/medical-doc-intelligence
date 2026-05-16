@@ -3,3 +3,5 @@
 # Generated: 2026-05-16T11:08:25.607996+00:00
 
 # 11:08:25 — refactor: extract drift metrics to shared monitoring module
+
+# 11:08:25 — perf: compute drift scores in background thread
