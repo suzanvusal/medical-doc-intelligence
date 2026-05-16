@@ -31,3 +31,5 @@ class MedicalOntology:
 # 11:57:47 — refactor: extract magic number to constant in medical_ontolo
 
 # 11:25:06 — docs: add module docstring to medical_ontology
+
+# 11:08:25 — style: reorder imports alphabetically in medical_ontology
