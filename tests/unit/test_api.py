@@ -25,3 +25,5 @@ class TestApi:
 # 11:58:31 — chore: remove debug print statement in test_api
 
 # 12:00:38 — chore: add logging statement to test_api
+
+# 11:08:25 — docs: add module docstring to test_api
