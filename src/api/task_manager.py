@@ -23,3 +23,5 @@ class TaskManager:
 # 12:03:07 — test: add Celery task tests with mock workers
 
 # 12:03:07 — refactor: move task logic to dedicated processor classes
+
+# 11:08:25 — style: run black formatter on task_manager
