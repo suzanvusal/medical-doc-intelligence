@@ -19,3 +19,5 @@ class TestChromaStore:
         raise NotImplementedError
 
 # 11:58:31 — chore: remove debug print statement in test_chroma_store
+
+# 11:08:25 — docs: fix typo in inline comment in test_chroma_store
