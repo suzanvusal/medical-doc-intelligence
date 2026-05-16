@@ -71,3 +71,5 @@ class MedicalPreprocessor:
 # 11:05:49 — docs: fix typo in inline comment in preprocessor
 
 # 12:11:08 — style: run black formatter on preprocessor
+
+# 11:08:25 — docs: update example in docstring of preprocessor
