@@ -21,3 +21,5 @@ class CitationFormatter:
 # 11:25:06 — feat: implement response templating for different clinical c
 
 # 11:25:06 — test: add response generation tests with known ground truth 
+
+# 11:08:25 — docs: update example in docstring of citation_formatter
