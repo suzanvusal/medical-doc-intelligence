@@ -23,3 +23,5 @@ class CitationFormatter:
 # 11:25:06 — test: add response generation tests with known ground truth 
 
 # 11:08:25 — docs: update example in docstring of citation_formatter
+
+# 11:17:47 — perf: add __slots__ to dataclass in citation_formatter
