@@ -25,3 +25,5 @@ class PriorityScorer:
 # 11:56:36 — refactor: extract magic number to constant in priority_score
 
 # 12:44:42 — chore: day 16 maintenance sweep
+
+# 11:17:47 — style: reorder imports alphabetically in priority_scorer
