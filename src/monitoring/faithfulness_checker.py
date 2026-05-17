@@ -19,3 +19,5 @@ class FaithfulnessChecker:
         raise NotImplementedError
 
 # 11:58:31 — feat: implement quality degradation alert (score drops 10%)
+
+# 11:17:47 — chore: add logging statement to faithfulness_checker
