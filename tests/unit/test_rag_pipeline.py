@@ -23,3 +23,5 @@ class TestRagPipeline:
 # 11:55:48 — test: add assertion for return type in test_rag_pipeline
 
 # 12:11:08 — docs: fix typo in inline comment in test_rag_pipeline
+
+# 11:17:47 — ci: update step name for readability
