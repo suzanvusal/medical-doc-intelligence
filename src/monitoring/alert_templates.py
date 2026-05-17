@@ -17,3 +17,5 @@ class AlertTemplates:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:17:47 — test: add mock Slack webhook tests for all alert types
