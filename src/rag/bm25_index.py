@@ -21,3 +21,5 @@ class Bm25Index:
 # 11:03:54 — feat: implement search analytics logging
 
 # 11:03:54 — feat: add search result explanation (why this result matched
+
+# 11:17:47 — fix: remove unused import in bm25_index
