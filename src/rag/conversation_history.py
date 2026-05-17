@@ -17,3 +17,5 @@ class ConversationHistory:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:17:47 — docs: add module docstring to conversation_history
