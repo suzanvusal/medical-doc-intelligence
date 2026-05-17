@@ -19,3 +19,5 @@ class TestQualityMonitor:
         raise NotImplementedError
 
 # 11:58:31 — test: add quality monitor tests with known good and bad outp
+
+# 11:17:47 — test: add assertion for return type in test_quality_monitor
