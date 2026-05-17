@@ -21,3 +21,5 @@ class Tasks:
 # 12:03:07 — feat: add task failure notification with error details
 
 # 12:03:07 — perf: increase Celery worker concurrency to 4
+
+# 11:17:47 — chore: remove debug print statement in tasks
