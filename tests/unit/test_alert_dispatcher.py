@@ -17,3 +17,5 @@ class TestAlertDispatcher:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:17:47 — refactor: move alert templates to Jinja2
