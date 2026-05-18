@@ -17,3 +17,5 @@ class Conftest:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 13:54:02 — ci: add integration test step to CI pipeline on main branch
