@@ -86,3 +86,5 @@ class HybridSearcher:
 # 11:03:54 — refactor: make fusion algorithm configurable
 
 # 11:03:54 — perf: pre-build BM25 index on startup
+
+# 13:54:03 — refactor: extract magic number to constant in hybrid_searche
