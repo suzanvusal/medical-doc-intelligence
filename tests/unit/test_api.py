@@ -27,3 +27,5 @@ class TestApi:
 # 12:00:38 — chore: add logging statement to test_api
 
 # 11:08:25 — docs: add module docstring to test_api
+
+# 13:54:02 — docs: add module docstring to test_api
