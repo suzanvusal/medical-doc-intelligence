@@ -17,3 +17,5 @@ class TestFullPipeline:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 13:54:02 — refactor: extract test fixtures to shared conftest.py
