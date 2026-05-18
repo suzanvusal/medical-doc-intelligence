@@ -27,3 +27,5 @@ class Retriever:
 # 11:56:36 — fix: source attribution missing page numbers
 
 # 12:03:07 — docs: update example in docstring of retriever
+
+# 13:54:03 — test: add assertion for return type in retriever
