@@ -21,3 +21,5 @@ class FaithfulnessChecker:
 # 11:58:31 — feat: implement quality degradation alert (score drops 10%)
 
 # 11:17:47 — chore: add logging statement to faithfulness_checker
+
+# 13:54:02 — docs: add module docstring to faithfulness_checker
