@@ -56,3 +56,5 @@ async def test_rag_includes_citations(mock_ollama, mock_store, mock_embedder):
     result   = await pipeline.query("What medications is the patient on?")
     assert len(result.citations) > 0
     assert "doc-1" in result.citations[0]
+
+# 13:54:02 — feat: add integration test report generation
