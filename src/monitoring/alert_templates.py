@@ -19,3 +19,5 @@ class AlertTemplates:
         raise NotImplementedError
 
 # 11:17:47 — test: add mock Slack webhook tests for all alert types
+
+# 13:54:02 — fix: handle None input edge case in alert_templates
