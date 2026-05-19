@@ -39,3 +39,5 @@ class MedicalDocUser(HttpUser):
     @task(1)
     def metrics_check(self):
         self.client.get("/metrics")
+
+# 12:47:24 — refactor: switch synchronous embedding calls to async
