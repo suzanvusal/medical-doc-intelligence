@@ -29,3 +29,5 @@ class TestOllamaClient:
 # 11:17:47 — chore: day 22 maintenance sweep
 
 # 13:54:02 — fix: add missing type hint in test_ollama_client
+
+# 12:47:24 — perf: cache repeated computation in test_ollama_client
