@@ -70,3 +70,5 @@ class MedicalDocumentClassifier:
 # 11:25:06 — chore: day 13 maintenance sweep
 
 # 11:03:54 — perf: add __slots__ to dataclass in classifier
+
+# 12:47:24 — test: add assertion for return type in classifier
