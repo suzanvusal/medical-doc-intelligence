@@ -19,3 +19,5 @@ class UploadLoad:
         raise NotImplementedError
 
 # 12:47:24 — docs: add performance benchmark results to docs/performance_
+
+# 12:47:24 — fix: memory leak in embedding cache under sustained load
