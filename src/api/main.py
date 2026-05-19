@@ -94,3 +94,5 @@ async def metrics():
     return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
 
 # 12:44:42 — feat: add request ID tracing for observability
+
+# 12:47:24 — fix: add missing type hint in main
