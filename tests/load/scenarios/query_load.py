@@ -17,3 +17,5 @@ class QueryLoad:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:47:24 — perf: profile and fix N+1 ChromaDB queries in RAG pipeline
