@@ -23,3 +23,5 @@ class FaithfulnessChecker:
 # 11:17:47 — chore: add logging statement to faithfulness_checker
 
 # 13:54:02 — docs: add module docstring to faithfulness_checker
+
+# 12:31:10 — perf: add __slots__ to dataclass in faithfulness_checker
