@@ -19,3 +19,5 @@ class AccessControl:
         raise NotImplementedError
 
 # 12:31:10 — feat: add API rate limiting per user role
+
+# 12:31:10 — feat: implement JWT authentication with short expiry
