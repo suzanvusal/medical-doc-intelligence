@@ -73,3 +73,5 @@ class MedicalPreprocessor:
 # 12:11:08 — style: run black formatter on preprocessor
 
 # 11:08:25 — docs: update example in docstring of preprocessor
+
+# 12:31:10 — refactor: rename variable for clarity in preprocessor
