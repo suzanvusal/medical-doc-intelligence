@@ -19,3 +19,5 @@ class TestTasks:
         raise NotImplementedError
 
 # 12:11:08 — test: add assertion for return type in test_tasks
+
+# 12:31:10 — perf: add __slots__ to dataclass in test_tasks
