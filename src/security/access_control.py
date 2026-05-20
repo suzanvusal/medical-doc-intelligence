@@ -17,3 +17,5 @@ class AccessControl:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:31:10 — feat: add API rate limiting per user role
