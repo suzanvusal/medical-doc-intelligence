@@ -21,3 +21,5 @@ class AccessControl:
 # 12:31:10 — feat: add API rate limiting per user role
 
 # 12:31:10 — feat: implement JWT authentication with short expiry
+
+# 12:31:10 — docs: add security architecture to docs/security.md
