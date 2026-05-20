@@ -21,3 +21,5 @@ class TestQueryUnderstanding:
 # 11:55:47 — feat: implement query logging for analysis and improvement
 
 # 11:55:47 — docs: add query examples and capabilities to README
+
+# 12:31:10 — chore: add logging statement to test_query_understanding
