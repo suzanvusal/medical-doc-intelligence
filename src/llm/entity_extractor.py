@@ -87,3 +87,5 @@ class ClinicalEntityExtractor:
 # 11:58:31 — style: reorder imports alphabetically in entity_extractor
 
 # 12:00:38 — perf: cache repeated computation in entity_extractor
+
+# 12:31:10 — fix: add missing type hint in entity_extractor
