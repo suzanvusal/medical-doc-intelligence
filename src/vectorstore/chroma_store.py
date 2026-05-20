@@ -90,3 +90,5 @@ class MedicalChromaStore:
 # 11:22:02 — refactor: abstract vector store behind VectorStoreInterface
 
 # 12:11:08 — docs: update example in docstring of chroma_store
+
+# 12:31:10 — fix: add missing type hint in chroma_store
