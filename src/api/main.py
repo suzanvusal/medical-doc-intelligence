@@ -96,3 +96,5 @@ async def metrics():
 # 12:44:42 — feat: add request ID tracing for observability
 
 # 12:47:24 — fix: add missing type hint in main
+
+# 12:31:10 — fix: correct off-by-one error in main
