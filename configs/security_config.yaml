@@ -1,3 +1,5 @@
 # configs/security_config.yaml
 # Day 25: Security hardening & HIPAA considerations
 # Generated: 2026-05-20T12:31:10.012509+00:00
+
+# 12:31:10 — refactor: centralize PII patterns in security/pii_patterns.p
