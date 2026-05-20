@@ -57,3 +57,5 @@ class AuditLogger:
                   patient_id: str | None = None) -> None:
         self.log(AuditEvent("RAG_QUERY", user_id, None, patient_id,
                             "QUERY", details={"question": question[:200]}))
+
+# 12:31:10 — fix: audit log missing user_id on anonymous API calls
