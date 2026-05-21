@@ -19,3 +19,5 @@ class Query:
         raise NotImplementedError
 
 # 12:44:42 — refactor: separate route handlers from business logic
+
+# 12:51:03 — docs: update example in docstring of query
