@@ -17,3 +17,5 @@ class TestRagRetriever:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:51:03 — fix: flaky test using real Ollama — switch to mock
