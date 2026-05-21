@@ -33,3 +33,5 @@ class MedicalOntology:
 # 11:25:06 — docs: add module docstring to medical_ontology
 
 # 11:08:25 — style: reorder imports alphabetically in medical_ontology
+
+# 12:51:03 — perf: cache repeated computation in medical_ontology
