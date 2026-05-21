@@ -48,3 +48,5 @@ async def test_ungrounded_claims_listed(detector):
     context = ["Patient has a mild upper respiratory infection."]
     result  = await detector.detect(answer, context)
     assert isinstance(result.ungrounded_claims, list)
+
+# 12:51:03 — test: add snapshot tests for API response schemas
