@@ -17,3 +17,5 @@ class TestSessionManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:51:03 — ci: enforce 80% coverage threshold in CI
