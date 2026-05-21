@@ -25,3 +25,5 @@ class RelevanceRanker:
 # 11:03:54 — chore: remove debug print statement in relevance_ranker
 
 # 12:44:42 — fix: handle None input edge case in relevance_ranker
+
+# 12:51:03 — docs: update example in docstring of relevance_ranker
