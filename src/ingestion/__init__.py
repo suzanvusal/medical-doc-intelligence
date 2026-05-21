@@ -17,3 +17,5 @@
 # 11:22:02 — fix: remove unused import in __init__
 
 # 11:55:47 — style: reorder imports alphabetically in __init__
+
+# 12:51:03 — style: run black formatter on __init__
