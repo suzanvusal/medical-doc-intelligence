@@ -1,7 +1,7 @@
 """
 tests/unit/test_entity_extractor.py
-Day 7: Clinical entity extraction
-Focus: Named entity recognition for medical terms, medications, diagnoses, procedures
+Day 26: Comprehensive unit test suite
+Focus: Test coverage > 80%, property tests, edge cases
 """
 from __future__ import annotations
 import logging
@@ -17,15 +17,3 @@ class TestEntityExtractor:
 
     def process(self) -> None:
         raise NotImplementedError
-
-# 10:58:32 — feat: add entity deduplication across document chunks
-
-# 10:58:32 — fix: ICD-10 linker returning wrong codes for abbreviations
-
-# 11:22:02 — docs: update example in docstring of test_entity_extractor
-
-# 11:55:48 — docs: update example in docstring of test_entity_extractor
-
-# 11:55:48 — fix: add missing type hint in test_entity_extractor
-
-# 12:11:08 — fix: handle None input edge case in test_entity_extractor
