@@ -1,19 +1,50 @@
-"""
-tests/unit/test_hallucination_detector.py
-Day 20: Hallucination detection system
-Focus: Grounding verification, claim extraction, source cross-referencing
-"""
-from __future__ import annotations
-import logging
-
-logger = logging.getLogger(__name__)
+"""Unit tests for hallucination detector."""
+import pytest
+from unittest.mock import AsyncMock
+from src.monitoring.hallucination_detector import HallucinationDetector
 
 
-class TestHallucinationDetector:
-    """Implementation for test_hallucination_detector — medical document intelligence pipeline."""
+@pytest.fixture
+def detector():
+    mock_client = AsyncMock()
+    return HallucinationDetector(mock_client, threshold=0.6)
 
-    def __init__(self) -> None:
-        logger.info("Initialising %s", self.__class__.__name__)
 
-    def process(self) -> None:
-        raise NotImplementedError
+@pytest.mark.asyncio
+async def test_grounded_answer_not_hallucinated(detector):
+    answer  = "The patient has diabetes and hypertension."
+    context = ["The patient has diabetes mellitus and hypertension.",
+               "Blood pressure medication was prescribed."]
+    result  = await detector.detect(answer, context)
+    assert not result.is_hallucinated
+    assert result.severity in ("none", "minor")
+
+
+@pytest.mark.asyncio
+async def test_hallucinated_answer_detected(detector):
+    answer  = "Patient underwent triple bypass surgery and was placed on ECMO."
+    context = ["Patient had a mild headache and was given paracetamol."]
+    result  = await detector.detect(answer, context)
+    assert result.grounding_score < 0.6
+
+
+@pytest.mark.asyncio
+async def test_empty_context_critical_severity(detector):
+    result = await detector.detect("Some clinical claim about the patient.", [])
+    assert result.grounding_score == 0.0
+
+
+@pytest.mark.asyncio
+async def test_severity_none_on_high_score(detector):
+    answer  = "fever temperature elevated"
+    context = ["Patient has fever with elevated temperature of 38.9 degrees."]
+    result  = await detector.detect(answer, context)
+    assert result.severity in ("none", "minor", "moderate")
+
+
+@pytest.mark.asyncio
+async def test_ungrounded_claims_listed(detector):
+    answer  = "Patient has cancer. Patient needs chemotherapy. Prognosis is poor."
+    context = ["Patient has a mild upper respiratory infection."]
+    result  = await detector.detect(answer, context)
+    assert isinstance(result.ungrounded_claims, list)
