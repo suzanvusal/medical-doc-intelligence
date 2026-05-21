@@ -27,3 +27,5 @@ class OutputParser:
 # 11:03:54 — fix: handle None input edge case in output_parser
 
 # 12:47:24 — refactor: extract magic number to constant in output_parser
+
+# 12:51:03 — perf: add __slots__ to dataclass in output_parser
