@@ -17,3 +17,5 @@ class TestEntityExtractor:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 12:51:03 — test: run mutmut mutation testing and fix surviving mutants
