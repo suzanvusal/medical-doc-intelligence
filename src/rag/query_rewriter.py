@@ -27,3 +27,5 @@ class QueryRewriter:
 # 11:05:49 — fix: correct off-by-one error in query_rewriter
 
 # 11:58:31 — style: reorder imports alphabetically in query_rewriter
+
+# 12:51:03 — fix: handle None input edge case in query_rewriter
