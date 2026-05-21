@@ -1,7 +1,7 @@
 """
 tests/unit/test_session_manager.py
-Day 15: Document Q&A session management
-Focus: Multi-turn conversation, session state, context carryover
+Day 26: Comprehensive unit test suite
+Focus: Test coverage > 80%, property tests, edge cases
 """
 from __future__ import annotations
 import logging
@@ -17,5 +17,3 @@ class TestSessionManager:
 
     def process(self) -> None:
         raise NotImplementedError
-
-# 12:11:08 — ci: update step name for readability
