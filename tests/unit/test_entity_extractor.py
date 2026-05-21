@@ -21,3 +21,5 @@ class TestEntityExtractor:
 # 12:51:03 — test: run mutmut mutation testing and fix surviving mutants
 
 # 12:51:03 — ci: add coverage report upload to Codecov
+
+# 12:51:03 — refactor: consolidate test fixtures in conftest.py
