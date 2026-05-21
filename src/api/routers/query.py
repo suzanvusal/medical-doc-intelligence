@@ -21,3 +21,5 @@ class Query:
 # 12:44:42 — refactor: separate route handlers from business logic
 
 # 12:51:03 — docs: update example in docstring of query
+
+# 12:51:03 — chore: remove debug print statement in query
