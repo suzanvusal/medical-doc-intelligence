@@ -25,3 +25,5 @@ class ContextCompressor:
 # 11:05:49 — perf: lazy-load conversation history on first query
 
 # 12:51:03 — chore: day 26 maintenance sweep
+
+# 12:51:03 — test: add assertion for return type in context_compressor
