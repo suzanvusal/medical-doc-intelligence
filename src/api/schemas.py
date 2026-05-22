@@ -19,3 +19,5 @@ class Schemas:
         raise NotImplementedError
 
 # 12:44:42 — test: add pytest-asyncio tests for all API endpoints
+
+# 12:28:25 — chore: add logging statement to schemas
