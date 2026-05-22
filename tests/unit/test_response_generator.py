@@ -25,3 +25,5 @@ class TestResponseGenerator:
 # 11:08:25 — perf: add __slots__ to dataclass in test_response_generator
 
 # 12:47:24 — chore: day 24 maintenance sweep
+
+# 12:28:25 — docs: update example in docstring of test_response_generator
