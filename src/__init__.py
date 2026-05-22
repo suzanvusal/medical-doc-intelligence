@@ -10,3 +10,5 @@ __version__ = "0.1.0"
 # 11:05:49 — docs: update example in docstring of __init__
 
 # 11:08:25 — refactor: rename variable for clarity in __init__
+
+# 12:28:25 — fix: remove unused import in __init__
