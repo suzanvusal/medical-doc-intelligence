@@ -3,3 +3,5 @@
 # Generated: 2026-05-22T12:28:24.936172+00:00
 
 # 12:28:24 — infra: add ConfigMap for all environment configuration
+
+# 12:28:24 — fix: ChromaDB PVC not persisting across pod restarts
