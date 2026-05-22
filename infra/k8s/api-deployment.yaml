@@ -63,3 +63,5 @@ spec:
       port: 80
       targetPort: 8000
   type: ClusterIP
+
+# 12:28:24 — infra: add Ingress with TLS termination
