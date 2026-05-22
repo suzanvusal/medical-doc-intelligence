@@ -81,3 +81,5 @@ class MedicalQueryParser:
 # 12:44:42 — chore: add logging statement to query_understanding
 
 # 12:11:08 — style: reorder imports alphabetically in query_understanding
+
+# 12:28:25 — perf: add __slots__ to dataclass in query_understanding
