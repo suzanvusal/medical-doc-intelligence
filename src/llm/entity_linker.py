@@ -19,3 +19,5 @@ class EntityLinker:
         raise NotImplementedError
 
 # 11:55:48 — chore: add logging statement to entity_linker
+
+# 12:28:25 — fix: remove unused import in entity_linker
