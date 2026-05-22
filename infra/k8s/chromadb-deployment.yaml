@@ -1,3 +1,5 @@
 # infra/k8s/chromadb-deployment.yaml
 # Day 27: Kubernetes deployment manifests
 # Generated: 2026-05-22T12:28:24.944038+00:00
+
+# 12:28:24 — infra: add Secret manifest template for sensitive values
