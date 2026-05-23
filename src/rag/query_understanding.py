@@ -83,3 +83,5 @@ class MedicalQueryParser:
 # 12:11:08 — style: reorder imports alphabetically in query_understanding
 
 # 12:28:25 — perf: add __slots__ to dataclass in query_understanding
+
+# 11:19:47 — fix: correct off-by-one error in query_understanding
