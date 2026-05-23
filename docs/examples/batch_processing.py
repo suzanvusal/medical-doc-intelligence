@@ -17,3 +17,5 @@ class BatchProcessing:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:19:47 — docs: add rate limit documentation to API reference
