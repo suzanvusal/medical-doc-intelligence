@@ -29,3 +29,5 @@ class OutputParser:
 # 12:47:24 — refactor: extract magic number to constant in output_parser
 
 # 12:51:03 — perf: add __slots__ to dataclass in output_parser
+
+# 11:19:48 — fix: add missing type hint in output_parser
