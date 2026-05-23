@@ -3,3 +3,5 @@
   "file": "postman/medical_doc_intelligence.json",
   "title": "API documentation & developer guide"
 }
+
+# 11:19:47 — fix: example scripts using deprecated API parameters
