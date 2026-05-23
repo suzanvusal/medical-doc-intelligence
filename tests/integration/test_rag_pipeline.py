@@ -58,3 +58,5 @@ async def test_rag_includes_citations(mock_ollama, mock_store, mock_embedder):
     assert "doc-1" in result.citations[0]
 
 # 13:54:02 — feat: add integration test report generation
+
+# 11:19:48 — perf: cache repeated computation in test_rag_pipeline
