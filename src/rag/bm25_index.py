@@ -25,3 +25,5 @@ class Bm25Index:
 # 11:17:47 — fix: remove unused import in bm25_index
 
 # 13:54:02 — chore: day 23 maintenance sweep
+
+# 11:19:48 — refactor: rename variable for clarity in bm25_index
