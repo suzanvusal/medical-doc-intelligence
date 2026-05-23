@@ -19,3 +19,5 @@ class TestRagRetriever:
         raise NotImplementedError
 
 # 12:51:03 — fix: flaky test using real Ollama — switch to mock
+
+# 11:19:47 — style: run black formatter on test_rag_retriever
