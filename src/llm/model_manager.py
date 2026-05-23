@@ -31,3 +31,5 @@ class ModelManager:
 # 11:17:47 — ci: update step name for readability
 
 # 12:31:10 — refactor: extract magic number to constant in model_manager
+
+# 11:19:47 — fix: add missing type hint in model_manager
