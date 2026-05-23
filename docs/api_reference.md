@@ -82,3 +82,5 @@ Prometheus metrics endpoint.
 | 401  | Missing or invalid API key |
 | 503  | RAG pipeline not initialised |
 | 500  | Internal processing error |
+
+# 11:19:47 — docs: add Postman collection for all API endpoints
