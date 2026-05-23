@@ -79,3 +79,5 @@ def render(template_str: str, **kwargs) -> str:
 # 12:31:10 — perf: cache repeated computation in prompt_templates
 
 # 12:51:03 — ci: update step name for readability
+
+# 11:19:48 — fix: correct off-by-one error in prompt_templates
