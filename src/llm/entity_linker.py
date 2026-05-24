@@ -21,3 +21,5 @@ class EntityLinker:
 # 11:55:48 — chore: add logging statement to entity_linker
 
 # 12:28:25 — fix: remove unused import in entity_linker
+
+# 11:21:28 — fix: correct off-by-one error in entity_linker
