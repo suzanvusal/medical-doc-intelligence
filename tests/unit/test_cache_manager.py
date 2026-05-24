@@ -17,3 +17,5 @@ class TestCacheManager:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:21:28 — refactor: abstract cache backend for easy swap
