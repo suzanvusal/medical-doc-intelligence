@@ -81,3 +81,5 @@ def render(template_str: str, **kwargs) -> str:
 # 12:51:03 — ci: update step name for readability
 
 # 11:19:48 — fix: correct off-by-one error in prompt_templates
+
+# 11:21:28 — chore: remove debug print statement in prompt_templates
