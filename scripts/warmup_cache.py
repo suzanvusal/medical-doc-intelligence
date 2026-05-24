@@ -17,3 +17,5 @@ class WarmupCache:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:21:28 — feat: add cache compression for large RAG responses
