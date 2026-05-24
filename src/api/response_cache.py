@@ -19,3 +19,5 @@ class ResponseCache:
         raise NotImplementedError
 
 # 11:21:28 — test: add cache tests verifying hit rates under load
+
+# 11:21:28 — fix: cache not invalidating when source document updated
