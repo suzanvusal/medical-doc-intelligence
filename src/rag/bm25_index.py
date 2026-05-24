@@ -27,3 +27,5 @@ class Bm25Index:
 # 13:54:02 — chore: day 23 maintenance sweep
 
 # 11:19:48 — refactor: rename variable for clarity in bm25_index
+
+# 11:21:28 — fix: handle None input edge case in bm25_index
