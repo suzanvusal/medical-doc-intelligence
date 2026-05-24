@@ -21,3 +21,5 @@ class QueryLoad:
 # 12:47:24 — perf: profile and fix N+1 ChromaDB queries in RAG pipeline
 
 # 12:28:25 — refactor: rename variable for clarity in query_load
+
+# 11:21:28 — chore: remove debug print statement in query_load
