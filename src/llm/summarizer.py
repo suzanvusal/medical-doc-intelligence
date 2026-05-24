@@ -93,3 +93,5 @@ class MedicalSummarizer:
 # 11:25:06 — fix: add missing type hint in summarizer
 
 # 12:44:42 — chore: add logging statement to summarizer
+
+# 11:21:28 — test: add assertion for return type in summarizer
