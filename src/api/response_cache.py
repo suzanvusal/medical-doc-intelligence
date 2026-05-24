@@ -17,3 +17,5 @@ class ResponseCache:
 
     def process(self) -> None:
         raise NotImplementedError
+
+# 11:21:28 — test: add cache tests verifying hit rates under load
