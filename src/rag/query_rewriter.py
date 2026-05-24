@@ -31,3 +31,5 @@ class QueryRewriter:
 # 12:51:03 — fix: handle None input edge case in query_rewriter
 
 # 12:28:25 — fix: remove unused import in query_rewriter
+
+# 11:21:28 — style: run black formatter on query_rewriter
