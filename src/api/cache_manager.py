@@ -65,3 +65,5 @@ class ResponseCache:
                 self._r.delete(*keys)
         self._l1.clear()
         logger.info("Cache invalidated for document %s", document_id)
+
+# 11:21:28 — style: run black formatter on cache_manager
