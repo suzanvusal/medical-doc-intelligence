@@ -29,3 +29,5 @@ class QualityScorer:
 # 11:56:36 — chore: remove debug print statement in quality_scorer
 
 # 12:44:42 — style: run black formatter on quality_scorer
+
+# 11:21:28 — style: reorder imports alphabetically in quality_scorer
