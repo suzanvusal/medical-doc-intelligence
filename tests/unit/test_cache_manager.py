@@ -19,3 +19,5 @@ class TestCacheManager:
         raise NotImplementedError
 
 # 11:21:28 — refactor: abstract cache backend for easy swap
+
+# 11:21:28 — fix: memory cache causing OOM under high load
