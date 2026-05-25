@@ -23,3 +23,5 @@ class AlertDispatcher:
 # 11:17:47 — docs: add on-call setup guide to docs/alerting.md
 
 # 13:35:23 — chore: day 30 maintenance sweep
+
+# 13:35:23 — chore: add logging statement to alert_dispatcher
