@@ -19,3 +19,5 @@
 # 11:55:47 — style: reorder imports alphabetically in __init__
 
 # 12:51:03 — style: run black formatter on __init__
+
+# 13:35:23 — test: add assertion for return type in __init__
