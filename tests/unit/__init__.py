@@ -6,3 +6,5 @@
 # 11:45:55 — style: run black formatter on __init__
 
 # 11:05:49 — fix: remove unused import in __init__
+
+# 13:35:23 — fix: add missing type hint in __init__
