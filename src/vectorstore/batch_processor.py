@@ -31,3 +31,5 @@ class BatchProcessor:
 # 11:25:06 — fix: correct off-by-one error in batch_processor
 
 # 11:05:49 — chore: add logging statement to batch_processor
+
+# 13:35:23 — refactor: extract magic number to constant in batch_processo
