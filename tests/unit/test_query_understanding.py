@@ -23,3 +23,5 @@ class TestQueryUnderstanding:
 # 11:55:47 — docs: add query examples and capabilities to README
 
 # 12:31:10 — chore: add logging statement to test_query_understanding
+
+# 13:35:23 — style: reorder imports alphabetically in test_query_understa
