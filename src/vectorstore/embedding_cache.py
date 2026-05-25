@@ -25,3 +25,5 @@ class EmbeddingCache:
 # 11:25:06 — docs: update example in docstring of embedding_cache
 
 # 11:58:31 — docs: update example in docstring of embedding_cache
+
+# 13:35:23 — perf: cache repeated computation in embedding_cache
