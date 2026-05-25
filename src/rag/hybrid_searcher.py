@@ -88,3 +88,5 @@ class HybridSearcher:
 # 11:03:54 — perf: pre-build BM25 index on startup
 
 # 13:54:03 — refactor: extract magic number to constant in hybrid_searche
+
+# 13:35:23 — style: run black formatter on hybrid_searcher
