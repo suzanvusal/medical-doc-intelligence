@@ -29,3 +29,5 @@ class DocumentRouter:
 # 12:44:42 — style: reorder imports alphabetically in document_router
 
 # 11:17:47 — perf: add __slots__ to dataclass in document_router
+
+# 13:35:23 — chore: remove debug print statement in document_router
