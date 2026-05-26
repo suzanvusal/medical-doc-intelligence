@@ -21,3 +21,5 @@ class TestCacheManager:
 # 11:21:28 — refactor: abstract cache backend for easy swap
 
 # 11:21:28 — fix: memory cache causing OOM under high load
+
+# 12:44:00 — chore: add logging statement to test_cache_manager
