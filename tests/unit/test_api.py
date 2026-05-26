@@ -29,3 +29,5 @@ class TestApi:
 # 11:08:25 — docs: add module docstring to test_api
 
 # 13:54:02 — docs: add module docstring to test_api
+
+# 12:44:00 — refactor: extract magic number to constant in test_api
