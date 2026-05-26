@@ -84,3 +84,5 @@ MIT
 # 12:44:00 — docs: add project demo GIF to README
 
 # 12:44:00 — chore: archive development notebooks to notebooks/archive/
+
+# 12:44:00 — docs: fix broken links in README
