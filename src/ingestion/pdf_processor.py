@@ -106,3 +106,5 @@ class PDFProcessor:
 # 11:25:06 — docs: fix typo in inline comment in pdf_processor
 
 # 11:03:54 — refactor: rename variable for clarity in pdf_processor
+
+# 12:44:00 — style: reorder imports alphabetically in pdf_processor
