@@ -25,3 +25,5 @@ class CitationFormatter:
 # 11:08:25 — docs: update example in docstring of citation_formatter
 
 # 11:17:47 — perf: add __slots__ to dataclass in citation_formatter
+
+# 12:44:00 — perf: add __slots__ to dataclass in citation_formatter
