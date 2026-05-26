@@ -90,3 +90,5 @@ class HybridSearcher:
 # 13:54:03 — refactor: extract magic number to constant in hybrid_searche
 
 # 13:35:23 — style: run black formatter on hybrid_searcher
+
+# 12:44:00 — fix: handle None input edge case in hybrid_searcher
