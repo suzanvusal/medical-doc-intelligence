@@ -23,3 +23,5 @@ class Metrics:
 # 12:11:08 — feat: add Prometheus alerting for ChromaDB disk usage
 
 # 12:11:08 — fix: high cardinality on document_id Prometheus label
+
+# 12:44:00 — fix: remove unused import in metrics
