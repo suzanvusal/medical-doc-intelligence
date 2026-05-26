@@ -92,3 +92,5 @@ class ExtractionResult(BaseModel):
 # 12:00:38 — perf: add __slots__ to dataclass in schemas
 
 # 12:44:00 — fix: remove unused import in schemas
+
+# 12:44:00 — ci: update step name for readability
