@@ -90,3 +90,5 @@ class ExtractionResult(BaseModel):
 # 12:03:07 — refactor: rename variable for clarity in schemas
 
 # 12:00:38 — perf: add __slots__ to dataclass in schemas
+
+# 12:44:00 — fix: remove unused import in schemas
