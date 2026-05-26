@@ -8,3 +8,5 @@
 # 11:05:49 — fix: remove unused import in __init__
 
 # 13:35:23 — fix: add missing type hint in __init__
+
+# 12:44:00 — docs: fix typo in inline comment in __init__
