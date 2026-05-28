@@ -21,3 +21,5 @@ class AlertTemplates:
 # 11:17:47 — test: add mock Slack webhook tests for all alert types
 
 # 13:54:02 — fix: handle None input edge case in alert_templates
+
+# 13:59:03 — fix: correct off-by-one error in alert_templates
