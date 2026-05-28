@@ -25,3 +25,5 @@
 # 11:05:49 — docs: fix typo in inline comment in __init__
 
 # 11:58:31 — docs: fix typo in inline comment in __init__
+
+# 13:59:03 — fix: add missing type hint in __init__
