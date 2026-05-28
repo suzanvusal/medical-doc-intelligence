@@ -31,3 +31,5 @@ class IntentDetector:
 # 12:44:42 — test: add assertion for return type in intent_detector
 
 # 12:11:08 — docs: add module docstring to intent_detector
+
+# 13:59:03 — docs: update example in docstring of intent_detector
