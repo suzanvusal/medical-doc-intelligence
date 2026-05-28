@@ -60,3 +60,5 @@ async def test_rag_includes_citations(mock_ollama, mock_store, mock_embedder):
 # 13:54:02 — feat: add integration test report generation
 
 # 11:19:48 — perf: cache repeated computation in test_rag_pipeline
+
+# 13:59:03 — style: run black formatter on test_rag_pipeline
