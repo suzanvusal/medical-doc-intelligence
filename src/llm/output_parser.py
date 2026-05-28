@@ -31,3 +31,5 @@ class OutputParser:
 # 12:51:03 — perf: add __slots__ to dataclass in output_parser
 
 # 11:19:48 — fix: add missing type hint in output_parser
+
+# 13:59:03 — perf: cache repeated computation in output_parser
