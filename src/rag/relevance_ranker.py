@@ -29,3 +29,5 @@ class RelevanceRanker:
 # 12:51:03 — docs: update example in docstring of relevance_ranker
 
 # 13:59:03 — chore: add logging statement to relevance_ranker
+
+# 13:59:03 — docs: fix typo in inline comment in relevance_ranker
