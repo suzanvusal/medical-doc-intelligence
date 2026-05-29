@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 12:50:26 — chore: tag v1.0.0 release with full changelog
+
+# 12:50:26 — docs: fix broken links in README
