@@ -87,3 +87,5 @@ class MedicalQueryParser:
 # 11:19:47 — fix: correct off-by-one error in query_understanding
 
 # 12:50:26 — fix: remove unused import in query_understanding
+
+# 12:50:26 — docs: add module docstring to query_understanding
