@@ -81,3 +81,5 @@ class MedicalPreprocessor:
 # 11:19:48 — docs: fix typo in inline comment in preprocessor
 
 # 12:50:26 — docs: add module docstring to preprocessor
+
+# 12:50:26 — chore: add logging statement to preprocessor
