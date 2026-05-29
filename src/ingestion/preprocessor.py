@@ -79,3 +79,5 @@ class MedicalPreprocessor:
 # 12:28:25 — fix: handle None input edge case in preprocessor
 
 # 11:19:48 — docs: fix typo in inline comment in preprocessor
+
+# 12:50:26 — docs: add module docstring to preprocessor
