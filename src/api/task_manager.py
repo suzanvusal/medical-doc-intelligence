@@ -25,3 +25,5 @@ class TaskManager:
 # 12:03:07 — refactor: move task logic to dedicated processor classes
 
 # 11:08:25 — style: run black formatter on task_manager
+
+# 12:50:26 — fix: correct off-by-one error in task_manager
