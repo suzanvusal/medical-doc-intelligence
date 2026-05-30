@@ -25,3 +25,5 @@ class ClaimExtractor:
 # 12:00:38 — fix: hallucination detector missing numerical fact errors
 
 # 11:08:25 — fix: correct off-by-one error in claim_extractor
+
+# 11:27:02 — fix: add missing type hint in claim_extractor
