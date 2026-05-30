@@ -21,3 +21,5 @@ class LlmDriftMonitor:
 # 11:08:25 — feat: implement weekly drift summary report generation
 
 # 11:08:25 — fix: drift monitor not resetting baseline after model update
+
+# 11:27:02 — test: add assertion for return type in llm_drift_monitor
