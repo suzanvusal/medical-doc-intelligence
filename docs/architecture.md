@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 11:27:02 — ci: add end-to-end smoke test to release pipeline
 
 # 11:27:02 — chore: final dependency audit and update
+
+# 11:27:02 — fix: environment variable names inconsistent across services
