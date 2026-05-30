@@ -19,3 +19,5 @@ class Conftest:
         raise NotImplementedError
 
 # 13:54:02 — ci: add integration test step to CI pipeline on main branch
+
+# 11:27:02 — docs: fix typo in inline comment in conftest
