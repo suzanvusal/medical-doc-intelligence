@@ -23,3 +23,5 @@ class Schemas:
 # 12:28:25 — chore: add logging statement to schemas
 
 # 11:44:17 — fix: add missing type hint in schemas
+
+# 11:44:17 — docs: add module docstring to schemas
