@@ -21,3 +21,5 @@ class PromptSensitivity:
 # 11:08:25 — feat: add drift severity classification and alert routing
 
 # 11:08:25 — test: add drift detection tests with simulated quality degra
+
+# 11:44:17 — refactor: extract magic number to constant in prompt_sensiti
