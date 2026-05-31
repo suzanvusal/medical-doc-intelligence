@@ -21,3 +21,5 @@ class Schemas:
 # 12:44:42 — test: add pytest-asyncio tests for all API endpoints
 
 # 12:28:25 — chore: add logging statement to schemas
+
+# 11:44:17 — fix: add missing type hint in schemas
