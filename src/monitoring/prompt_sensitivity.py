@@ -23,3 +23,5 @@ class PromptSensitivity:
 # 11:08:25 — test: add drift detection tests with simulated quality degra
 
 # 11:44:17 — refactor: extract magic number to constant in prompt_sensiti
+
+# 11:44:17 — fix: add missing type hint in prompt_sensitivity
