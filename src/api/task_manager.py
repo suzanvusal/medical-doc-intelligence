@@ -27,3 +27,5 @@ class TaskManager:
 # 11:08:25 — style: run black formatter on task_manager
 
 # 12:50:26 — fix: correct off-by-one error in task_manager
+
+# 11:44:17 — test: add assertion for return type in task_manager
