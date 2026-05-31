@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 11:44:17 — chore: final dependency audit and update
+
+# 11:44:17 — fix: environment variable names inconsistent across services
