@@ -23,3 +23,5 @@ class Query:
 # 12:51:03 — docs: update example in docstring of query
 
 # 12:51:03 — chore: remove debug print statement in query
+
+# 11:44:17 — perf: add __slots__ to dataclass in query
