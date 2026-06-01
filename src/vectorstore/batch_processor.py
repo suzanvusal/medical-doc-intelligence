@@ -35,3 +35,5 @@ class BatchProcessor:
 # 13:35:23 — refactor: extract magic number to constant in batch_processo
 
 # 12:44:00 — chore: day 30 maintenance sweep
+
+# 16:12:54 — fix: add missing type hint in batch_processor
