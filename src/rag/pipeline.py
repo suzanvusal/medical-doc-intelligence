@@ -90,3 +90,5 @@ class MedicalRAGPipeline:
 # 11:58:31 — test: add assertion for return type in pipeline
 
 # 11:08:25 — perf: cache repeated computation in pipeline
+
+# 16:12:54 — ci: update step name for readability
