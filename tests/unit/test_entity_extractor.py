@@ -23,3 +23,5 @@ class TestEntityExtractor:
 # 12:51:03 — ci: add coverage report upload to Codecov
 
 # 12:51:03 — refactor: consolidate test fixtures in conftest.py
+
+# 16:12:54 — fix: add missing type hint in test_entity_extractor
