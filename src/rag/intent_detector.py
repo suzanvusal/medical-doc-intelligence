@@ -35,3 +35,5 @@ class IntentDetector:
 # 13:59:03 — docs: update example in docstring of intent_detector
 
 # 11:44:17 — style: run black formatter on intent_detector
+
+# 16:12:54 — test: add assertion for return type in intent_detector
