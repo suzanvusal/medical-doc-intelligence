@@ -27,3 +27,5 @@ class AnswerValidator:
 # 11:58:31 — test: add assertion for return type in answer_validator
 
 # 13:54:02 — chore: day 23 maintenance sweep
+
+# 16:12:54 — perf: add __slots__ to dataclass in answer_validator
