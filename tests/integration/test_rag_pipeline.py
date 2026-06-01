@@ -64,3 +64,5 @@ async def test_rag_includes_citations(mock_ollama, mock_store, mock_embedder):
 # 13:59:03 — style: run black formatter on test_rag_pipeline
 
 # 12:50:26 — chore: remove debug print statement in test_rag_pipeline
+
+# 16:12:54 — chore: day 30 maintenance sweep
