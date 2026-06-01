@@ -25,3 +25,5 @@ class TestChromaStore:
 # 13:59:03 — fix: correct off-by-one error in test_chroma_store
 
 # 12:50:26 — docs: fix typo in inline comment in test_chroma_store
+
+# 16:12:54 — docs: fix typo in inline comment in test_chroma_store
