@@ -53,3 +53,5 @@ class MedicalEmbedder:
 # 12:11:08 — chore: remove debug print statement in embedder
 
 # 12:00:38 — refactor: rename variable for clarity in embedder
+
+# 16:12:54 — fix: handle None input edge case in embedder
