@@ -23,3 +23,5 @@
 # 13:35:23 — test: add assertion for return type in __init__
 
 # 13:59:03 — perf: cache repeated computation in __init__
+
+# 16:12:54 — style: run black formatter on __init__
