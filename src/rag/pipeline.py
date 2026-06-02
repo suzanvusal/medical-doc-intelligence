@@ -92,3 +92,5 @@ class MedicalRAGPipeline:
 # 11:08:25 — perf: cache repeated computation in pipeline
 
 # 16:12:54 — ci: update step name for readability
+
+# 14:15:29 — style: run black formatter on pipeline
