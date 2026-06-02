@@ -25,3 +25,5 @@ class TestQualityMonitor:
 # 13:54:02 — fix: correct off-by-one error in test_quality_monitor
 
 # 11:19:48 — fix: correct off-by-one error in test_quality_monitor
+
+# 14:15:29 — refactor: extract magic number to constant in test_quality_m
