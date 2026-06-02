@@ -31,3 +31,5 @@ class TestOllamaClient:
 # 13:54:02 — fix: add missing type hint in test_ollama_client
 
 # 12:47:24 — perf: cache repeated computation in test_ollama_client
+
+# 14:15:29 — ci: update step name for readability
