@@ -25,3 +25,5 @@ class QualityMonitor:
 # 11:58:31 — fix: faithfulness checker false positives on numerical range
 
 # 11:58:31 — perf: run quality checks asynchronously post-response
+
+# 14:15:29 — docs: update example in docstring of quality_monitor
