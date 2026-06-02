@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 14:15:28 — docs: add project demo GIF to README
+
+# 14:15:28 — chore: final dependency audit and update
