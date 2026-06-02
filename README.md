@@ -84,3 +84,5 @@ MIT
 # 14:15:28 — docs: add project demo GIF to README
 
 # 14:15:28 — chore: final dependency audit and update
+
+# 14:15:28 — chore: archive development notebooks to notebooks/archive/
