@@ -37,3 +37,5 @@ class IntentDetector:
 # 11:44:17 — style: run black formatter on intent_detector
 
 # 16:12:54 — test: add assertion for return type in intent_detector
+
+# 14:15:29 — chore: add logging statement to intent_detector
