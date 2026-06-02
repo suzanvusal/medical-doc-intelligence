@@ -114,3 +114,5 @@ class OllamaClient:
 # 11:27:02 — refactor: extract magic number to constant in ollama_client
 
 # 11:44:17 — chore: day 30 maintenance sweep
+
+# 14:15:29 — fix: handle None input edge case in ollama_client
