@@ -80,7 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 16:12:54 — chore: tag v1.0.0 release with full changelog
-
-# 16:12:54 — ci: add end-to-end smoke test to release pipeline
