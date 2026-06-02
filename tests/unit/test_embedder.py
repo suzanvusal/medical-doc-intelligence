@@ -23,3 +23,5 @@ class TestEmbedder:
 # 11:22:02 — docs: fix typo in inline comment in test_embedder
 
 # 11:55:47 — fix: add missing type hint in test_embedder
+
+# 14:15:29 — chore: remove debug print statement in test_embedder
