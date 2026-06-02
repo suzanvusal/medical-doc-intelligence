@@ -92,3 +92,5 @@ class MedicalChromaStore:
 # 12:11:08 — docs: update example in docstring of chroma_store
 
 # 12:31:10 — fix: add missing type hint in chroma_store
+
+# 14:15:29 — chore: remove debug print statement in chroma_store
