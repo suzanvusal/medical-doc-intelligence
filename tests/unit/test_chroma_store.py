@@ -27,3 +27,5 @@ class TestChromaStore:
 # 12:50:26 — docs: fix typo in inline comment in test_chroma_store
 
 # 16:12:54 — docs: fix typo in inline comment in test_chroma_store
+
+# 14:50:08 — chore: remove debug print statement in test_chroma_store
