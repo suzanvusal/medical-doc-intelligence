@@ -55,3 +55,5 @@ class MedicalEmbedder:
 # 12:00:38 — refactor: rename variable for clarity in embedder
 
 # 16:12:54 — fix: handle None input edge case in embedder
+
+# 14:50:08 — test: add assertion for return type in embedder
