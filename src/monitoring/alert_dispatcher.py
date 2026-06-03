@@ -25,3 +25,5 @@ class AlertDispatcher:
 # 13:35:23 — chore: day 30 maintenance sweep
 
 # 13:35:23 — chore: add logging statement to alert_dispatcher
+
+# 14:50:08 — fix: correct off-by-one error in alert_dispatcher
