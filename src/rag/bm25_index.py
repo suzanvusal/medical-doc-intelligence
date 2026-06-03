@@ -29,3 +29,5 @@ class Bm25Index:
 # 11:19:48 — refactor: rename variable for clarity in bm25_index
 
 # 11:21:28 — fix: handle None input edge case in bm25_index
+
+# 14:50:08 — test: add assertion for return type in bm25_index
