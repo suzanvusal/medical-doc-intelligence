@@ -11,3 +11,5 @@
 # 11:56:36 — refactor: rename variable for clarity in __init__
 
 # 14:15:29 — fix: add missing type hint in __init__
+
+# 14:50:08 — perf: cache repeated computation in __init__
