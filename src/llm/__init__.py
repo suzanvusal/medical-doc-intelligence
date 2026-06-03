@@ -17,3 +17,5 @@
 # 12:47:24 — chore: remove debug print statement in __init__
 
 # 14:15:29 — perf: cache repeated computation in __init__
+
+# 14:50:08 — docs: add module docstring to __init__
