@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 14:50:08 — ci: add end-to-end smoke test to release pipeline
 
 # 14:50:08 — docs: add project demo GIF to README
+
+# 14:50:08 — chore: archive development notebooks to notebooks/archive/
