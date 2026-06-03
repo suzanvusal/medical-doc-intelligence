@@ -83,3 +83,5 @@ def render(template_str: str, **kwargs) -> str:
 # 11:19:48 — fix: correct off-by-one error in prompt_templates
 
 # 11:21:28 — chore: remove debug print statement in prompt_templates
+
+# 14:50:08 — refactor: extract magic number to constant in prompt_templat
