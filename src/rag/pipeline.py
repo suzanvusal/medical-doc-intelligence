@@ -94,3 +94,5 @@ class MedicalRAGPipeline:
 # 16:12:54 — ci: update step name for readability
 
 # 14:15:29 — style: run black formatter on pipeline
+
+# 12:48:43 — chore: day 30 maintenance sweep
