@@ -21,3 +21,5 @@ class TestLlmDrift:
 # 11:08:25 — fix: semantic drift false positive after document corpus exp
 
 # 12:31:10 — chore: day 25 maintenance sweep
+
+# 12:48:43 — ci: update step name for readability
