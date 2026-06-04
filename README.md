@@ -80,5 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 14:50:08 — chore: final dependency audit and update
