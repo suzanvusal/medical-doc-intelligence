@@ -31,3 +31,5 @@ class CitationFormatter:
 # 14:15:29 — chore: day 30 maintenance sweep
 
 # 14:50:08 — refactor: extract magic number to constant in citation_forma
+
+# 12:48:43 — perf: add __slots__ to dataclass in citation_formatter
