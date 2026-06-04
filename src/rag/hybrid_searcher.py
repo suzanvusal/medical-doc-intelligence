@@ -94,3 +94,5 @@ class HybridSearcher:
 # 12:44:00 — fix: handle None input edge case in hybrid_searcher
 
 # 11:27:02 — fix: handle None input edge case in hybrid_searcher
+
+# 12:48:43 — docs: add module docstring to hybrid_searcher
