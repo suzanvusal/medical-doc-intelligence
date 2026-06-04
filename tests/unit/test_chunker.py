@@ -29,3 +29,5 @@ class TestChunker:
 # 12:44:00 — docs: fix typo in inline comment in test_chunker
 
 # 11:27:02 — docs: fix typo in inline comment in test_chunker
+
+# 12:48:43 — docs: update example in docstring of test_chunker
