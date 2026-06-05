@@ -31,3 +31,5 @@ class TestApi:
 # 13:54:02 — docs: add module docstring to test_api
 
 # 12:44:00 — refactor: extract magic number to constant in test_api
+
+# 12:43:48 — ci: update step name for readability
