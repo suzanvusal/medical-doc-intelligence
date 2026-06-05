@@ -7,3 +7,5 @@
 # 12:03:07 — docs: update example in docstring of __init__
 
 # 12:48:43 — style: reorder imports alphabetically in __init__
+
+# 12:43:48 — chore: add logging statement to __init__
