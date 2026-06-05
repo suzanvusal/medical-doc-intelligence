@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 12:43:47 — chore: tag v1.0.0 release with full changelog
+
+# 12:43:47 — chore: final dependency audit and update
