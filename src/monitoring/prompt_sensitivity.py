@@ -27,3 +27,5 @@ class PromptSensitivity:
 # 11:44:17 — fix: add missing type hint in prompt_sensitivity
 
 # 11:44:17 — ci: update step name for readability
+
+# 12:43:48 — docs: fix typo in inline comment in prompt_sensitivity
