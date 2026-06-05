@@ -35,3 +35,5 @@ class ModelManager:
 # 11:19:47 — fix: add missing type hint in model_manager
 
 # 11:44:17 — fix: correct off-by-one error in model_manager
+
+# 12:43:48 — perf: cache repeated computation in model_manager
