@@ -116,3 +116,5 @@ class OllamaClient:
 # 11:44:17 — chore: day 30 maintenance sweep
 
 # 14:15:29 — fix: handle None input edge case in ollama_client
+
+# 12:43:48 — fix: correct off-by-one error in ollama_client
