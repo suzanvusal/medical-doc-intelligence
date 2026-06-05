@@ -27,3 +27,5 @@ class TestCacheManager:
 # 14:15:29 — style: run black formatter on test_cache_manager
 
 # 12:48:43 — chore: day 30 maintenance sweep
+
+# 12:43:48 — chore: remove debug print statement in test_cache_manager
