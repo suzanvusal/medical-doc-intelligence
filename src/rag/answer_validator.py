@@ -29,3 +29,5 @@ class AnswerValidator:
 # 13:54:02 — chore: day 23 maintenance sweep
 
 # 16:12:54 — perf: add __slots__ to dataclass in answer_validator
+
+# 12:43:47 — perf: cache repeated computation in answer_validator
