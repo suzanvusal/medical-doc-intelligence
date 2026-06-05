@@ -29,3 +29,5 @@ class ContextBuilder:
 # 11:25:06 — test: add assertion for return type in context_builder
 
 # 11:25:06 — style: reorder imports alphabetically in context_builder
+
+# 12:43:48 — refactor: extract magic number to constant in context_builde
