@@ -27,3 +27,5 @@ class QualityMonitor:
 # 11:58:31 — perf: run quality checks asynchronously post-response
 
 # 14:15:29 — docs: update example in docstring of quality_monitor
+
+# 11:39:28 — docs: add module docstring to quality_monitor
