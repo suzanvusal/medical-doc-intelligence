@@ -37,3 +37,5 @@ class ModelManager:
 # 11:44:17 — fix: correct off-by-one error in model_manager
 
 # 12:43:48 — perf: cache repeated computation in model_manager
+
+# 11:39:28 — ci: update step name for readability
