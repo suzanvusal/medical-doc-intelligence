@@ -33,3 +33,5 @@ class Documents:
 # 14:50:08 — docs: fix typo in inline comment in documents
 
 # 12:48:43 — docs: add module docstring to documents
+
+# 11:39:28 — fix: correct off-by-one error in documents
