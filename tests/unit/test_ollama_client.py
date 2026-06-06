@@ -35,3 +35,5 @@ class TestOllamaClient:
 # 14:15:29 — ci: update step name for readability
 
 # 14:50:08 — fix: handle None input edge case in test_ollama_client
+
+# 11:39:28 — fix: remove unused import in test_ollama_client
