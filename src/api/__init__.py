@@ -13,3 +13,5 @@
 # 14:15:29 — fix: add missing type hint in __init__
 
 # 14:50:08 — perf: cache repeated computation in __init__
+
+# 11:39:28 — chore: remove debug print statement in __init__
