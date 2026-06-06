@@ -25,3 +25,5 @@ class TestEmbedder:
 # 11:55:47 — fix: add missing type hint in test_embedder
 
 # 14:15:29 — chore: remove debug print statement in test_embedder
+
+# 11:39:28 — style: run black formatter on test_embedder
