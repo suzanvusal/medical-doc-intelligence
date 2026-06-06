@@ -96,3 +96,5 @@ class MedicalTextChunker:
 # 12:03:07 — perf: cache repeated computation in chunker
 
 # 12:00:38 — perf: add __slots__ to dataclass in chunker
+
+# 11:39:28 — refactor: extract magic number to constant in chunker
