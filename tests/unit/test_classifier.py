@@ -27,3 +27,5 @@ class TestClassifier:
 # 11:44:17 — perf: add __slots__ to dataclass in test_classifier
 
 # 11:44:17 — fix: add missing type hint in test_classifier
+
+# 11:39:28 — chore: add logging statement to test_classifier
