@@ -29,3 +29,5 @@ class TestCacheManager:
 # 12:48:43 — chore: day 30 maintenance sweep
 
 # 12:43:48 — chore: remove debug print statement in test_cache_manager
+
+# 11:39:28 — docs: add module docstring to test_cache_manager
