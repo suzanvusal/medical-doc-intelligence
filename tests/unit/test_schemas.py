@@ -89,3 +89,5 @@ def test_chunk_content_cannot_be_empty():
 # 12:00:38 — ci: update step name for readability
 
 # 11:27:02 — style: reorder imports alphabetically in test_schemas
+
+# 11:55:46 — style: run black formatter on test_schemas
