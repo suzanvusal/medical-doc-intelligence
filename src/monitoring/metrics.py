@@ -25,3 +25,5 @@ class Metrics:
 # 12:11:08 — fix: high cardinality on document_id Prometheus label
 
 # 12:44:00 — fix: remove unused import in metrics
+
+# 11:55:46 — fix: remove unused import in metrics
