@@ -71,3 +71,5 @@ class ResponseCache:
 # 12:50:26 — refactor: rename variable for clarity in cache_manager
 
 # 12:50:26 — chore: day 30 maintenance sweep
+
+# 11:55:46 — chore: remove debug print statement in cache_manager
