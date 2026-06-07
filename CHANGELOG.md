@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 11:55:46 — docs: add project demo GIF to README
 
 # 11:55:46 — chore: final dependency audit and update
+
+# 11:55:46 — fix: environment variable names inconsistent across services
