@@ -14,3 +14,5 @@ __version__ = "0.1.0"
 # 12:28:25 — fix: remove unused import in __init__
 
 # 12:50:26 — perf: cache repeated computation in __init__
+
+# 11:55:46 — chore: remove debug print statement in __init__
