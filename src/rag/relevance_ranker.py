@@ -31,3 +31,5 @@ class RelevanceRanker:
 # 13:59:03 — chore: add logging statement to relevance_ranker
 
 # 13:59:03 — docs: fix typo in inline comment in relevance_ranker
+
+# 14:16:12 — fix: handle None input edge case in relevance_ranker
