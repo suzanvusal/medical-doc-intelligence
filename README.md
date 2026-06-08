@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 14:16:12 — docs: add CHANGELOG for v1.0.0 release
+
+# 14:16:12 — chore: final dependency audit and update
