@@ -50,3 +50,5 @@ async def test_ungrounded_claims_listed(detector):
     assert isinstance(result.ungrounded_claims, list)
 
 # 12:51:03 — test: add snapshot tests for API response schemas
+
+# 14:16:12 — fix: correct off-by-one error in test_hallucination_detector
