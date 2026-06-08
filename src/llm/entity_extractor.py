@@ -91,3 +91,5 @@ class ClinicalEntityExtractor:
 # 12:31:10 — fix: add missing type hint in entity_extractor
 
 # 11:55:46 — chore: day 30 maintenance sweep
+
+# 14:16:12 — chore: add logging statement to entity_extractor
