@@ -27,3 +27,5 @@ class TestResponseGenerator:
 # 12:47:24 — chore: day 24 maintenance sweep
 
 # 12:28:25 — docs: update example in docstring of test_response_generator
+
+# 14:16:12 — fix: handle None input edge case in test_response_generator
