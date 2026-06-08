@@ -25,3 +25,5 @@ class HallucinationDetector:
 # 12:00:38 — fix: handle None input edge case in hallucination_detector
 
 # 13:54:02 — perf: add __slots__ to dataclass in hallucination_detector
+
+# 14:16:12 — style: run black formatter on hallucination_detector
