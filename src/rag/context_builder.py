@@ -33,3 +33,5 @@ class ContextBuilder:
 # 12:43:48 — refactor: extract magic number to constant in context_builde
 
 # 11:55:46 — ci: update step name for readability
+
+# 12:44:32 — fix: correct off-by-one error in context_builder
