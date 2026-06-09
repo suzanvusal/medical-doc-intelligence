@@ -11,3 +11,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 12:44:31 — chore: final dependency audit and update
 
 # 12:44:31 — chore: archive development notebooks to notebooks/archive/
+
+# 12:44:31 — fix: environment variable names inconsistent across services
