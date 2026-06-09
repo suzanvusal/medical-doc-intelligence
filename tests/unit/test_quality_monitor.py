@@ -27,3 +27,5 @@ class TestQualityMonitor:
 # 11:19:48 — fix: correct off-by-one error in test_quality_monitor
 
 # 14:15:29 — refactor: extract magic number to constant in test_quality_m
+
+# 12:44:32 — style: run black formatter on test_quality_monitor
