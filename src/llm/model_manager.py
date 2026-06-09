@@ -39,3 +39,5 @@ class ModelManager:
 # 12:43:48 — perf: cache repeated computation in model_manager
 
 # 11:39:28 — ci: update step name for readability
+
+# 12:44:32 — refactor: rename variable for clarity in model_manager
