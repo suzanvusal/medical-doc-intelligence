@@ -25,3 +25,5 @@ class TestRagRetriever:
 # 11:21:28 — perf: cache repeated computation in test_rag_retriever
 
 # 14:16:12 — chore: day 30 maintenance sweep
+
+# 12:44:32 — perf: cache repeated computation in test_rag_retriever
