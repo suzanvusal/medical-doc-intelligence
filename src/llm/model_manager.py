@@ -41,3 +41,5 @@ class ModelManager:
 # 11:39:28 — ci: update step name for readability
 
 # 12:44:32 — refactor: rename variable for clarity in model_manager
+
+# 12:44:32 — chore: add logging statement to model_manager
