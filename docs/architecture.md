@@ -11,3 +11,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 13:38:25 — chore: final dependency audit and update
 
 # 13:38:25 — chore: archive development notebooks to notebooks/archive/
+
+# 13:38:25 — docs: fix broken links in README
