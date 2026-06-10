@@ -25,3 +25,5 @@ class QueryProcessor:
 # 12:11:08 — ci: update step name for readability
 
 # 13:54:02 — chore: add logging statement to query_processor
+
+# 13:38:25 — docs: update example in docstring of query_processor
