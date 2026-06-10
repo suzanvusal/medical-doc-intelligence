@@ -27,3 +27,5 @@ class EmbeddingCache:
 # 11:58:31 — docs: update example in docstring of embedding_cache
 
 # 13:35:23 — perf: cache repeated computation in embedding_cache
+
+# 13:38:25 — fix: remove unused import in embedding_cache
