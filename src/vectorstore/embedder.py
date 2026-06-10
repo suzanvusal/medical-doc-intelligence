@@ -61,3 +61,5 @@ class MedicalEmbedder:
 # 14:50:08 — fix: handle None input edge case in embedder
 
 # 12:43:48 — chore: day 30 maintenance sweep
+
+# 13:38:25 — chore: remove debug print statement in embedder
