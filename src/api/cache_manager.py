@@ -73,3 +73,5 @@ class ResponseCache:
 # 12:50:26 — chore: day 30 maintenance sweep
 
 # 11:55:46 — chore: remove debug print statement in cache_manager
+
+# 13:38:25 — test: add assertion for return type in cache_manager
