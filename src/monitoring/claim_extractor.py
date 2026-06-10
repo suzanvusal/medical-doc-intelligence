@@ -29,3 +29,5 @@ class ClaimExtractor:
 # 11:27:02 — fix: add missing type hint in claim_extractor
 
 # 12:43:48 — ci: update step name for readability
+
+# 13:38:25 — docs: update example in docstring of claim_extractor
