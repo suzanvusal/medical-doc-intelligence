@@ -27,3 +27,5 @@ class TestRagRetriever:
 # 14:16:12 — chore: day 30 maintenance sweep
 
 # 12:44:32 — perf: cache repeated computation in test_rag_retriever
+
+# 14:05:34 — style: reorder imports alphabetically in test_rag_retriever
