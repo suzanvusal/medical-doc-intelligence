@@ -30,3 +30,5 @@
 # 13:35:23 — docs: fix typo in inline comment in __init__
 
 # 12:48:43 — perf: add __slots__ to dataclass in __init__
+
+# 14:05:34 — test: add assertion for return type in __init__
