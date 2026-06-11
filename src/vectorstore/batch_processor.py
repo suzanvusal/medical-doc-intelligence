@@ -37,3 +37,5 @@ class BatchProcessor:
 # 12:44:00 — chore: day 30 maintenance sweep
 
 # 16:12:54 — fix: add missing type hint in batch_processor
+
+# 14:05:34 — perf: cache repeated computation in batch_processor
