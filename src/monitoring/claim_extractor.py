@@ -31,3 +31,5 @@ class ClaimExtractor:
 # 12:43:48 — ci: update step name for readability
 
 # 13:38:25 — docs: update example in docstring of claim_extractor
+
+# 14:05:34 — fix: handle None input edge case in claim_extractor
