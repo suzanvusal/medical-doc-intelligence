@@ -11,3 +11,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 14:05:34 — ci: add end-to-end smoke test to release pipeline
 
 # 14:05:34 — chore: final dependency audit and update
+
+# 14:05:34 — chore: archive development notebooks to notebooks/archive/
