@@ -96,3 +96,5 @@ class MedicalRAGPipeline:
 # 14:15:29 — style: run black formatter on pipeline
 
 # 12:48:43 — chore: day 30 maintenance sweep
+
+# 14:05:34 — chore: add logging statement to pipeline
