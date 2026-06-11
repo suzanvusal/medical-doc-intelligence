@@ -27,3 +27,5 @@ class HallucinationDetector:
 # 13:54:02 — perf: add __slots__ to dataclass in hallucination_detector
 
 # 14:16:12 — style: run black formatter on hallucination_detector
+
+# 14:05:34 — style: reorder imports alphabetically in hallucination_detec
