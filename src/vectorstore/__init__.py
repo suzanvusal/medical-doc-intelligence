@@ -31,3 +31,5 @@
 # 11:27:02 — chore: remove debug print statement in __init__
 
 # 13:38:25 — chore: remove debug print statement in __init__
+
+# 14:05:34 — ci: update step name for readability
