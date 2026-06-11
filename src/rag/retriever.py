@@ -37,3 +37,5 @@ class Retriever:
 # 11:27:02 — refactor: extract magic number to constant in retriever
 
 # 12:44:32 — style: run black formatter on retriever
+
+# 14:05:34 — ci: update step name for readability
