@@ -41,3 +41,5 @@ class MedicalDocUser(HttpUser):
         self.client.get("/metrics")
 
 # 12:47:24 — refactor: switch synchronous embedding calls to async
+
+# 13:34:29 — docs: fix typo in inline comment in locustfile
