@@ -23,3 +23,5 @@ class AlertTemplates:
 # 13:54:02 — fix: handle None input edge case in alert_templates
 
 # 13:59:03 — fix: correct off-by-one error in alert_templates
+
+# 13:34:29 — fix: add missing type hint in alert_templates
