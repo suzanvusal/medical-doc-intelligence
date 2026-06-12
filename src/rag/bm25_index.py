@@ -33,3 +33,5 @@ class Bm25Index:
 # 14:50:08 — test: add assertion for return type in bm25_index
 
 # 13:38:25 — fix: remove unused import in bm25_index
+
+# 13:34:29 — fix: handle None input edge case in bm25_index
