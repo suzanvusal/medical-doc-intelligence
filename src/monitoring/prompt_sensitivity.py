@@ -31,3 +31,5 @@ class PromptSensitivity:
 # 12:43:48 — docs: fix typo in inline comment in prompt_sensitivity
 
 # 11:39:28 — style: reorder imports alphabetically in prompt_sensitivity
+
+# 13:34:29 — style: run black formatter on prompt_sensitivity
