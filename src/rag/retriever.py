@@ -39,3 +39,5 @@ class Retriever:
 # 12:44:32 — style: run black formatter on retriever
 
 # 14:05:34 — ci: update step name for readability
+
+# 13:34:29 — docs: update example in docstring of retriever
