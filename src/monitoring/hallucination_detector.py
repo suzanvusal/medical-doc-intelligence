@@ -29,3 +29,5 @@ class HallucinationDetector:
 # 14:16:12 — style: run black formatter on hallucination_detector
 
 # 14:05:34 — style: reorder imports alphabetically in hallucination_detec
+
+# 13:34:29 — fix: correct off-by-one error in hallucination_detector
