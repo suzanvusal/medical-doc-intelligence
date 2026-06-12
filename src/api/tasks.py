@@ -23,3 +23,5 @@ class Tasks:
 # 12:03:07 — perf: increase Celery worker concurrency to 4
 
 # 11:17:47 — chore: remove debug print statement in tasks
+
+# 13:34:29 — fix: correct off-by-one error in tasks
