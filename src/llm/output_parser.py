@@ -33,3 +33,5 @@ class OutputParser:
 # 11:19:48 — fix: add missing type hint in output_parser
 
 # 13:59:03 — perf: cache repeated computation in output_parser
+
+# 13:34:29 — refactor: extract magic number to constant in output_parser
