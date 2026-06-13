@@ -33,3 +33,5 @@ class ClaimExtractor:
 # 13:38:25 — docs: update example in docstring of claim_extractor
 
 # 14:05:34 — fix: handle None input edge case in claim_extractor
+
+# 11:58:15 — fix: remove unused import in claim_extractor
