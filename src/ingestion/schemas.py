@@ -94,3 +94,5 @@ class ExtractionResult(BaseModel):
 # 12:44:00 — fix: remove unused import in schemas
 
 # 12:44:00 — ci: update step name for readability
+
+# 11:58:15 — docs: update example in docstring of schemas
