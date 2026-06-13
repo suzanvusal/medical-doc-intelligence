@@ -96,3 +96,5 @@ class HybridSearcher:
 # 11:27:02 — fix: handle None input edge case in hybrid_searcher
 
 # 12:48:43 — docs: add module docstring to hybrid_searcher
+
+# 11:58:15 — test: add assertion for return type in hybrid_searcher
