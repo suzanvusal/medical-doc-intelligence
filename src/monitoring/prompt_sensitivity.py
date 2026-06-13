@@ -33,3 +33,5 @@ class PromptSensitivity:
 # 11:39:28 — style: reorder imports alphabetically in prompt_sensitivity
 
 # 13:34:29 — style: run black formatter on prompt_sensitivity
+
+# 11:58:15 — perf: add __slots__ to dataclass in prompt_sensitivity
