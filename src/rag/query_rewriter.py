@@ -33,3 +33,5 @@ class QueryRewriter:
 # 12:28:25 — fix: remove unused import in query_rewriter
 
 # 11:21:28 — style: run black formatter on query_rewriter
+
+# 11:58:15 — chore: remove debug print statement in query_rewriter
