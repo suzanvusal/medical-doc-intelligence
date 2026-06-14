@@ -27,3 +27,5 @@ class TestQueryUnderstanding:
 # 13:35:23 — style: reorder imports alphabetically in test_query_understa
 
 # 14:16:12 — fix: correct off-by-one error in test_query_understanding
+
+# 12:05:06 — chore: add logging statement to test_query_understanding
