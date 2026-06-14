@@ -23,3 +23,5 @@ class ConversationHistory:
 # 11:39:28 — chore: remove debug print statement in conversation_history
 
 # 11:55:46 — style: reorder imports alphabetically in conversation_histor
+
+# 12:05:06 — refactor: extract magic number to constant in conversation_h
