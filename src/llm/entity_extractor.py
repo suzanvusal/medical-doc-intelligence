@@ -93,3 +93,5 @@ class ClinicalEntityExtractor:
 # 11:55:46 — chore: day 30 maintenance sweep
 
 # 14:16:12 — chore: add logging statement to entity_extractor
+
+# 12:05:06 — refactor: extract magic number to constant in entity_extract
