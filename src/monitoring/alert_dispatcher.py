@@ -29,3 +29,5 @@ class AlertDispatcher:
 # 14:50:08 — fix: correct off-by-one error in alert_dispatcher
 
 # 11:58:15 — style: run black formatter on alert_dispatcher
+
+# 12:05:06 — refactor: extract magic number to constant in alert_dispatch
