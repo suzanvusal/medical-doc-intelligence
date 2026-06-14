@@ -31,3 +31,5 @@ class TestCacheManager:
 # 12:43:48 — chore: remove debug print statement in test_cache_manager
 
 # 11:39:28 — docs: add module docstring to test_cache_manager
+
+# 12:05:06 — perf: add __slots__ to dataclass in test_cache_manager
