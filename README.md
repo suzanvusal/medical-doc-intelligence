@@ -80,9 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 11:58:15 — ci: add end-to-end smoke test to release pipeline
-
-# 11:58:15 — chore: final dependency audit and update
-
-# 11:58:15 — fix: environment variable names inconsistent across services
