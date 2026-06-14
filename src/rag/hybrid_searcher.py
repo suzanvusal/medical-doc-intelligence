@@ -98,3 +98,5 @@ class HybridSearcher:
 # 12:48:43 — docs: add module docstring to hybrid_searcher
 
 # 11:58:15 — test: add assertion for return type in hybrid_searcher
+
+# 12:05:06 — fix: correct off-by-one error in hybrid_searcher
