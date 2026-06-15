@@ -75,3 +75,5 @@ Answer concisely and cite sources:"
 # 11:05:49 — docs: add module docstring to response_generator
 
 # 12:28:25 — ci: update step name for readability
+
+# 15:51:55 — chore: add logging statement to response_generator
