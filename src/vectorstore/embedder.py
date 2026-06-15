@@ -63,3 +63,5 @@ class MedicalEmbedder:
 # 12:43:48 — chore: day 30 maintenance sweep
 
 # 13:38:25 — chore: remove debug print statement in embedder
+
+# 15:51:55 — fix: add missing type hint in embedder
