@@ -65,3 +65,5 @@ class MedicalEmbedder:
 # 13:38:25 — chore: remove debug print statement in embedder
 
 # 15:51:55 — fix: add missing type hint in embedder
+
+# 15:51:55 — ci: update step name for readability
