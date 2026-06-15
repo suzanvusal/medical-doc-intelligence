@@ -35,3 +35,5 @@ class AnswerValidator:
 # 14:05:34 — docs: fix typo in inline comment in answer_validator
 
 # 12:05:06 — chore: day 30 maintenance sweep
+
+# 15:51:55 — docs: add module docstring to answer_validator
