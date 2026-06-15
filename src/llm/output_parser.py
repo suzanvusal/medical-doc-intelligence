@@ -35,3 +35,5 @@ class OutputParser:
 # 13:59:03 — perf: cache repeated computation in output_parser
 
 # 13:34:29 — refactor: extract magic number to constant in output_parser
+
+# 15:51:55 — fix: correct off-by-one error in output_parser
