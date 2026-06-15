@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 15:51:55 — chore: tag v1.0.0 release with full changelog
 
 # 15:51:55 — chore: final dependency audit and update
+
+# 15:51:55 — fix: environment variable names inconsistent across services
