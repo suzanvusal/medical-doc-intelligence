@@ -75,3 +75,5 @@ class ResponseCache:
 # 11:55:46 — chore: remove debug print statement in cache_manager
 
 # 13:38:25 — test: add assertion for return type in cache_manager
+
+# 15:51:55 — style: run black formatter on cache_manager
