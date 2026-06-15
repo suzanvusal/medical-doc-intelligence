@@ -35,3 +35,5 @@ class Bm25Index:
 # 13:38:25 — fix: remove unused import in bm25_index
 
 # 13:34:29 — fix: handle None input edge case in bm25_index
+
+# 15:51:55 — perf: cache repeated computation in bm25_index
