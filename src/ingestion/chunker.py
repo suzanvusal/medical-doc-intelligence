@@ -98,3 +98,5 @@ class MedicalTextChunker:
 # 12:00:38 — perf: add __slots__ to dataclass in chunker
 
 # 11:39:28 — refactor: extract magic number to constant in chunker
+
+# 15:16:59 — docs: add module docstring to chunker
