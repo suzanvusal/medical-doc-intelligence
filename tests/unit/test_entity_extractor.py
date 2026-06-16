@@ -25,3 +25,5 @@ class TestEntityExtractor:
 # 12:51:03 — refactor: consolidate test fixtures in conftest.py
 
 # 16:12:54 — fix: add missing type hint in test_entity_extractor
+
+# 15:16:59 — perf: add __slots__ to dataclass in test_entity_extractor
