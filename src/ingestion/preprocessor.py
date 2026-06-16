@@ -85,3 +85,5 @@ class MedicalPreprocessor:
 # 12:50:26 — chore: add logging statement to preprocessor
 
 # 13:38:25 — docs: add module docstring to preprocessor
+
+# 15:16:59 — fix: handle None input edge case in preprocessor
