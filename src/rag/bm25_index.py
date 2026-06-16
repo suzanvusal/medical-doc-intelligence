@@ -37,3 +37,5 @@ class Bm25Index:
 # 13:34:29 — fix: handle None input edge case in bm25_index
 
 # 15:51:55 — perf: cache repeated computation in bm25_index
+
+# 15:16:59 — docs: update example in docstring of bm25_index
