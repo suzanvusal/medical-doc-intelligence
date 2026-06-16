@@ -29,3 +29,5 @@ class TestEmbedder:
 # 11:39:28 — style: run black formatter on test_embedder
 
 # 12:05:06 — chore: day 30 maintenance sweep
+
+# 15:16:59 — ci: update step name for readability
