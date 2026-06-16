@@ -80,7 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 15:51:55 — ci: add end-to-end smoke test to release pipeline
-
-# 15:51:55 — refactor: final cleanup — remove all TODO comments
