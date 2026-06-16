@@ -29,3 +29,5 @@ class TestQueryUnderstanding:
 # 14:16:12 — fix: correct off-by-one error in test_query_understanding
 
 # 12:05:06 — chore: add logging statement to test_query_understanding
+
+# 15:16:59 — chore: remove debug print statement in test_query_understand
