@@ -35,3 +35,5 @@ class ClaimExtractor:
 # 14:05:34 — fix: handle None input edge case in claim_extractor
 
 # 11:58:15 — fix: remove unused import in claim_extractor
+
+# 15:16:59 — style: run black formatter on claim_extractor
