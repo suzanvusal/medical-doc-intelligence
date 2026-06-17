@@ -29,3 +29,5 @@ class QueryProcessor:
 # 13:38:25 — docs: update example in docstring of query_processor
 
 # 13:34:29 — perf: cache repeated computation in query_processor
+
+# 13:49:27 — chore: add logging statement to query_processor
