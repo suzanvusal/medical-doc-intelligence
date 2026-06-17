@@ -29,3 +29,5 @@
 # 14:16:12 — chore: add logging statement to __init__
 
 # 13:38:25 — chore: add logging statement to __init__
+
+# 13:49:27 — test: add assertion for return type in __init__
