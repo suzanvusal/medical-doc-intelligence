@@ -29,3 +29,5 @@ class FaithfulnessChecker:
 # 12:44:32 — style: reorder imports alphabetically in faithfulness_checke
 
 # 15:51:55 — fix: add missing type hint in faithfulness_checker
+
+# 13:49:27 — docs: update example in docstring of faithfulness_checker
