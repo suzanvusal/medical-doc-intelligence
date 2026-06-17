@@ -77,3 +77,5 @@ Answer concisely and cite sources:"
 # 12:28:25 — ci: update step name for readability
 
 # 15:51:55 — chore: add logging statement to response_generator
+
+# 13:49:27 — refactor: extract magic number to constant in response_gener
