@@ -39,3 +39,5 @@ class IntentDetector:
 # 16:12:54 — test: add assertion for return type in intent_detector
 
 # 14:15:29 — chore: add logging statement to intent_detector
+
+# 13:49:27 — chore: remove debug print statement in intent_detector
