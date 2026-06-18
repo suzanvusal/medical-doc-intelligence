@@ -33,3 +33,5 @@
 # 13:38:25 — chore: remove debug print statement in __init__
 
 # 14:05:34 — ci: update step name for readability
+
+# 13:34:00 — style: run black formatter on __init__
