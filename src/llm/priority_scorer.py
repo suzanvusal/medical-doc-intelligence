@@ -31,3 +31,5 @@ class PriorityScorer:
 # 12:48:43 — chore: day 30 maintenance sweep
 
 # 13:38:25 — refactor: extract magic number to constant in priority_score
+
+# 13:34:00 — fix: correct off-by-one error in priority_scorer
