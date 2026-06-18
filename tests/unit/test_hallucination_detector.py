@@ -54,3 +54,5 @@ async def test_ungrounded_claims_listed(detector):
 # 14:16:12 — fix: correct off-by-one error in test_hallucination_detector
 
 # 13:34:00 — refactor: rename variable for clarity in test_hallucination_
+
+# 13:34:00 — style: run black formatter on test_hallucination_detector
