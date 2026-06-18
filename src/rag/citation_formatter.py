@@ -33,3 +33,5 @@ class CitationFormatter:
 # 14:50:08 — refactor: extract magic number to constant in citation_forma
 
 # 12:48:43 — perf: add __slots__ to dataclass in citation_formatter
+
+# 13:34:00 — fix: handle None input edge case in citation_formatter
