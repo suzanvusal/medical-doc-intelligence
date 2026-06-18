@@ -52,3 +52,5 @@ async def test_ungrounded_claims_listed(detector):
 # 12:51:03 — test: add snapshot tests for API response schemas
 
 # 14:16:12 — fix: correct off-by-one error in test_hallucination_detector
+
+# 13:34:00 — refactor: rename variable for clarity in test_hallucination_
