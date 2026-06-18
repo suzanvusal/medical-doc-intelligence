@@ -31,3 +31,5 @@ class QualityScorer:
 # 12:44:42 — style: run black formatter on quality_scorer
 
 # 11:21:28 — style: reorder imports alphabetically in quality_scorer
+
+# 13:34:00 — refactor: extract magic number to constant in quality_scorer
