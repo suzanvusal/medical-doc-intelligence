@@ -35,3 +35,5 @@ class CitationFormatter:
 # 12:48:43 — perf: add __slots__ to dataclass in citation_formatter
 
 # 13:34:00 — fix: handle None input edge case in citation_formatter
+
+# 13:40:14 — docs: update example in docstring of citation_formatter
