@@ -39,3 +39,5 @@ class BatchProcessor:
 # 16:12:54 — fix: add missing type hint in batch_processor
 
 # 14:05:34 — perf: cache repeated computation in batch_processor
+
+# 13:40:14 — test: add assertion for return type in batch_processor
