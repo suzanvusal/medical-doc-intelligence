@@ -35,3 +35,5 @@ class ContextBuilder:
 # 11:55:46 — ci: update step name for readability
 
 # 12:44:32 — fix: correct off-by-one error in context_builder
+
+# 13:40:14 — perf: add __slots__ to dataclass in context_builder
