@@ -31,3 +31,5 @@ class TestTasks:
 # 13:34:29 — test: add assertion for return type in test_tasks
 
 # 13:34:29 — refactor: rename variable for clarity in test_tasks
+
+# 13:40:14 — ci: update step name for readability
