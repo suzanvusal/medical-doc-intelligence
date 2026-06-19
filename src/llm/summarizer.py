@@ -97,3 +97,5 @@ class MedicalSummarizer:
 # 11:21:28 — test: add assertion for return type in summarizer
 
 # 12:44:00 — refactor: rename variable for clarity in summarizer
+
+# 13:40:14 — docs: add module docstring to summarizer
