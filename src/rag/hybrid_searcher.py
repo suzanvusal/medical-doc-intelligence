@@ -102,3 +102,5 @@ class HybridSearcher:
 # 12:05:06 — fix: correct off-by-one error in hybrid_searcher
 
 # 13:49:27 — docs: add module docstring to hybrid_searcher
+
+# 13:40:14 — fix: correct off-by-one error in hybrid_searcher
