@@ -99,3 +99,5 @@ class MedicalSummarizer:
 # 12:44:00 — refactor: rename variable for clarity in summarizer
 
 # 13:40:14 — docs: add module docstring to summarizer
+
+# 13:40:14 — fix: correct off-by-one error in summarizer
