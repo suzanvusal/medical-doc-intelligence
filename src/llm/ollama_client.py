@@ -120,3 +120,5 @@ class OllamaClient:
 # 12:43:48 — fix: correct off-by-one error in ollama_client
 
 # 12:44:32 — fix: handle None input edge case in ollama_client
+
+# 12:03:08 — fix: remove unused import in ollama_client
