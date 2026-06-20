@@ -39,3 +39,5 @@ class DocumentStore:
 # 11:55:46 — style: reorder imports alphabetically in document_store
 
 # 11:58:15 — docs: update example in docstring of document_store
+
+# 12:03:08 — refactor: rename variable for clarity in document_store
