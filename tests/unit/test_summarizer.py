@@ -35,3 +35,5 @@ class TestSummarizer:
 # 11:27:02 — chore: remove debug print statement in test_summarizer
 
 # 13:38:25 — chore: remove debug print statement in test_summarizer
+
+# 12:03:08 — docs: update example in docstring of test_summarizer
