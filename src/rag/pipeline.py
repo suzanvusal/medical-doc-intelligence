@@ -100,3 +100,5 @@ class MedicalRAGPipeline:
 # 14:05:34 — chore: add logging statement to pipeline
 
 # 13:40:14 — docs: add module docstring to pipeline
+
+# 12:03:08 — ci: update step name for readability
