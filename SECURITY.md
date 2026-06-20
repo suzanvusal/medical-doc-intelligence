@@ -5,3 +5,5 @@ Day 30: Final polish, README & project completion
 Complete README, architecture diagrams, changelog, v1.0.0 tag
 
 # 12:03:08 — chore: archive development notebooks to notebooks/archive/
+
+# 12:03:08 — docs: fix broken links in README
