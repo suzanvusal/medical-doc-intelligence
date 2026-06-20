@@ -23,3 +23,5 @@ class GroundingVerifier:
 # 12:00:38 — fix: NLI model too strict on paraphrased but correct stateme
 
 # 13:35:23 — docs: fix typo in inline comment in grounding_verifier
+
+# 12:03:08 — perf: cache repeated computation in grounding_verifier
