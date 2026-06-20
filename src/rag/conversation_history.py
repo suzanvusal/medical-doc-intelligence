@@ -27,3 +27,5 @@ class ConversationHistory:
 # 12:05:06 — refactor: extract magic number to constant in conversation_h
 
 # 15:16:59 — chore: day 30 maintenance sweep
+
+# 12:03:08 — fix: add missing type hint in conversation_history
