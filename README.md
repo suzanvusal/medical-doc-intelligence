@@ -80,7 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 13:40:14 — security: add SECURITY.md with vulnerability reporting guide
-
-# 13:40:14 — chore: tag v1.0.0 release with full changelog
