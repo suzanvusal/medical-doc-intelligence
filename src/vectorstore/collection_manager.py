@@ -27,3 +27,5 @@ class CollectionManager:
 # 12:00:38 — perf: add __slots__ to dataclass in collection_manager
 
 # 14:16:12 — docs: fix typo in inline comment in collection_manager
+
+# 12:03:08 — style: run black formatter on collection_manager
