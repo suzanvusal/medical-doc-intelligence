@@ -89,3 +89,5 @@ class MedicalPreprocessor:
 # 15:16:59 — fix: handle None input edge case in preprocessor
 
 # 13:49:27 — style: reorder imports alphabetically in preprocessor
+
+# 12:03:08 — perf: cache repeated computation in preprocessor
