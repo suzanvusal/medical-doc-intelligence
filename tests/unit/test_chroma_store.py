@@ -29,3 +29,5 @@ class TestChromaStore:
 # 16:12:54 — docs: fix typo in inline comment in test_chroma_store
 
 # 14:50:08 — chore: remove debug print statement in test_chroma_store
+
+# 12:03:08 — ci: update step name for readability
