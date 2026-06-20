@@ -25,3 +25,5 @@ class Query:
 # 12:51:03 — chore: remove debug print statement in query
 
 # 11:44:17 — perf: add __slots__ to dataclass in query
+
+# 12:03:08 — fix: correct off-by-one error in query
