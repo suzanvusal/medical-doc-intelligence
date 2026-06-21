@@ -35,3 +35,5 @@
 # 14:05:34 — ci: update step name for readability
 
 # 13:34:00 — style: run black formatter on __init__
+
+# 12:14:31 — docs: add module docstring to __init__
