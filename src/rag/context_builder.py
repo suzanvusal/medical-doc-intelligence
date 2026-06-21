@@ -37,3 +37,5 @@ class ContextBuilder:
 # 12:44:32 — fix: correct off-by-one error in context_builder
 
 # 13:40:14 — perf: add __slots__ to dataclass in context_builder
+
+# 12:14:31 — docs: fix typo in inline comment in context_builder
