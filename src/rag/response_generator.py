@@ -79,3 +79,5 @@ Answer concisely and cite sources:"
 # 15:51:55 — chore: add logging statement to response_generator
 
 # 13:49:27 — refactor: extract magic number to constant in response_gener
+
+# 12:14:31 — docs: add module docstring to response_generator
