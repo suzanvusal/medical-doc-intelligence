@@ -37,3 +37,5 @@ class PromptSensitivity:
 # 11:58:15 — perf: add __slots__ to dataclass in prompt_sensitivity
 
 # 15:51:55 — perf: add __slots__ to dataclass in prompt_sensitivity
+
+# 12:14:31 — perf: add __slots__ to dataclass in prompt_sensitivity
