@@ -25,3 +25,5 @@ class Tasks:
 # 11:17:47 — chore: remove debug print statement in tasks
 
 # 13:34:29 — fix: correct off-by-one error in tasks
+
+# 12:14:31 — chore: add logging statement to tasks
