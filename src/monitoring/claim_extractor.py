@@ -37,3 +37,5 @@ class ClaimExtractor:
 # 11:58:15 — fix: remove unused import in claim_extractor
 
 # 15:16:59 — style: run black formatter on claim_extractor
+
+# 12:14:31 — docs: fix typo in inline comment in claim_extractor
