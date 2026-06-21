@@ -31,3 +31,5 @@ class QueryProcessor:
 # 13:34:29 — perf: cache repeated computation in query_processor
 
 # 13:49:27 — chore: add logging statement to query_processor
+
+# 12:14:31 — style: run black formatter on query_processor
