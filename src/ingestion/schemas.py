@@ -96,3 +96,5 @@ class ExtractionResult(BaseModel):
 # 12:44:00 — ci: update step name for readability
 
 # 11:58:15 — docs: update example in docstring of schemas
+
+# 12:14:31 — perf: add __slots__ to dataclass in schemas
