@@ -81,3 +81,5 @@ Answer concisely and cite sources:"
 # 13:49:27 — refactor: extract magic number to constant in response_gener
 
 # 12:14:31 — docs: add module docstring to response_generator
+
+# 12:14:31 — test: add assertion for return type in response_generator
