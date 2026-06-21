@@ -80,3 +80,5 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
+
+# 12:14:31 — ci: add end-to-end smoke test to release pipeline
