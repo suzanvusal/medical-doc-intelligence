@@ -80,5 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 12:03:08 — chore: tag v1.0.0 release with full changelog
