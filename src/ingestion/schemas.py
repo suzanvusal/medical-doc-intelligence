@@ -98,3 +98,5 @@ class ExtractionResult(BaseModel):
 # 11:58:15 — docs: update example in docstring of schemas
 
 # 12:14:31 — perf: add __slots__ to dataclass in schemas
+
+# 15:28:16 — style: run black formatter on schemas
