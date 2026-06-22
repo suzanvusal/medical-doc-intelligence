@@ -72,3 +72,5 @@ class MedicalDocumentClassifier:
 # 11:03:54 — perf: add __slots__ to dataclass in classifier
 
 # 12:47:24 — test: add assertion for return type in classifier
+
+# 15:28:16 — fix: add missing type hint in classifier
