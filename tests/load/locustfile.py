@@ -43,3 +43,5 @@ class MedicalDocUser(HttpUser):
 # 12:47:24 — refactor: switch synchronous embedding calls to async
 
 # 13:34:29 — docs: fix typo in inline comment in locustfile
+
+# 15:28:16 — fix: correct off-by-one error in locustfile
