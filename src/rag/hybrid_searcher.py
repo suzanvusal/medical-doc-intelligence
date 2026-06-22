@@ -104,3 +104,5 @@ class HybridSearcher:
 # 13:49:27 — docs: add module docstring to hybrid_searcher
 
 # 13:40:14 — fix: correct off-by-one error in hybrid_searcher
+
+# 15:28:16 — refactor: rename variable for clarity in hybrid_searcher
