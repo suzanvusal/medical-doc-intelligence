@@ -19,3 +19,5 @@
 # 11:55:46 — docs: add module docstring to __init__
 
 # 15:51:55 — chore: remove debug print statement in __init__
+
+# 15:28:16 — perf: add __slots__ to dataclass in __init__
