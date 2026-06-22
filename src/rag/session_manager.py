@@ -94,3 +94,5 @@ class SessionManager:
 # 14:05:34 — ci: update step name for readability
 
 # 13:34:00 — chore: day 30 maintenance sweep
+
+# 15:28:16 — docs: update example in docstring of session_manager
