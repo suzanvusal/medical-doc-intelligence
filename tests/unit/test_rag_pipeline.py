@@ -25,3 +25,5 @@ class TestRagPipeline:
 # 12:11:08 — docs: fix typo in inline comment in test_rag_pipeline
 
 # 11:17:47 — ci: update step name for readability
+
+# 15:28:16 — perf: cache repeated computation in test_rag_pipeline
