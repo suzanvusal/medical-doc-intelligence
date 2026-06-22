@@ -37,3 +37,5 @@ class Documents:
 # 11:39:28 — fix: correct off-by-one error in documents
 
 # 12:14:31 — refactor: rename variable for clarity in documents
+
+# 15:28:16 — chore: remove debug print statement in documents
