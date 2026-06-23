@@ -18,3 +18,5 @@ __version__ = "0.1.0"
 # 11:55:46 — chore: remove debug print statement in __init__
 
 # 13:34:00 — chore: day 30 maintenance sweep
+
+# 12:40:27 — test: add assertion for return type in __init__
