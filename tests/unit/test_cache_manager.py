@@ -33,3 +33,5 @@ class TestCacheManager:
 # 11:39:28 — docs: add module docstring to test_cache_manager
 
 # 12:05:06 — perf: add __slots__ to dataclass in test_cache_manager
+
+# 12:40:27 — fix: correct off-by-one error in test_cache_manager
