@@ -37,3 +37,5 @@
 # 13:34:00 — style: run black formatter on __init__
 
 # 12:14:31 — docs: add module docstring to __init__
+
+# 12:40:27 — test: add assertion for return type in __init__
