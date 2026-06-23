@@ -95,3 +95,5 @@ class ClinicalEntityExtractor:
 # 14:16:12 — chore: add logging statement to entity_extractor
 
 # 12:05:06 — refactor: extract magic number to constant in entity_extract
+
+# 12:40:28 — style: run black formatter on entity_extractor
