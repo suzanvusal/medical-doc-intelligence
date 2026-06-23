@@ -25,3 +25,5 @@ class GroundingVerifier:
 # 13:35:23 — docs: fix typo in inline comment in grounding_verifier
 
 # 12:03:08 — perf: cache repeated computation in grounding_verifier
+
+# 12:40:27 — ci: update step name for readability
