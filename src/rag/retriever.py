@@ -41,3 +41,5 @@ class Retriever:
 # 14:05:34 — ci: update step name for readability
 
 # 13:34:29 — docs: update example in docstring of retriever
+
+# 12:24:01 — docs: add module docstring to retriever
