@@ -91,3 +91,5 @@ def test_chunk_content_cannot_be_empty():
 # 11:27:02 — style: reorder imports alphabetically in test_schemas
 
 # 11:55:46 — style: run black formatter on test_schemas
+
+# 12:24:01 — perf: cache repeated computation in test_schemas
