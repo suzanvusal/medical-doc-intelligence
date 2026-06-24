@@ -27,3 +27,5 @@ class GroundingVerifier:
 # 12:03:08 — perf: cache repeated computation in grounding_verifier
 
 # 12:40:27 — ci: update step name for readability
+
+# 12:24:01 — fix: correct off-by-one error in grounding_verifier
