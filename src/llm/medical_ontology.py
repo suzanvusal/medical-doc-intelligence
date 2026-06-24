@@ -41,3 +41,5 @@ class MedicalOntology:
 # 14:05:34 — refactor: rename variable for clarity in medical_ontology
 
 # 13:34:00 — docs: update example in docstring of medical_ontology
+
+# 12:24:01 — test: add assertion for return type in medical_ontology
