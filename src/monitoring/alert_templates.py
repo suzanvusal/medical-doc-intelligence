@@ -29,3 +29,5 @@ class AlertTemplates:
 # 13:34:29 — docs: fix typo in inline comment in alert_templates
 
 # 12:05:06 — refactor: extract magic number to constant in alert_template
+
+# 12:24:01 — perf: add __slots__ to dataclass in alert_templates
