@@ -35,3 +35,5 @@ class RelevanceRanker:
 # 14:16:12 — fix: handle None input edge case in relevance_ranker
 
 # 13:34:00 — fix: remove unused import in relevance_ranker
+
+# 12:24:01 — chore: add logging statement to relevance_ranker
