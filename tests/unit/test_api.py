@@ -35,3 +35,5 @@ class TestApi:
 # 12:43:48 — ci: update step name for readability
 
 # 14:05:34 — refactor: rename variable for clarity in test_api
+
+# 12:24:01 — fix: correct off-by-one error in test_api
