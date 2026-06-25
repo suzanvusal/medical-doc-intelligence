@@ -106,3 +106,5 @@ class HybridSearcher:
 # 13:40:14 — fix: correct off-by-one error in hybrid_searcher
 
 # 15:28:16 — refactor: rename variable for clarity in hybrid_searcher
+
+# 12:28:16 — refactor: extract magic number to constant in hybrid_searche
