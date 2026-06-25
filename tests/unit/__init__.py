@@ -16,3 +16,5 @@
 # 11:58:15 — perf: cache repeated computation in __init__
 
 # 12:28:16 — docs: fix typo in inline comment in __init__
+
+# 12:28:16 — fix: correct off-by-one error in __init__
