@@ -37,3 +37,5 @@ class TestSummarizer:
 # 13:38:25 — chore: remove debug print statement in test_summarizer
 
 # 12:03:08 — docs: update example in docstring of test_summarizer
+
+# 12:28:16 — docs: add module docstring to test_summarizer
