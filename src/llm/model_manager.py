@@ -47,3 +47,5 @@ class ModelManager:
 # 11:58:15 — fix: remove unused import in model_manager
 
 # 12:05:06 — fix: remove unused import in model_manager
+
+# 12:28:16 — refactor: extract magic number to constant in model_manager
