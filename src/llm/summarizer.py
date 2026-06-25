@@ -101,3 +101,5 @@ class MedicalSummarizer:
 # 13:40:14 — docs: add module docstring to summarizer
 
 # 13:40:14 — fix: correct off-by-one error in summarizer
+
+# 12:28:16 — refactor: extract magic number to constant in summarizer
