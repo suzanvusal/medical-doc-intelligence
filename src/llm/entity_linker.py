@@ -25,3 +25,5 @@ class EntityLinker:
 # 11:21:28 — fix: correct off-by-one error in entity_linker
 
 # 12:48:43 — chore: day 30 maintenance sweep
+
+# 12:28:16 — docs: add module docstring to entity_linker
