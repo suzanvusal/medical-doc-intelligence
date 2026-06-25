@@ -14,3 +14,5 @@
 # 11:55:46 — fix: remove unused import in __init__
 
 # 11:58:15 — perf: cache repeated computation in __init__
+
+# 12:28:16 — docs: fix typo in inline comment in __init__
