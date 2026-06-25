@@ -84,3 +84,5 @@ MIT
 # 12:28:16 — chore: tag v1.0.0 release with full changelog
 
 # 12:28:16 — chore: archive development notebooks to notebooks/archive/
+
+# 12:28:16 — fix: environment variable names inconsistent across services
