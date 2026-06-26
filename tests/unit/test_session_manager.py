@@ -21,3 +21,5 @@ class TestSessionManager:
 # 12:51:03 — ci: enforce 80% coverage threshold in CI
 
 # 16:12:54 — chore: add logging statement to test_session_manager
+
+# 12:19:04 — docs: add module docstring to test_session_manager
