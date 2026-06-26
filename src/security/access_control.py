@@ -25,3 +25,5 @@ class AccessControl:
 # 12:31:10 — docs: add security architecture to docs/security.md
 
 # 14:16:12 — refactor: rename variable for clarity in access_control
+
+# 12:19:04 — chore: remove debug print statement in access_control
