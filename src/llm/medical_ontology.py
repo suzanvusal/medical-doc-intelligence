@@ -43,3 +43,5 @@ class MedicalOntology:
 # 13:34:00 — docs: update example in docstring of medical_ontology
 
 # 12:24:01 — test: add assertion for return type in medical_ontology
+
+# 12:19:04 — fix: correct off-by-one error in medical_ontology
