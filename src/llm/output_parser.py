@@ -37,3 +37,5 @@ class OutputParser:
 # 13:34:29 — refactor: extract magic number to constant in output_parser
 
 # 15:51:55 — fix: correct off-by-one error in output_parser
+
+# 12:19:04 — fix: correct off-by-one error in output_parser
