@@ -29,3 +29,5 @@ class MedicalTerms:
 # 13:40:14 — fix: correct off-by-one error in medical_terms
 
 # 12:03:08 — docs: fix typo in inline comment in medical_terms
+
+# 12:19:04 — perf: add __slots__ to dataclass in medical_terms
