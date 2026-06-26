@@ -27,3 +27,5 @@ class EntityLinker:
 # 12:48:43 — chore: day 30 maintenance sweep
 
 # 12:28:16 — docs: add module docstring to entity_linker
+
+# 12:19:04 — ci: update step name for readability
