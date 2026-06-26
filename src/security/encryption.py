@@ -25,3 +25,5 @@ class Encryption:
 # 11:55:46 — refactor: rename variable for clarity in encryption
 
 # 12:19:04 — refactor: rename variable for clarity in encryption
+
+# 12:19:04 — docs: add module docstring to encryption
