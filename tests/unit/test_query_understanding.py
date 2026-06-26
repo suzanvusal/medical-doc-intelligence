@@ -31,3 +31,5 @@ class TestQueryUnderstanding:
 # 12:05:06 — chore: add logging statement to test_query_understanding
 
 # 15:16:59 — chore: remove debug print statement in test_query_understand
+
+# 12:19:04 — fix: remove unused import in test_query_understanding
