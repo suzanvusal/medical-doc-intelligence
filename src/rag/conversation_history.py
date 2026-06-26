@@ -29,3 +29,5 @@ class ConversationHistory:
 # 15:16:59 — chore: day 30 maintenance sweep
 
 # 12:03:08 — fix: add missing type hint in conversation_history
+
+# 12:19:04 — fix: remove unused import in conversation_history
