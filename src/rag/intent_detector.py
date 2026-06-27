@@ -43,3 +43,5 @@ class IntentDetector:
 # 13:49:27 — chore: remove debug print statement in intent_detector
 
 # 12:14:31 — ci: update step name for readability
+
+# 11:41:14 — fix: add missing type hint in intent_detector
