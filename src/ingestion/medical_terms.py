@@ -31,3 +31,5 @@ class MedicalTerms:
 # 12:03:08 — docs: fix typo in inline comment in medical_terms
 
 # 12:19:04 — perf: add __slots__ to dataclass in medical_terms
+
+# 11:41:14 — perf: cache repeated computation in medical_terms
