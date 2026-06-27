@@ -37,3 +37,5 @@ class TestChunker:
 # 12:44:32 — test: add assertion for return type in test_chunker
 
 # 13:34:00 — test: add assertion for return type in test_chunker
+
+# 11:41:14 — docs: add module docstring to test_chunker
