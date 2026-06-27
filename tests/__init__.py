@@ -34,3 +34,5 @@
 # 14:05:34 — test: add assertion for return type in __init__
 
 # 15:16:59 — fix: add missing type hint in __init__
+
+# 11:41:14 — fix: add missing type hint in __init__
