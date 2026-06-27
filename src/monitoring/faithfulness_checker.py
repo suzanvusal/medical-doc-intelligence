@@ -31,3 +31,5 @@ class FaithfulnessChecker:
 # 15:51:55 — fix: add missing type hint in faithfulness_checker
 
 # 13:49:27 — docs: update example in docstring of faithfulness_checker
+
+# 11:41:14 — test: add assertion for return type in faithfulness_checker
