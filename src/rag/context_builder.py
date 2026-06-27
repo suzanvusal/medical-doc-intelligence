@@ -39,3 +39,5 @@ class ContextBuilder:
 # 13:40:14 — perf: add __slots__ to dataclass in context_builder
 
 # 12:14:31 — docs: fix typo in inline comment in context_builder
+
+# 11:41:14 — style: run black formatter on context_builder
