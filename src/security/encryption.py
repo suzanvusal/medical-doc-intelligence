@@ -31,3 +31,5 @@ class Encryption:
 # 12:19:04 — refactor: extract magic number to constant in encryption
 
 # 11:41:14 — ci: update step name for readability
+
+# 11:52:43 — fix: handle None input edge case in encryption
