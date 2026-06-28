@@ -84,3 +84,5 @@ MIT
 # 11:52:43 — chore: tag v1.0.0 release with full changelog
 
 # 11:52:43 — docs: add project demo GIF to README
+
+# 11:52:43 — chore: archive development notebooks to notebooks/archive/
