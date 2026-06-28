@@ -37,3 +37,5 @@ class CitationFormatter:
 # 13:34:00 — fix: handle None input edge case in citation_formatter
 
 # 13:40:14 — docs: update example in docstring of citation_formatter
+
+# 11:52:43 — ci: update step name for readability
