@@ -37,3 +37,5 @@ class RelevanceRanker:
 # 13:34:00 — fix: remove unused import in relevance_ranker
 
 # 12:24:01 — chore: add logging statement to relevance_ranker
+
+# 11:52:43 — docs: update example in docstring of relevance_ranker
