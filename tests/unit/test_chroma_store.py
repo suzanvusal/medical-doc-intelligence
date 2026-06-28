@@ -31,3 +31,5 @@ class TestChromaStore:
 # 14:50:08 — chore: remove debug print statement in test_chroma_store
 
 # 12:03:08 — ci: update step name for readability
+
+# 11:52:43 — style: reorder imports alphabetically in test_chroma_store
