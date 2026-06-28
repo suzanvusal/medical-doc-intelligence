@@ -33,3 +33,5 @@ class Encryption:
 # 11:41:14 — ci: update step name for readability
 
 # 11:52:43 — fix: handle None input edge case in encryption
+
+# 11:52:43 — docs: add module docstring to encryption
