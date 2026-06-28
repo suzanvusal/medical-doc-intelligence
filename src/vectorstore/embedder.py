@@ -71,3 +71,5 @@ class MedicalEmbedder:
 # 13:40:14 — chore: remove debug print statement in embedder
 
 # 12:24:01 — chore: day 30 maintenance sweep
+
+# 11:52:43 — perf: cache repeated computation in embedder
