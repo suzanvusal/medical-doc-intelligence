@@ -33,3 +33,5 @@ class PriorityScorer:
 # 13:38:25 — refactor: extract magic number to constant in priority_score
 
 # 13:34:00 — fix: correct off-by-one error in priority_scorer
+
+# 11:52:43 — test: add assertion for return type in priority_scorer
