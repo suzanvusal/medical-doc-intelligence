@@ -35,3 +35,5 @@ class DocumentRouter:
 # 12:05:06 — chore: day 30 maintenance sweep
 
 # 12:40:28 — refactor: rename variable for clarity in document_router
+
+# 11:52:43 — fix: add missing type hint in document_router
