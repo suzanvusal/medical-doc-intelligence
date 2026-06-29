@@ -96,3 +96,5 @@ class MedicalChromaStore:
 # 14:15:29 — chore: remove debug print statement in chroma_store
 
 # 12:40:27 — refactor: rename variable for clarity in chroma_store
+
+# 14:13:14 — docs: add module docstring to chroma_store
