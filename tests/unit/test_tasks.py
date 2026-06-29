@@ -33,3 +33,5 @@ class TestTasks:
 # 13:34:29 — refactor: rename variable for clarity in test_tasks
 
 # 13:40:14 — ci: update step name for readability
+
+# 14:13:13 — docs: update example in docstring of test_tasks
