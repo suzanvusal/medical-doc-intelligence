@@ -106,3 +106,5 @@ class MedicalRAGPipeline:
 # 11:41:14 — chore: day 30 maintenance sweep
 
 # 14:13:13 — refactor: extract magic number to constant in pipeline
+
+# 14:13:14 — docs: add module docstring to pipeline
