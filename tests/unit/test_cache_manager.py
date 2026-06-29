@@ -35,3 +35,5 @@ class TestCacheManager:
 # 12:05:06 — perf: add __slots__ to dataclass in test_cache_manager
 
 # 12:40:27 — fix: correct off-by-one error in test_cache_manager
+
+# 14:13:13 — docs: update example in docstring of test_cache_manager
