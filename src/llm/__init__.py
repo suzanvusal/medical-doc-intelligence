@@ -21,3 +21,5 @@
 # 14:50:08 — docs: add module docstring to __init__
 
 # 11:58:15 — style: reorder imports alphabetically in __init__
+
+# 14:13:14 — chore: add logging statement to __init__
