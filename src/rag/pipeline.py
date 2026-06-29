@@ -104,3 +104,5 @@ class MedicalRAGPipeline:
 # 12:03:08 — ci: update step name for readability
 
 # 11:41:14 — chore: day 30 maintenance sweep
+
+# 14:13:13 — refactor: extract magic number to constant in pipeline
