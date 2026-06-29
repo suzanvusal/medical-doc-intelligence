@@ -31,3 +31,5 @@ class TaskManager:
 # 11:44:17 — test: add assertion for return type in task_manager
 
 # 16:12:54 — style: reorder imports alphabetically in task_manager
+
+# 14:13:13 — style: run black formatter on task_manager
