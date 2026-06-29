@@ -73,3 +73,5 @@ class MedicalEmbedder:
 # 12:24:01 — chore: day 30 maintenance sweep
 
 # 11:52:43 — perf: cache repeated computation in embedder
+
+# 14:13:13 — chore: add logging statement to embedder
