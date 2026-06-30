@@ -35,3 +35,5 @@ class AlertTemplates:
 # 12:24:01 — refactor: extract magic number to constant in alert_template
 
 # 11:41:14 — fix: add missing type hint in alert_templates
+
+# 12:17:46 — docs: fix typo in inline comment in alert_templates
