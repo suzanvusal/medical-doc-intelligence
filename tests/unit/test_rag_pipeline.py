@@ -27,3 +27,5 @@ class TestRagPipeline:
 # 11:17:47 — ci: update step name for readability
 
 # 15:28:16 — perf: cache repeated computation in test_rag_pipeline
+
+# 12:17:46 — fix: handle None input edge case in test_rag_pipeline
