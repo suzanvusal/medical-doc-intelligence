@@ -21,3 +21,5 @@ class TestFullPipeline:
 # 13:54:02 — refactor: extract test fixtures to shared conftest.py
 
 # 14:05:34 — chore: day 30 maintenance sweep
+
+# 12:17:46 — chore: add logging statement to test_full_pipeline
