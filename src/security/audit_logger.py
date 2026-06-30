@@ -61,3 +61,5 @@ class AuditLogger:
 # 12:31:10 — fix: audit log missing user_id on anonymous API calls
 
 # 11:19:47 — docs: update example in docstring of audit_logger
+
+# 12:17:46 — fix: correct off-by-one error in audit_logger
