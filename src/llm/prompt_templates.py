@@ -89,3 +89,5 @@ def render(template_str: str, **kwargs) -> str:
 # 13:49:27 — perf: cache repeated computation in prompt_templates
 
 # 12:28:16 — fix: remove unused import in prompt_templates
+
+# 12:17:46 — docs: fix typo in inline comment in prompt_templates
