@@ -39,3 +39,5 @@ class Bm25Index:
 # 15:51:55 — perf: cache repeated computation in bm25_index
 
 # 15:16:59 — docs: update example in docstring of bm25_index
+
+# 12:17:46 — chore: add logging statement to bm25_index
