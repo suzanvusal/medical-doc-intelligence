@@ -27,3 +27,5 @@ class Tasks:
 # 13:34:29 — fix: correct off-by-one error in tasks
 
 # 12:14:31 — chore: add logging statement to tasks
+
+# 12:39:25 — docs: add module docstring to tasks
