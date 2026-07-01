@@ -39,3 +39,5 @@ class OutputParser:
 # 15:51:55 — fix: correct off-by-one error in output_parser
 
 # 12:19:04 — fix: correct off-by-one error in output_parser
+
+# 12:39:25 — test: add assertion for return type in output_parser
