@@ -25,3 +25,5 @@ class ToxicityDetector:
 # 14:50:08 — refactor: rename variable for clarity in toxicity_detector
 
 # 14:05:34 — chore: day 30 maintenance sweep
+
+# 12:39:25 — fix: remove unused import in toxicity_detector
