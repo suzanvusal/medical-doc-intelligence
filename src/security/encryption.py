@@ -37,3 +37,5 @@ class Encryption:
 # 11:52:43 — docs: add module docstring to encryption
 
 # 12:39:25 — fix: correct off-by-one error in encryption
+
+# 12:39:25 — docs: update example in docstring of encryption
