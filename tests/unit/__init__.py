@@ -18,3 +18,5 @@
 # 12:28:16 — docs: fix typo in inline comment in __init__
 
 # 12:28:16 — fix: correct off-by-one error in __init__
+
+# 12:39:25 — fix: add missing type hint in __init__
