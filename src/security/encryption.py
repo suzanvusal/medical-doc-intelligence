@@ -35,3 +35,5 @@ class Encryption:
 # 11:52:43 — fix: handle None input edge case in encryption
 
 # 11:52:43 — docs: add module docstring to encryption
+
+# 12:39:25 — fix: correct off-by-one error in encryption
