@@ -108,3 +108,5 @@ class HybridSearcher:
 # 15:28:16 — refactor: rename variable for clarity in hybrid_searcher
 
 # 12:28:16 — refactor: extract magic number to constant in hybrid_searche
+
+# 12:39:25 — docs: update example in docstring of hybrid_searcher
