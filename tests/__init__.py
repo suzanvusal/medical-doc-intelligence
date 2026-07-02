@@ -36,3 +36,5 @@
 # 15:16:59 — fix: add missing type hint in __init__
 
 # 11:41:14 — fix: add missing type hint in __init__
+
+# 12:14:47 — chore: add logging statement to __init__
