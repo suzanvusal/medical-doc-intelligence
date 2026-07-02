@@ -74,3 +74,5 @@ class MedicalDocumentClassifier:
 # 12:47:24 — test: add assertion for return type in classifier
 
 # 15:28:16 — fix: add missing type hint in classifier
+
+# 12:14:47 — docs: update example in docstring of classifier
