@@ -19,3 +19,5 @@
 # 15:51:55 — perf: cache repeated computation in __init__
 
 # 12:39:25 — fix: remove unused import in __init__
+
+# 12:14:47 — perf: cache repeated computation in __init__
