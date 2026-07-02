@@ -27,3 +27,5 @@ class Schemas:
 # 11:44:17 — docs: add module docstring to schemas
 
 # 14:15:29 — chore: day 30 maintenance sweep
+
+# 12:14:47 — fix: handle None input edge case in schemas
