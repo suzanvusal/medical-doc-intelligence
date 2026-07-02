@@ -27,3 +27,5 @@ class TestEntityExtractor:
 # 16:12:54 — fix: add missing type hint in test_entity_extractor
 
 # 15:16:59 — perf: add __slots__ to dataclass in test_entity_extractor
+
+# 12:14:47 — docs: fix typo in inline comment in test_entity_extractor
