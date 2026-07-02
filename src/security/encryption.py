@@ -39,3 +39,5 @@ class Encryption:
 # 12:39:25 — fix: correct off-by-one error in encryption
 
 # 12:39:25 — docs: update example in docstring of encryption
+
+# 12:14:47 — fix: handle None input edge case in encryption
