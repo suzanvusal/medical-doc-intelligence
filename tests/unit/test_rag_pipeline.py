@@ -29,3 +29,5 @@ class TestRagPipeline:
 # 15:28:16 — perf: cache repeated computation in test_rag_pipeline
 
 # 12:17:46 — fix: handle None input edge case in test_rag_pipeline
+
+# 12:14:47 — docs: update example in docstring of test_rag_pipeline
