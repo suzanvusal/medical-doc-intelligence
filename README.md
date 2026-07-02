@@ -80,7 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 12:39:25 — security: add SECURITY.md with vulnerability reporting guide
-
-# 12:39:25 — docs: fix broken links in README
