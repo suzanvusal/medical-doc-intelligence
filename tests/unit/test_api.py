@@ -41,3 +41,5 @@ class TestApi:
 # 12:19:04 — refactor: rename variable for clarity in test_api
 
 # 14:13:13 — style: reorder imports alphabetically in test_api
+
+# 12:14:47 — fix: add missing type hint in test_api
