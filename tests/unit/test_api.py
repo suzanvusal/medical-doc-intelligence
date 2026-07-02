@@ -43,3 +43,5 @@ class TestApi:
 # 14:13:13 — style: reorder imports alphabetically in test_api
 
 # 12:14:47 — fix: add missing type hint in test_api
+
+# 12:14:47 — ci: update step name for readability
