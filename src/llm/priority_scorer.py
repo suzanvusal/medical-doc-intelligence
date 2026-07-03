@@ -35,3 +35,5 @@ class PriorityScorer:
 # 13:34:00 — fix: correct off-by-one error in priority_scorer
 
 # 11:52:43 — test: add assertion for return type in priority_scorer
+
+# 12:14:07 — test: add assertion for return type in priority_scorer
