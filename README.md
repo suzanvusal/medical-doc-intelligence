@@ -80,7 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 12:14:47 — docs: add project demo GIF to README
-
-# 12:14:47 — fix: environment variable names inconsistent across services
