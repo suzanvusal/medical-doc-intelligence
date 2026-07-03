@@ -98,3 +98,5 @@ class MedicalChromaStore:
 # 12:40:27 — refactor: rename variable for clarity in chroma_store
 
 # 14:13:14 — docs: add module docstring to chroma_store
+
+# 12:14:07 — perf: cache repeated computation in chroma_store
