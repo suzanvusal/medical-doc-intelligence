@@ -25,3 +25,5 @@ class Conftest:
 # 12:28:16 — refactor: rename variable for clarity in conftest
 
 # 12:14:07 — chore: add logging statement to conftest
+
+# 12:14:07 — test: add assertion for return type in conftest
