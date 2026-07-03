@@ -29,3 +29,5 @@ class MetadataFilter:
 # 11:21:28 — docs: add module docstring to metadata_filter
 
 # 12:14:47 — chore: day 30 maintenance sweep
+
+# 12:14:07 — chore: add logging statement to metadata_filter
