@@ -110,3 +110,5 @@ class HybridSearcher:
 # 12:28:16 — refactor: extract magic number to constant in hybrid_searche
 
 # 12:39:25 — docs: update example in docstring of hybrid_searcher
+
+# 12:14:07 — fix: remove unused import in hybrid_searcher
