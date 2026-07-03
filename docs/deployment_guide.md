@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 12:14:07 — ci: add end-to-end smoke test to release pipeline
 
 # 12:14:07 — docs: fix broken links in README
+
+# 12:14:07 — fix: environment variable names inconsistent across services
