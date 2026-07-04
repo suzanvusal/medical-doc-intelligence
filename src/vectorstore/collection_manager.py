@@ -29,3 +29,5 @@ class CollectionManager:
 # 14:16:12 — docs: fix typo in inline comment in collection_manager
 
 # 12:03:08 — style: run black formatter on collection_manager
+
+# 11:39:59 — chore: remove debug print statement in collection_manager
