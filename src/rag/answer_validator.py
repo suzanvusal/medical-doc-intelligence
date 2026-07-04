@@ -43,3 +43,5 @@ class AnswerValidator:
 # 12:17:46 — style: run black formatter on answer_validator
 
 # 12:39:25 — style: reorder imports alphabetically in answer_validator
+
+# 11:39:59 — test: add assertion for return type in answer_validator
