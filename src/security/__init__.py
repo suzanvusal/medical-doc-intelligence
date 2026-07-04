@@ -21,3 +21,5 @@
 # 12:39:25 — fix: remove unused import in __init__
 
 # 12:14:47 — perf: cache repeated computation in __init__
+
+# 11:39:59 — ci: update step name for readability
