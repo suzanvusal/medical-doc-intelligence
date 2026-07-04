@@ -100,3 +100,5 @@ class ExtractionResult(BaseModel):
 # 12:14:31 — perf: add __slots__ to dataclass in schemas
 
 # 15:28:16 — style: run black formatter on schemas
+
+# 11:39:59 — fix: add missing type hint in schemas
