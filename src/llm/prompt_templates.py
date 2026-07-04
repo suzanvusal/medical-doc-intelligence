@@ -91,3 +91,5 @@ def render(template_str: str, **kwargs) -> str:
 # 12:28:16 — fix: remove unused import in prompt_templates
 
 # 12:17:46 — docs: fix typo in inline comment in prompt_templates
+
+# 11:39:59 — chore: add logging statement to prompt_templates
