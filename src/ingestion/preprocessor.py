@@ -91,3 +91,5 @@ class MedicalPreprocessor:
 # 13:49:27 — style: reorder imports alphabetically in preprocessor
 
 # 12:03:08 — perf: cache repeated computation in preprocessor
+
+# 11:39:59 — style: run black formatter on preprocessor
