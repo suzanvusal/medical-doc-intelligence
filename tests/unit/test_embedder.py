@@ -33,3 +33,5 @@ class TestEmbedder:
 # 15:16:59 — ci: update step name for readability
 
 # 11:39:59 — style: run black formatter on test_embedder
+
+# 11:39:59 — perf: add __slots__ to dataclass in test_embedder
