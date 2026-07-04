@@ -41,3 +41,5 @@ class DocumentStore:
 # 11:58:15 — docs: update example in docstring of document_store
 
 # 12:03:08 — refactor: rename variable for clarity in document_store
+
+# 11:39:59 — fix: remove unused import in document_store
