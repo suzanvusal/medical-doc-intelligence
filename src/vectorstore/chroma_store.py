@@ -100,3 +100,5 @@ class MedicalChromaStore:
 # 14:13:14 — docs: add module docstring to chroma_store
 
 # 12:14:07 — perf: cache repeated computation in chroma_store
+
+# 11:39:59 — fix: remove unused import in chroma_store
