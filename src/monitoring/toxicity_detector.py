@@ -27,3 +27,5 @@ class ToxicityDetector:
 # 14:05:34 — chore: day 30 maintenance sweep
 
 # 12:39:25 — fix: remove unused import in toxicity_detector
+
+# 11:40:55 — fix: handle None input edge case in toxicity_detector
