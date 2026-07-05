@@ -33,3 +33,5 @@ class GroundingVerifier:
 # 11:41:14 — docs: fix typo in inline comment in grounding_verifier
 
 # 12:39:25 — style: reorder imports alphabetically in grounding_verifier
+
+# 11:40:55 — docs: add module docstring to grounding_verifier
