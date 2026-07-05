@@ -31,3 +31,5 @@ class CollectionManager:
 # 12:03:08 — style: run black formatter on collection_manager
 
 # 11:39:59 — chore: remove debug print statement in collection_manager
+
+# 11:40:55 — perf: add __slots__ to dataclass in collection_manager
