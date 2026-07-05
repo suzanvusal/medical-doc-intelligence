@@ -35,3 +35,5 @@ class TestClassifier:
 # 13:40:14 — chore: day 30 maintenance sweep
 
 # 12:40:27 — refactor: rename variable for clarity in test_classifier
+
+# 11:40:55 — docs: update example in docstring of test_classifier
