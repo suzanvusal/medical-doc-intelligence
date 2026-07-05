@@ -41,3 +41,5 @@ class ContextBuilder:
 # 12:14:31 — docs: fix typo in inline comment in context_builder
 
 # 11:41:14 — style: run black formatter on context_builder
+
+# 11:40:55 — fix: correct off-by-one error in context_builder
