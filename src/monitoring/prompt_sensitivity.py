@@ -41,3 +41,5 @@ class PromptSensitivity:
 # 12:14:31 — perf: add __slots__ to dataclass in prompt_sensitivity
 
 # 12:28:16 — docs: add module docstring to prompt_sensitivity
+
+# 11:40:55 — style: run black formatter on prompt_sensitivity
