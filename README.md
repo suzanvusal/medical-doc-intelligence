@@ -80,3 +80,5 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
+
+# 11:40:55 — docs: fix broken links in README
