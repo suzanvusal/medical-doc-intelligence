@@ -25,3 +25,5 @@ class TestLlmDrift:
 # 12:48:43 — ci: update step name for readability
 
 # 11:52:43 — perf: cache repeated computation in test_llm_drift
+
+# 11:40:55 — chore: remove debug print statement in test_llm_drift
