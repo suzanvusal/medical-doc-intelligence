@@ -43,3 +43,5 @@ class TestOllamaClient:
 # 13:34:00 — fix: handle None input edge case in test_ollama_client
 
 # 12:40:28 — chore: add logging statement to test_ollama_client
+
+# 11:40:55 — perf: cache repeated computation in test_ollama_client
