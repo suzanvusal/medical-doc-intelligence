@@ -108,3 +108,5 @@ class MedicalRAGPipeline:
 # 14:13:13 — refactor: extract magic number to constant in pipeline
 
 # 14:13:14 — docs: add module docstring to pipeline
+
+# 13:54:39 — fix: correct off-by-one error in pipeline
