@@ -39,3 +39,5 @@ class QueryRewriter:
 # 12:28:16 — docs: update example in docstring of query_rewriter
 
 # 11:39:59 — refactor: rename variable for clarity in query_rewriter
+
+# 13:54:39 — chore: add logging statement to query_rewriter
