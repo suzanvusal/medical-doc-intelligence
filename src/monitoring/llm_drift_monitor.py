@@ -27,3 +27,5 @@ class LlmDriftMonitor:
 # 13:38:25 — style: reorder imports alphabetically in llm_drift_monitor
 
 # 13:34:29 — style: reorder imports alphabetically in llm_drift_monitor
+
+# 13:54:39 — docs: update example in docstring of llm_drift_monitor
