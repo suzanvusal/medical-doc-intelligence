@@ -31,3 +31,5 @@ class QueryLoad:
 # 12:44:32 — chore: day 30 maintenance sweep
 
 # 15:16:59 — chore: add logging statement to query_load
+
+# 13:54:39 — fix: remove unused import in query_load
