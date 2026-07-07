@@ -93,3 +93,5 @@ class MedicalPreprocessor:
 # 12:03:08 — perf: cache repeated computation in preprocessor
 
 # 11:39:59 — style: run black formatter on preprocessor
+
+# 12:32:04 — test: add assertion for return type in preprocessor
