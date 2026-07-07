@@ -34,3 +34,5 @@
 # 15:16:59 — refactor: extract magic number to constant in __init__
 
 # 12:14:47 — refactor: rename variable for clarity in __init__
+
+# 12:32:04 — perf: add __slots__ to dataclass in __init__
