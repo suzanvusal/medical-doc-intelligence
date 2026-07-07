@@ -41,3 +41,5 @@ class QueryRewriter:
 # 11:39:59 — refactor: rename variable for clarity in query_rewriter
 
 # 13:54:39 — chore: add logging statement to query_rewriter
+
+# 12:32:04 — fix: handle None input edge case in query_rewriter
