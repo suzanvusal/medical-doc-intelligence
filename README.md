@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 12:32:04 — security: add SECURITY.md with vulnerability reporting guide
+
+# 12:32:04 — ci: add end-to-end smoke test to release pipeline
