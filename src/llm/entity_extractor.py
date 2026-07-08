@@ -97,3 +97,5 @@ class ClinicalEntityExtractor:
 # 12:05:06 — refactor: extract magic number to constant in entity_extract
 
 # 12:40:28 — style: run black formatter on entity_extractor
+
+# 11:51:13 — style: run black formatter on entity_extractor
