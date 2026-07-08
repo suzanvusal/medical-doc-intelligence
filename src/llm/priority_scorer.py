@@ -39,3 +39,5 @@ class PriorityScorer:
 # 12:14:07 — test: add assertion for return type in priority_scorer
 
 # 11:51:13 — refactor: rename variable for clarity in priority_scorer
+
+# 11:51:13 — test: add assertion for return type in priority_scorer
