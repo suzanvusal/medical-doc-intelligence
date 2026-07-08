@@ -33,3 +33,5 @@ class TaskManager:
 # 16:12:54 — style: reorder imports alphabetically in task_manager
 
 # 14:13:13 — style: run black formatter on task_manager
+
+# 11:51:13 — chore: remove debug print statement in task_manager
