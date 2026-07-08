@@ -25,3 +25,5 @@
 # 11:39:59 — ci: update step name for readability
 
 # 12:32:04 — perf: add __slots__ to dataclass in __init__
+
+# 11:51:13 — docs: update example in docstring of __init__
