@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 11:51:13 — security: add SECURITY.md with vulnerability reporting guide
+
+# 11:51:13 — docs: add project demo GIF to README
