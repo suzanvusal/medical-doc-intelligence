@@ -103,3 +103,5 @@ class MedicalSummarizer:
 # 13:40:14 — fix: correct off-by-one error in summarizer
 
 # 12:28:16 — refactor: extract magic number to constant in summarizer
+
+# 11:51:13 — chore: remove debug print statement in summarizer
