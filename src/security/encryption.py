@@ -41,3 +41,5 @@ class Encryption:
 # 12:39:25 — docs: update example in docstring of encryption
 
 # 12:14:47 — fix: handle None input edge case in encryption
+
+# 11:51:13 — fix: add missing type hint in encryption
