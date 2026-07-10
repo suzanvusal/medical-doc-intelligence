@@ -29,3 +29,5 @@ class TestEntityExtractor:
 # 15:16:59 — perf: add __slots__ to dataclass in test_entity_extractor
 
 # 12:14:47 — docs: fix typo in inline comment in test_entity_extractor
+
+# 12:30:11 — fix: correct off-by-one error in test_entity_extractor
