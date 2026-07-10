@@ -37,3 +37,5 @@ class GroundingVerifier:
 # 11:40:55 — docs: add module docstring to grounding_verifier
 
 # 12:32:04 — chore: remove debug print statement in grounding_verifier
+
+# 12:30:11 — fix: add missing type hint in grounding_verifier
