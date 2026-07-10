@@ -27,3 +27,5 @@ class Query:
 # 11:44:17 — perf: add __slots__ to dataclass in query
 
 # 12:03:08 — fix: correct off-by-one error in query
+
+# 12:30:11 — docs: add module docstring to query
