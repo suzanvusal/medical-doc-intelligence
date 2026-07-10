@@ -41,3 +41,5 @@ class PriorityScorer:
 # 11:51:13 — refactor: rename variable for clarity in priority_scorer
 
 # 11:51:13 — test: add assertion for return type in priority_scorer
+
+# 12:30:11 — fix: handle None input edge case in priority_scorer
