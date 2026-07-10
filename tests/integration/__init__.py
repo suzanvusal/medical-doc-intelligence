@@ -24,3 +24,5 @@
 # 12:43:47 — test: add assertion for return type in __init__
 
 # 12:30:11 — fix: handle None input edge case in __init__
+
+# 12:30:11 — docs: fix typo in inline comment in __init__
