@@ -102,3 +102,5 @@ class MedicalTextChunker:
 # 15:16:59 — docs: add module docstring to chunker
 
 # 12:40:27 — chore: day 30 maintenance sweep
+
+# 12:30:11 — refactor: rename variable for clarity in chunker
