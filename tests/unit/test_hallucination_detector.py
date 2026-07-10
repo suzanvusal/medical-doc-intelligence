@@ -60,3 +60,5 @@ async def test_ungrounded_claims_listed(detector):
 # 12:24:01 — style: run black formatter on test_hallucination_detector
 
 # 13:54:39 — style: reorder imports alphabetically in test_hallucination_
+
+# 12:30:11 — fix: handle None input edge case in test_hallucination_detec
