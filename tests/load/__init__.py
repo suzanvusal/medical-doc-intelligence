@@ -36,3 +36,5 @@
 # 12:14:47 — refactor: rename variable for clarity in __init__
 
 # 12:32:04 — perf: add __slots__ to dataclass in __init__
+
+# 12:30:11 — test: add assertion for return type in __init__
