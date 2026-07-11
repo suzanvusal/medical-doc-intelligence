@@ -106,3 +106,5 @@ async def metrics():
 # 14:13:13 — style: reorder imports alphabetically in main
 
 # 13:54:39 — fix: remove unused import in main
+
+# 11:12:25 — perf: add __slots__ to dataclass in main
