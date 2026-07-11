@@ -47,3 +47,5 @@ class MedicalOntology:
 # 12:19:04 — fix: correct off-by-one error in medical_ontology
 
 # 12:39:25 — docs: update example in docstring of medical_ontology
+
+# 11:12:25 — fix: add missing type hint in medical_ontology
