@@ -66,3 +66,5 @@ async def test_rag_includes_citations(mock_ollama, mock_store, mock_embedder):
 # 12:50:26 — chore: remove debug print statement in test_rag_pipeline
 
 # 16:12:54 — chore: day 30 maintenance sweep
+
+# 11:12:25 — docs: add module docstring to test_rag_pipeline
