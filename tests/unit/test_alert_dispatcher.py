@@ -23,3 +23,5 @@ class TestAlertDispatcher:
 # 13:49:27 — style: reorder imports alphabetically in test_alert_dispatch
 
 # 13:49:27 — fix: handle None input edge case in test_alert_dispatcher
+
+# 11:12:25 — refactor: extract magic number to constant in test_alert_dis
