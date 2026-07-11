@@ -80,3 +80,5 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
+
+# 11:12:25 — docs: add project demo GIF to README
