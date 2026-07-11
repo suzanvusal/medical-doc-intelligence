@@ -39,3 +39,5 @@ class ClaimExtractor:
 # 15:16:59 — style: run black formatter on claim_extractor
 
 # 12:14:31 — docs: fix typo in inline comment in claim_extractor
+
+# 11:12:25 — docs: add module docstring to claim_extractor
