@@ -43,3 +43,5 @@ class PromptSensitivity:
 # 12:28:16 — docs: add module docstring to prompt_sensitivity
 
 # 11:40:55 — style: run black formatter on prompt_sensitivity
+
+# 11:12:25 — fix: correct off-by-one error in prompt_sensitivity
