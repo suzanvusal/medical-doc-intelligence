@@ -37,3 +37,5 @@ class TestTasks:
 # 14:13:13 — docs: update example in docstring of test_tasks
 
 # 12:14:07 — perf: add __slots__ to dataclass in test_tasks
+
+# 11:12:25 — perf: add __slots__ to dataclass in test_tasks
