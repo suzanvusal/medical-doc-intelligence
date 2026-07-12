@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 11:17:43 — ci: add end-to-end smoke test to release pipeline
 
 # 11:17:43 — fix: environment variable names inconsistent across services
+
+# 11:17:43 — refactor: final cleanup — remove all TODO comments
