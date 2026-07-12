@@ -31,3 +31,5 @@ class Metrics:
 # 12:03:08 — perf: cache repeated computation in metrics
 
 # 12:32:04 — fix: remove unused import in metrics
+
+# 11:17:43 — fix: add missing type hint in metrics
