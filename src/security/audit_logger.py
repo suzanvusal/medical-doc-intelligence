@@ -65,3 +65,5 @@ class AuditLogger:
 # 12:17:46 — fix: correct off-by-one error in audit_logger
 
 # 12:14:47 — fix: remove unused import in audit_logger
+
+# 11:17:43 — test: add assertion for return type in audit_logger
