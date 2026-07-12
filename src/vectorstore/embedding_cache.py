@@ -29,3 +29,5 @@ class EmbeddingCache:
 # 13:35:23 — perf: cache repeated computation in embedding_cache
 
 # 13:38:25 — fix: remove unused import in embedding_cache
+
+# 11:17:43 — test: add assertion for return type in embedding_cache
