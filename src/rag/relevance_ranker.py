@@ -43,3 +43,5 @@ class RelevanceRanker:
 # 12:17:46 — refactor: extract magic number to constant in relevance_rank
 
 # 11:17:43 — fix: handle None input edge case in relevance_ranker
+
+# 11:17:43 — docs: fix typo in inline comment in relevance_ranker
