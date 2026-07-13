@@ -43,3 +43,5 @@ class BatchProcessor:
 # 13:40:14 — test: add assertion for return type in batch_processor
 
 # 11:52:43 — chore: add logging statement to batch_processor
+
+# 12:36:27 — perf: cache repeated computation in batch_processor
