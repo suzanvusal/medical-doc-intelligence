@@ -27,3 +27,5 @@ class AccessControl:
 # 14:16:12 — refactor: rename variable for clarity in access_control
 
 # 12:19:04 — chore: remove debug print statement in access_control
+
+# 12:36:27 — fix: add missing type hint in access_control
