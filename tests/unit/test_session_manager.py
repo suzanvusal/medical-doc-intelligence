@@ -23,3 +23,5 @@ class TestSessionManager:
 # 16:12:54 — chore: add logging statement to test_session_manager
 
 # 12:19:04 — docs: add module docstring to test_session_manager
+
+# 12:36:27 — test: add assertion for return type in test_session_manager
