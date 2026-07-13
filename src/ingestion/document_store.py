@@ -43,3 +43,5 @@ class DocumentStore:
 # 12:03:08 — refactor: rename variable for clarity in document_store
 
 # 11:39:59 — fix: remove unused import in document_store
+
+# 12:36:27 — fix: correct off-by-one error in document_store
