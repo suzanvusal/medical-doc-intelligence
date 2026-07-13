@@ -23,3 +23,5 @@
 # 15:28:16 — perf: add __slots__ to dataclass in __init__
 
 # 12:32:04 — chore: add logging statement to __init__
+
+# 12:36:27 — chore: remove debug print statement in __init__
