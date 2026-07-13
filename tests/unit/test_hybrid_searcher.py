@@ -23,3 +23,5 @@ class TestHybridSearcher:
 # 12:03:07 — refactor: extract magic number to constant in test_hybrid_se
 
 # 13:54:03 — style: reorder imports alphabetically in test_hybrid_searche
+
+# 12:36:27 — perf: cache repeated computation in test_hybrid_searcher
