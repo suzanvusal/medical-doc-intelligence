@@ -33,3 +33,5 @@ class MetadataFilter:
 # 12:14:07 — chore: add logging statement to metadata_filter
 
 # 11:40:55 — style: run black formatter on metadata_filter
+
+# 11:37:42 — fix: remove unused import in metadata_filter
