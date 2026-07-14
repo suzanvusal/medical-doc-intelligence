@@ -40,3 +40,5 @@
 # 12:14:47 — chore: add logging statement to __init__
 
 # 13:54:39 — docs: fix typo in inline comment in __init__
+
+# 11:37:42 — chore: add logging statement to __init__
