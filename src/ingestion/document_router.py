@@ -39,3 +39,5 @@ class DocumentRouter:
 # 11:52:43 — fix: add missing type hint in document_router
 
 # 11:40:55 — fix: remove unused import in document_router
+
+# 11:37:42 — fix: add missing type hint in document_router
