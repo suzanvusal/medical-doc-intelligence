@@ -49,3 +49,5 @@ class MedicalOntology:
 # 12:39:25 — docs: update example in docstring of medical_ontology
 
 # 11:12:25 — fix: add missing type hint in medical_ontology
+
+# 11:37:42 — chore: remove debug print statement in medical_ontology
