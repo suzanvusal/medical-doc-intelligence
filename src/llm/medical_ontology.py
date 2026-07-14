@@ -51,3 +51,5 @@ class MedicalOntology:
 # 11:12:25 — fix: add missing type hint in medical_ontology
 
 # 11:37:42 — chore: remove debug print statement in medical_ontology
+
+# 11:37:42 — refactor: extract magic number to constant in medical_ontolo
