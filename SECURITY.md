@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 11:37:41 — docs: add project demo GIF to README
 
 # 11:37:41 — chore: final dependency audit and update
+
+# 11:37:41 — chore: archive development notebooks to notebooks/archive/
