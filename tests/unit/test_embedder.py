@@ -35,3 +35,5 @@ class TestEmbedder:
 # 11:39:59 — style: run black formatter on test_embedder
 
 # 11:39:59 — perf: add __slots__ to dataclass in test_embedder
+
+# 11:37:42 — test: add assertion for return type in test_embedder
