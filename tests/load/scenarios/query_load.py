@@ -33,3 +33,5 @@ class QueryLoad:
 # 15:16:59 — chore: add logging statement to query_load
 
 # 13:54:39 — fix: remove unused import in query_load
+
+# 11:37:42 — perf: cache repeated computation in query_load
