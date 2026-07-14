@@ -35,3 +35,5 @@ class QueryLoad:
 # 13:54:39 — fix: remove unused import in query_load
 
 # 11:37:42 — perf: cache repeated computation in query_load
+
+# 11:37:42 — fix: handle None input edge case in query_load
