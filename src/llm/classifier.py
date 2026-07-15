@@ -76,3 +76,5 @@ class MedicalDocumentClassifier:
 # 15:28:16 — fix: add missing type hint in classifier
 
 # 12:14:47 — docs: update example in docstring of classifier
+
+# 11:41:18 — docs: add module docstring to classifier
