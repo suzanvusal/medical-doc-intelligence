@@ -45,3 +45,5 @@ class DocumentStore:
 # 11:39:59 — fix: remove unused import in document_store
 
 # 12:36:27 — fix: correct off-by-one error in document_store
+
+# 11:41:18 — ci: update step name for readability
