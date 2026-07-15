@@ -39,3 +39,5 @@ class AlertTemplates:
 # 12:17:46 — docs: fix typo in inline comment in alert_templates
 
 # 12:32:04 — chore: add logging statement to alert_templates
+
+# 11:41:18 — refactor: extract magic number to constant in alert_template
