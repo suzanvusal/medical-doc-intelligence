@@ -80,5 +80,3 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
-
-# 11:37:42 — refactor: final cleanup — remove all TODO comments
