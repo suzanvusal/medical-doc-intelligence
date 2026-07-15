@@ -11,3 +11,5 @@
 # 14:50:08 — chore: remove debug print statement in __init__
 
 # 11:41:14 — fix: remove unused import in __init__
+
+# 11:41:18 — style: run black formatter on __init__
