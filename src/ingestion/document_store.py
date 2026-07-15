@@ -47,3 +47,5 @@ class DocumentStore:
 # 12:36:27 — fix: correct off-by-one error in document_store
 
 # 11:41:18 — ci: update step name for readability
+
+# 11:41:18 — refactor: rename variable for clarity in document_store
