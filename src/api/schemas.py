@@ -31,3 +31,5 @@ class Schemas:
 # 12:14:47 — fix: handle None input edge case in schemas
 
 # 11:51:13 — style: reorder imports alphabetically in schemas
+
+# 11:41:18 — fix: handle None input edge case in schemas
