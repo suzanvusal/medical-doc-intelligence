@@ -35,3 +35,5 @@ class CollectionManager:
 # 11:40:55 — perf: add __slots__ to dataclass in collection_manager
 
 # 13:54:39 — fix: correct off-by-one error in collection_manager
+
+# 11:41:18 — chore: remove debug print statement in collection_manager
