@@ -35,3 +35,5 @@ class AlertDispatcher:
 # 13:49:27 — style: run black formatter on alert_dispatcher
 
 # 13:54:39 — chore: remove debug print statement in alert_dispatcher
+
+# 11:41:18 — chore: add logging statement to alert_dispatcher
