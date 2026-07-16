@@ -41,3 +41,5 @@
 # 12:40:27 — test: add assertion for return type in __init__
 
 # 14:13:13 — style: run black formatter on __init__
+
+# 11:46:50 — ci: update step name for readability
