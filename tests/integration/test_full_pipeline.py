@@ -25,3 +25,5 @@ class TestFullPipeline:
 # 12:17:46 — chore: add logging statement to test_full_pipeline
 
 # 12:32:04 — refactor: rename variable for clarity in test_full_pipeline
+
+# 11:46:50 — fix: handle None input edge case in test_full_pipeline
