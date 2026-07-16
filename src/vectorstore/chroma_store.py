@@ -104,3 +104,5 @@ class MedicalChromaStore:
 # 11:39:59 — fix: remove unused import in chroma_store
 
 # 11:37:42 — fix: remove unused import in chroma_store
+
+# 11:46:50 — perf: cache repeated computation in chroma_store
