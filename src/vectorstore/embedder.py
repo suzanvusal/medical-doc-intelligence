@@ -75,3 +75,5 @@ class MedicalEmbedder:
 # 11:52:43 — perf: cache repeated computation in embedder
 
 # 14:13:13 — chore: add logging statement to embedder
+
+# 11:46:50 — docs: add module docstring to embedder
