@@ -95,3 +95,5 @@ class MedicalPreprocessor:
 # 11:39:59 — style: run black formatter on preprocessor
 
 # 12:32:04 — test: add assertion for return type in preprocessor
+
+# 11:46:50 — refactor: extract magic number to constant in preprocessor
