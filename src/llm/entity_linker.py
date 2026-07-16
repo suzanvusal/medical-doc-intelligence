@@ -31,3 +31,5 @@ class EntityLinker:
 # 12:19:04 — ci: update step name for readability
 
 # 11:52:43 — fix: add missing type hint in entity_linker
+
+# 11:46:50 — docs: add module docstring to entity_linker
