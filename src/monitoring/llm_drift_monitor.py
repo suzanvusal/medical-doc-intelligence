@@ -31,3 +31,5 @@ class LlmDriftMonitor:
 # 13:54:39 — docs: update example in docstring of llm_drift_monitor
 
 # 11:41:18 — fix: handle None input edge case in llm_drift_monitor
+
+# 11:46:50 — test: add assertion for return type in llm_drift_monitor
