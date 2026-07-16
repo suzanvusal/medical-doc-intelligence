@@ -33,3 +33,5 @@ class QualityScorer:
 # 11:21:28 — style: reorder imports alphabetically in quality_scorer
 
 # 13:34:00 — refactor: extract magic number to constant in quality_scorer
+
+# 11:46:50 — docs: add module docstring to quality_scorer
