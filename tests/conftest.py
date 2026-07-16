@@ -29,3 +29,5 @@ class Conftest:
 # 12:14:07 — test: add assertion for return type in conftest
 
 # 11:17:43 — perf: add __slots__ to dataclass in conftest
+
+# 11:46:50 — fix: handle None input edge case in conftest
