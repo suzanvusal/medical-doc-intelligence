@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 11:25:59 — fix: environment variable names inconsistent across services
+
+# 11:25:59 — refactor: final cleanup — remove all TODO comments
