@@ -37,3 +37,5 @@ class AlertDispatcher:
 # 13:54:39 — chore: remove debug print statement in alert_dispatcher
 
 # 11:41:18 — chore: add logging statement to alert_dispatcher
+
+# 11:25:59 — fix: handle None input edge case in alert_dispatcher
