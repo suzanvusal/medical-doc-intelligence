@@ -25,3 +25,5 @@ class TestHybridSearcher:
 # 13:54:03 — style: reorder imports alphabetically in test_hybrid_searche
 
 # 12:36:27 — perf: cache repeated computation in test_hybrid_searcher
+
+# 11:25:59 — perf: cache repeated computation in test_hybrid_searcher
