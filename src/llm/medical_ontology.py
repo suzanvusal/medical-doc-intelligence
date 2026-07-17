@@ -53,3 +53,5 @@ class MedicalOntology:
 # 11:37:42 — chore: remove debug print statement in medical_ontology
 
 # 11:37:42 — refactor: extract magic number to constant in medical_ontolo
+
+# 11:25:59 — fix: correct off-by-one error in medical_ontology
