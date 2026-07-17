@@ -80,3 +80,5 @@ curl -X POST http://localhost:8000/query \
 
 ## License
 MIT
+
+# 11:25:59 — fix: environment variable names inconsistent across services
