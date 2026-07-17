@@ -31,3 +31,5 @@ class TestEntityExtractor:
 # 12:14:47 — docs: fix typo in inline comment in test_entity_extractor
 
 # 12:30:11 — fix: correct off-by-one error in test_entity_extractor
+
+# 11:25:59 — fix: remove unused import in test_entity_extractor
