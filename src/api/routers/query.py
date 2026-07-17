@@ -29,3 +29,5 @@ class Query:
 # 12:03:08 — fix: correct off-by-one error in query
 
 # 12:30:11 — docs: add module docstring to query
+
+# 11:25:59 — style: reorder imports alphabetically in query
