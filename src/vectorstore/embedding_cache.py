@@ -31,3 +31,5 @@ class EmbeddingCache:
 # 13:38:25 — fix: remove unused import in embedding_cache
 
 # 11:17:43 — test: add assertion for return type in embedding_cache
+
+# 11:25:59 — refactor: rename variable for clarity in embedding_cache
