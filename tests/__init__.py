@@ -42,3 +42,5 @@
 # 13:54:39 — docs: fix typo in inline comment in __init__
 
 # 11:37:42 — chore: add logging statement to __init__
+
+# 11:25:59 — fix: handle None input edge case in __init__
