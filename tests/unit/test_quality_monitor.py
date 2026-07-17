@@ -33,3 +33,5 @@ class TestQualityMonitor:
 # 15:16:59 — docs: add module docstring to test_quality_monitor
 
 # 12:24:01 — chore: day 30 maintenance sweep
+
+# 11:25:59 — refactor: extract magic number to constant in test_quality_m
