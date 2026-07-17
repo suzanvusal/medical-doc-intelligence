@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 11:25:59 — docs: add project demo GIF to README
 
 # 11:25:59 — chore: final dependency audit and update
+
+# 11:25:59 — docs: fix broken links in README
