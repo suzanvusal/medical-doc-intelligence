@@ -45,3 +45,5 @@ class RelevanceRanker:
 # 11:17:43 — fix: handle None input edge case in relevance_ranker
 
 # 11:17:43 — docs: fix typo in inline comment in relevance_ranker
+
+# 11:10:56 — perf: add __slots__ to dataclass in relevance_ranker
