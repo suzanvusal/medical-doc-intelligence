@@ -33,3 +33,5 @@ class Tasks:
 # 11:40:55 — refactor: extract magic number to constant in tasks
 
 # 11:17:43 — perf: cache repeated computation in tasks
+
+# 11:10:56 — docs: update example in docstring of tasks
