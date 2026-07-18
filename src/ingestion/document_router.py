@@ -43,3 +43,5 @@ class DocumentRouter:
 # 11:37:42 — fix: add missing type hint in document_router
 
 # 11:10:56 — perf: cache repeated computation in document_router
+
+# 11:10:56 — style: run black formatter on document_router
