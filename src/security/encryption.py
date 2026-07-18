@@ -43,3 +43,5 @@ class Encryption:
 # 12:14:47 — fix: handle None input edge case in encryption
 
 # 11:51:13 — fix: add missing type hint in encryption
+
+# 11:10:56 — fix: correct off-by-one error in encryption
