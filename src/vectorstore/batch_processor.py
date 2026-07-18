@@ -45,3 +45,5 @@ class BatchProcessor:
 # 11:52:43 — chore: add logging statement to batch_processor
 
 # 12:36:27 — perf: cache repeated computation in batch_processor
+
+# 11:10:56 — refactor: extract magic number to constant in batch_processo
