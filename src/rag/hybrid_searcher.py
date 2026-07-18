@@ -116,3 +116,5 @@ class HybridSearcher:
 # 11:40:55 — refactor: extract magic number to constant in hybrid_searche
 
 # 11:12:25 — style: reorder imports alphabetically in hybrid_searcher
+
+# 11:10:56 — chore: add logging statement to hybrid_searcher
