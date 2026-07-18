@@ -43,3 +43,5 @@
 # 14:13:13 — style: run black formatter on __init__
 
 # 11:46:50 — ci: update step name for readability
+
+# 11:10:56 — docs: update example in docstring of __init__
