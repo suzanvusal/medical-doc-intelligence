@@ -45,3 +45,5 @@
 # 11:46:50 — ci: update step name for readability
 
 # 11:10:56 — docs: update example in docstring of __init__
+
+# 11:10:56 — docs: add module docstring to __init__
