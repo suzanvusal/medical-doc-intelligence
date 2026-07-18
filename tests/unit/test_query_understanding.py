@@ -33,3 +33,5 @@ class TestQueryUnderstanding:
 # 15:16:59 — chore: remove debug print statement in test_query_understand
 
 # 12:19:04 — fix: remove unused import in test_query_understanding
+
+# 11:10:56 — style: run black formatter on test_query_understanding
