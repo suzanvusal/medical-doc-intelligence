@@ -78,3 +78,5 @@ class MedicalDocumentClassifier:
 # 12:14:47 — docs: update example in docstring of classifier
 
 # 11:41:18 — docs: add module docstring to classifier
+
+# 11:15:00 — style: run black formatter on classifier
