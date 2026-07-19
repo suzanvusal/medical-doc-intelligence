@@ -44,3 +44,5 @@
 # 11:25:59 — refactor: rename variable for clarity in __init__
 
 # 11:14:59 — docs: add module docstring to __init__
+
+# 11:15:00 — perf: add __slots__ to dataclass in __init__
