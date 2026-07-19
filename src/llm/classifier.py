@@ -80,3 +80,5 @@ class MedicalDocumentClassifier:
 # 11:41:18 — docs: add module docstring to classifier
 
 # 11:15:00 — style: run black formatter on classifier
+
+# 11:15:00 — refactor: extract magic number to constant in classifier
