@@ -45,3 +45,5 @@ class PromptSensitivity:
 # 11:40:55 — style: run black formatter on prompt_sensitivity
 
 # 11:12:25 — fix: correct off-by-one error in prompt_sensitivity
+
+# 11:15:00 — chore: add logging statement to prompt_sensitivity
