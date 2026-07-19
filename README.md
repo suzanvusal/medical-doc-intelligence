@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 11:14:59 — docs: add project demo GIF to README
+
+# 11:14:59 — chore: archive development notebooks to notebooks/archive/
