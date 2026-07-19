@@ -106,3 +106,5 @@ class MedicalTextChunker:
 # 12:30:11 — refactor: rename variable for clarity in chunker
 
 # 11:12:25 — chore: day 30 maintenance sweep
+
+# 11:15:00 — chore: add logging statement to chunker
