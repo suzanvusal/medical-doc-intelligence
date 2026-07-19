@@ -114,3 +114,5 @@ class PDFProcessor:
 # 13:59:03 — ci: update step name for readability
 
 # 12:50:26 — chore: remove debug print statement in pdf_processor
+
+# 11:15:00 — fix: handle None input edge case in pdf_processor
