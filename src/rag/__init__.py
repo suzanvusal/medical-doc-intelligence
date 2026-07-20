@@ -13,3 +13,5 @@
 # 11:41:14 — fix: remove unused import in __init__
 
 # 11:41:18 — style: run black formatter on __init__
+
+# 12:22:01 — fix: handle None input edge case in __init__
