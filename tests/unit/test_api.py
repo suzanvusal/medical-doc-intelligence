@@ -45,3 +45,5 @@ class TestApi:
 # 12:14:47 — fix: add missing type hint in test_api
 
 # 12:14:47 — ci: update step name for readability
+
+# 12:22:01 — perf: cache repeated computation in test_api
