@@ -128,3 +128,5 @@ class OllamaClient:
 # 12:39:25 — chore: day 30 maintenance sweep
 
 # 11:17:43 — chore: day 30 maintenance sweep
+
+# 12:22:01 — perf: cache repeated computation in ollama_client
