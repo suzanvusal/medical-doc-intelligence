@@ -47,3 +47,5 @@ class MedicalDocUser(HttpUser):
 # 15:28:16 — fix: correct off-by-one error in locustfile
 
 # 15:28:16 — fix: remove unused import in locustfile
+
+# 12:22:01 — ci: update step name for readability
