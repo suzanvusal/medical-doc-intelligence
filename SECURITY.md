@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 tag
 # 12:22:01 — docs: add project demo GIF to README
 
 # 12:22:01 — fix: environment variable names inconsistent across services
+
+# 12:22:01 — refactor: final cleanup — remove all TODO comments
