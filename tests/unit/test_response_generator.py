@@ -39,3 +39,5 @@ class TestResponseGenerator:
 # 13:40:14 — chore: day 30 maintenance sweep
 
 # 11:37:42 — refactor: extract magic number to constant in test_response_
+
+# 12:22:01 — perf: add __slots__ to dataclass in test_response_generator
