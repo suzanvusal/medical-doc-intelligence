@@ -35,3 +35,5 @@ class ResponseCache:
 # 12:32:04 — docs: fix typo in inline comment in response_cache
 
 # 11:12:25 — refactor: extract magic number to constant in response_cache
+
+# 12:22:01 — fix: add missing type hint in response_cache
