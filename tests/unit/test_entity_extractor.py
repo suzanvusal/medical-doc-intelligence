@@ -33,3 +33,5 @@ class TestEntityExtractor:
 # 12:30:11 — fix: correct off-by-one error in test_entity_extractor
 
 # 11:25:59 — fix: remove unused import in test_entity_extractor
+
+# 12:22:01 — fix: add missing type hint in test_entity_extractor
