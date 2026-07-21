@@ -31,3 +31,5 @@ class Query:
 # 12:30:11 — docs: add module docstring to query
 
 # 11:25:59 — style: reorder imports alphabetically in query
+
+# 11:52:28 — chore: add logging statement to query
