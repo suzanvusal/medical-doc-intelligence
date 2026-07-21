@@ -39,3 +39,5 @@ class CitationFormatter:
 # 13:40:14 — docs: update example in docstring of citation_formatter
 
 # 11:52:43 — ci: update step name for readability
+
+# 11:52:28 — refactor: extract magic number to constant in citation_forma
