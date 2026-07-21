@@ -47,3 +47,5 @@ class Retriever:
 # 11:41:14 — style: run black formatter on retriever
 
 # 12:14:07 — fix: remove unused import in retriever
+
+# 11:52:28 — perf: add __slots__ to dataclass in retriever
