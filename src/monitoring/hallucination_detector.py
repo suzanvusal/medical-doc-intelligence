@@ -33,3 +33,5 @@ class HallucinationDetector:
 # 13:34:29 — fix: correct off-by-one error in hallucination_detector
 
 # 11:46:50 — style: run black formatter on hallucination_detector
+
+# 11:52:28 — refactor: rename variable for clarity in hallucination_detec
