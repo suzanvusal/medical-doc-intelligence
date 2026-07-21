@@ -29,3 +29,5 @@ class TestFullPipeline:
 # 11:46:50 — fix: handle None input edge case in test_full_pipeline
 
 # 11:15:00 — perf: cache repeated computation in test_full_pipeline
+
+# 11:52:28 — ci: update step name for readability
