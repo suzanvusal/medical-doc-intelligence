@@ -39,3 +39,5 @@ class QueryLoad:
 # 11:37:42 — fix: handle None input edge case in query_load
 
 # 11:10:56 — chore: day 30 maintenance sweep
+
+# 11:54:46 — test: add assertion for return type in query_load
