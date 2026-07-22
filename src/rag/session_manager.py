@@ -98,3 +98,5 @@ class SessionManager:
 # 15:28:16 — docs: update example in docstring of session_manager
 
 # 12:14:07 — style: run black formatter on session_manager
+
+# 11:54:46 — chore: remove debug print statement in session_manager
