@@ -45,3 +45,5 @@ class AnswerValidator:
 # 12:39:25 — style: reorder imports alphabetically in answer_validator
 
 # 11:39:59 — test: add assertion for return type in answer_validator
+
+# 11:54:46 — perf: add __slots__ to dataclass in answer_validator
