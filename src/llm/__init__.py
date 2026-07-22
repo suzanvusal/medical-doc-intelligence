@@ -29,3 +29,5 @@
 # 12:39:25 — refactor: rename variable for clarity in __init__
 
 # 12:32:04 — chore: remove debug print statement in __init__
+
+# 11:54:46 — chore: add logging statement to __init__
