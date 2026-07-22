@@ -47,3 +47,5 @@ class TestChunker:
 # 11:41:18 — refactor: rename variable for clarity in test_chunker
 
 # 11:52:28 — docs: fix typo in inline comment in test_chunker
+
+# 11:54:46 — fix: correct off-by-one error in test_chunker
