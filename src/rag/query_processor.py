@@ -39,3 +39,5 @@ class QueryProcessor:
 # 11:51:13 — perf: add __slots__ to dataclass in query_processor
 
 # 12:36:27 — style: reorder imports alphabetically in query_processor
+
+# 11:54:46 — fix: correct off-by-one error in query_processor
