@@ -108,3 +108,5 @@ class MedicalTextChunker:
 # 11:12:25 — chore: day 30 maintenance sweep
 
 # 11:15:00 — chore: add logging statement to chunker
+
+# 11:54:46 — perf: cache repeated computation in chunker
