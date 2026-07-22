@@ -33,3 +33,5 @@ class MedicalTerms:
 # 12:19:04 — perf: add __slots__ to dataclass in medical_terms
 
 # 11:41:14 — perf: cache repeated computation in medical_terms
+
+# 11:54:46 — docs: update example in docstring of medical_terms
