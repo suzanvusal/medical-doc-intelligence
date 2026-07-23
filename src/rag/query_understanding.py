@@ -91,3 +91,5 @@ class MedicalQueryParser:
 # 12:50:26 — docs: add module docstring to query_understanding
 
 # 11:55:46 — test: add assertion for return type in query_understanding
+
+# 11:55:38 — refactor: extract magic number to constant in query_understa
