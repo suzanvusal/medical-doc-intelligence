@@ -64,3 +64,5 @@ async def test_ungrounded_claims_listed(detector):
 # 12:30:11 — fix: handle None input edge case in test_hallucination_detec
 
 # 11:37:42 — chore: day 30 maintenance sweep
+
+# 11:55:38 — refactor: extract magic number to constant in test_hallucina
