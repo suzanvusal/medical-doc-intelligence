@@ -82,3 +82,5 @@ curl -X POST http://localhost:8000/query \
 MIT
 
 # 11:55:38 — ci: add end-to-end smoke test to release pipeline
+
+# 11:55:38 — chore: archive development notebooks to notebooks/archive/
