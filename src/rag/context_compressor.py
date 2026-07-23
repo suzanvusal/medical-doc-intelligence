@@ -31,3 +31,5 @@ class ContextCompressor:
 # 12:28:25 — refactor: extract magic number to constant in context_compre
 
 # 11:58:15 — style: reorder imports alphabetically in context_compressor
+
+# 11:55:38 — docs: add module docstring to context_compressor
