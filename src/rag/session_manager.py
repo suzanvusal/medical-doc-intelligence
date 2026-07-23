@@ -100,3 +100,5 @@ class SessionManager:
 # 12:14:07 — style: run black formatter on session_manager
 
 # 11:54:46 — chore: remove debug print statement in session_manager
+
+# 11:55:38 — perf: add __slots__ to dataclass in session_manager
