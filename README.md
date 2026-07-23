@@ -84,3 +84,5 @@ MIT
 # 11:55:38 — ci: add end-to-end smoke test to release pipeline
 
 # 11:55:38 — chore: archive development notebooks to notebooks/archive/
+
+# 11:55:38 — fix: environment variable names inconsistent across services
