@@ -21,3 +21,5 @@
 # 11:17:43 — refactor: extract magic number to constant in __init__
 
 # 11:41:18 — chore: remove debug print statement in __init__
+
+# 11:55:38 — fix: handle None input edge case in __init__
