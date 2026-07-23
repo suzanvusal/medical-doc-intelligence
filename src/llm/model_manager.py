@@ -51,3 +51,5 @@ class ModelManager:
 # 12:28:16 — refactor: extract magic number to constant in model_manager
 
 # 11:51:13 — refactor: rename variable for clarity in model_manager
+
+# 11:55:38 — docs: add module docstring to model_manager
